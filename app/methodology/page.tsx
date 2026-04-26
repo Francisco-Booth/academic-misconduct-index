@@ -57,13 +57,20 @@ export default function MethodologyPage() {
         </div>
 
         <div className="mt-6 p-5 bg-[var(--amber)]/8 border border-[var(--amber)]/20">
-          <p className="text-sm leading-relaxed">
+          <p className="text-sm leading-relaxed mb-3">
             <strong>The enforcement-detection correction:</strong>{" "}
             Institutions with strong enforcement report more misconduct because they catch more — they should
             not be penalised for this. The AMI applies a bounded ±10 point correction to the P-Score
             based on the R-Score, adjusting upward where enforcement is weak (under-detection likely)
             and slightly downward where enforcement is strong (reporting is more complete).
             Both the raw and corrected P-Score are published.
+          </p>
+          <p className="text-sm leading-relaxed">
+            <strong>Score floor and ceiling:</strong>{" "}
+            P-Scores are rescaled so the lowest-scoring country in this set receives 5
+            and the highest receives 95. A score near 5 does not mean zero cheating —
+            it means the lowest estimated prevalence among the 28 countries currently scored.
+            Both anchors will shift as coverage expands to more countries.
           </p>
         </div>
       </section>
@@ -120,6 +127,7 @@ export default function MethodologyPage() {
       <section className="mb-14">
         <h2 className="font-serif text-2xl font-bold mb-6 border-b border-[var(--border)] pb-3">Limitations</h2>
         <div className="space-y-3 text-sm text-[var(--muted)] leading-relaxed">
+          <p><strong className="text-ink">D3 impersonation has no live data.</strong> Exam impersonation is the only dimension where all 28 countries use literature-derived estimates. No scalable live data source exists for this dimension — confirmed impersonation cases are either unreported or buried within general "exam cheating" categories. D3 contributes 14.6% of the P-Score entirely from estimates. Country scores on this dimension should be treated with particular caution.</p>
           <p><strong className="text-ink">Self-report bias.</strong> All literature base rates derive from self-report surveys that systematically underestimate true prevalence. AMI treats all prevalence estimates as lower bounds.</p>
           <p><strong className="text-ink">Coverage gaps.</strong> Most large-scale studies are conducted in English-speaking countries. Asian, African, and Latin American institutional data are underrepresented. Coverage gaps are flagged per country.</p>
           <p><strong className="text-ink">Reporting paradox.</strong> Institutions with strong detection look worse on raw misconduct rates. The enforcement-detection correction addresses this but is itself an analytical judgement.</p>
