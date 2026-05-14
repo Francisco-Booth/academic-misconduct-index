@@ -111,6 +111,7 @@ export default function AboutPage() {
         <h2 className="font-serif text-2xl font-bold mb-6 border-b border-[var(--border)] pb-3">Version history</h2>
         <div className="space-y-4">
           {[
+            { v: "1.5", date: "May 2026", note: "Added Argentina, Colombia, Thailand, Vietnam, Kenya — 39 countries. Live Retraction Watch data restored for all countries. All 39 countries now at data quality flag A with 4–5/6 live dimensions. Norway/Sweden Trends signal limitation documented in methodology." },
             { v: "1.3", date: "April 2026", note: "Added essay mill brand Trends, FOI-derived AI misconduct rates for 13 countries, ICAI country-level survey data for 20 countries (D4) and 15 countries (D5). 27/28 countries at quality flag A." },
             { v: "1.2", date: "April 2026", note: "Fixed enforcement-detection correction over-amplification. Added country-differentiated D1 and D2 literature estimates. All 28 countries scoring across 6 dimensions." },
             { v: "1.1", date: "April 2026", note: "Initial public release. 28 countries, 6 dimensions, literature-derived weighting, Retraction Watch and Google Trends live data." },

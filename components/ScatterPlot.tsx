@@ -22,21 +22,32 @@ function CustomDot({ cx = 0, cy = 0, payload, selected, onSelect }: DotProps) {
   if (!payload) return null;
   const isSelected = selected === payload.iso2;
   const color = Q_COLORS[payload.quadrant] || "#888";
+  const liveDims = payload.live_dimensions ?? 0;
+  const hollow = liveDims < 4;
+  const r = isSelected ? 10 : 7;
+
+  const circleProps = hollow
+    ? {
+        fill: color,
+        fillOpacity: 0,
+        stroke: color,
+        strokeWidth: isSelected ? 3 : 2,
+        strokeOpacity: 1,
+      }
+    : {
+        fill: color,
+        fillOpacity: 0.85,
+        stroke: isSelected ? color : "transparent",
+        strokeWidth: isSelected ? 3 : 0,
+        strokeOpacity: 0.3,
+      };
+
   return (
     <g
       onClick={() => onSelect?.(payload.iso2)}
       style={{ cursor: "pointer" }}
     >
-      <circle
-        cx={cx}
-        cy={cy}
-        r={isSelected ? 10 : 7}
-        fill={color}
-        fillOpacity={0.85}
-        stroke={isSelected ? color : "transparent"}
-        strokeWidth={isSelected ? 3 : 0}
-        strokeOpacity={0.3}
-      />
+      <circle cx={cx} cy={cy} r={r} {...circleProps} />
       <text
         x={cx + 10}
         y={cy + 4}
@@ -130,13 +141,21 @@ export default function ScatterPlot({ onSelect, selected }: ScatterPlotProps) {
       </div>
 
       {/* Legend */}
-      <div className="flex flex-wrap gap-4 mt-2 px-2">
-        {Object.entries(QUADRANT_DESCRIPTIONS).map(([q, v]) => (
-          <div key={q} className="flex items-center gap-1.5">
-            <span className="w-2.5 h-2.5 rounded-full inline-block" style={{ background: Q_COLORS[q] }} />
-            <span className="text-xs text-[var(--muted)] font-mono">{q} — {v.label}</span>
-          </div>
-        ))}
+      <div className="mt-2 px-2 space-y-2">
+        <div className="flex flex-wrap gap-4">
+          {Object.entries(QUADRANT_DESCRIPTIONS).map(([q, v]) => (
+            <div key={q} className="flex items-center gap-1.5">
+              <span className="w-2.5 h-2.5 rounded-full inline-block" style={{ background: Q_COLORS[q] }} />
+              <span className="text-xs text-[var(--muted)] font-mono">{q} — {v.label}</span>
+            </div>
+          ))}
+        </div>
+        <div className="flex items-center gap-1.5">
+          <svg width={12} height={12} viewBox="0 0 12 12" aria-hidden className="shrink-0 text-[var(--muted)]">
+            <circle cx={6} cy={6} r={4} fill="none" stroke="currentColor" strokeWidth={2} />
+          </svg>
+          <span className="text-xs text-[var(--muted)] font-mono">Open circles = fewer live data sources</span>
+        </div>
       </div>
     </div>
   );
