@@ -16,7 +16,7 @@ export default function HomePage() {
   const [selected, setSelected] = useState<Country | null>(null);
   const [search, setSearch] = useState("");
   const [region, setRegion] = useState("All regions");
-  const [sortBy, setSortBy] = useState<"p_score" | "r_score" | "name">("p_score");
+  const [sortBy, setSortBy] = useState<"p_score" | "r_score" | "r_score_asc" | "name">("p_score");
 
   const filtered = useMemo(() => {
     return COUNTRIES
@@ -28,6 +28,7 @@ export default function HomePage() {
       .sort((a, b) => {
         if (sortBy === "name") return a.name.localeCompare(b.name);
         if (sortBy === "r_score") return b.r_score - a.r_score;
+        if (sortBy === "r_score_asc") return a.r_score - b.r_score;
         return b.p_score - a.p_score;
       });
   }, [search, region, sortBy]);
@@ -135,11 +136,14 @@ export default function HomePage() {
             </select>
             <select
               value={sortBy}
-              onChange={e => setSortBy(e.target.value as "p_score" | "r_score" | "name")}
+              onChange={e =>
+                setSortBy(e.target.value as "p_score" | "r_score" | "r_score_asc" | "name")
+              }
               className="border border-[var(--border)] bg-transparent px-3 py-1.5 text-sm focus:outline-none focus:border-[var(--amber)]"
             >
               <option value="p_score">Sort: Prevalence ↓</option>
               <option value="r_score">Sort: Response ↓</option>
+              <option value="r_score_asc">Sort: Response ↑</option>
               <option value="name">Sort: A–Z</option>
             </select>
           </div>
