@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useState } from "react";
 import {
   ScatterChart,
   Scatter,
@@ -8,7 +8,6 @@ import {
   CartesianGrid,
   Tooltip,
   ReferenceLine,
-  ReferenceArea,
   ResponsiveContainer,
 } from "recharts";
 import { COUNTRIES, QUADRANT_DESCRIPTIONS, Country } from "@/lib/data";
@@ -21,12 +20,12 @@ const Q_COLORS: Record<string, string> = {
 };
 
 const CHART_MARGIN = { top: 20, right: 40, bottom: 40, left: 40 };
-const FULL_DOMAIN: [number, number] = [0, 100];
-const MIN_DRAG_PX = 10;
+const X_FULL_DOMAIN: [number, number] = [0, 105];
+const Y_FULL_DOMAIN: [number, number] = [-2, 102];
+const ZOOM_STEP = 15;
+const MIN_RANGE = 20;
 
 type ChartMouseEvent = {
-  chartX?: number;
-  chartY?: number;
   activePayload?: Array<{ payload: Country }>;
 };
 
@@ -86,26 +85,20 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<
   );
 }
 
-function chartPixelToData(
-  chartX: number,
-  chartY: number,
-  width: number,
-  height: number,
-  xDom: [number, number],
-  yDom: [number, number],
-): { x: number; y: number } {
-  const innerW = width - CHART_MARGIN.left - CHART_MARGIN.right;
-  const innerH = height - CHART_MARGIN.top - CHART_MARGIN.bottom;
-  const x = xDom[0] + ((chartX - CHART_MARGIN.left) / innerW) * (xDom[1] - xDom[0]);
-  const y = yDom[1] - ((chartY - CHART_MARGIN.top) / innerH) * (yDom[1] - yDom[0]);
-  return {
-    x: Math.min(xDom[1], Math.max(xDom[0], x)),
-    y: Math.min(yDom[1], Math.max(yDom[0], y)),
-  };
+function shrinkDomain(d: [number, number]): [number, number] {
+  const next: [number, number] = [d[0] + ZOOM_STEP, d[1] - ZOOM_STEP];
+  if (next[1] - next[0] < MIN_RANGE) {
+    const center = (d[0] + d[1]) / 2;
+    return [center - MIN_RANGE / 2, center + MIN_RANGE / 2];
+  }
+  return next;
 }
 
-function domainsEqual(a: [number, number], b: [number, number]) {
-  return a[0] === b[0] && a[1] === b[1];
+function expandDomain(d: [number, number], full: [number, number]): [number, number] {
+  return [
+    Math.max(full[0], d[0] - ZOOM_STEP),
+    Math.min(full[1], d[1] + ZOOM_STEP),
+  ];
 }
 
 interface ScatterPlotProps {
@@ -114,161 +107,26 @@ interface ScatterPlotProps {
 }
 
 export default function ScatterPlot({ onSelect, selected }: ScatterPlotProps) {
-  const chartWrapRef = useRef<HTMLDivElement>(null);
-  const skipClickRef = useRef(false);
+  const [xDomain, setXDomain] = useState<[number, number]>(X_FULL_DOMAIN);
+  const [yDomain, setYDomain] = useState<[number, number]>(Y_FULL_DOMAIN);
 
-  const [xDomain, setXDomain] = useState<[number, number]>(FULL_DOMAIN);
-  const [yDomain, setYDomain] = useState<[number, number]>(FULL_DOMAIN);
+  const zoomIn = useCallback(() => {
+    setXDomain((d) => shrinkDomain(d));
+    setYDomain((d) => shrinkDomain(d));
+  }, []);
 
-  const [selecting, setSelecting] = useState(false);
-  const [selectStart, setSelectStart] = useState<{ x: number; y: number } | null>(null);
-  const [refArea, setRefArea] = useState<{
-    x1: number;
-    x2: number;
-    y1: number;
-    y2: number;
-  } | null>(null);
-
-  const [panning, setPanning] = useState(false);
-  const [panStart, setPanStart] = useState<{
-    chartX: number;
-    chartY: number;
-    xDomain: [number, number];
-    yDomain: [number, number];
-  } | null>(null);
-
-  const isZoomed =
-    !domainsEqual(xDomain, FULL_DOMAIN) || !domainsEqual(yDomain, FULL_DOMAIN);
-
-  const getChartSize = () => {
-    const el = chartWrapRef.current;
-    if (!el) return null;
-    return { width: el.clientWidth, height: el.clientHeight };
-  };
-
-  const updateRefArea = useCallback(
-    (start: { x: number; y: number }, end: { x: number; y: number }) => {
-      const size = getChartSize();
-      if (!size) return;
-      const d1 = chartPixelToData(start.x, start.y, size.width, size.height, xDomain, yDomain);
-      const d2 = chartPixelToData(end.x, end.y, size.width, size.height, xDomain, yDomain);
-      setRefArea({
-        x1: Math.min(d1.x, d2.x),
-        x2: Math.max(d1.x, d2.x),
-        y1: Math.min(d1.y, d2.y),
-        y2: Math.max(d1.y, d2.y),
-      });
-    },
-    [xDomain, yDomain],
-  );
-
-  const handleMouseDown = useCallback(
-    (e: ChartMouseEvent) => {
-      if (e.chartX == null || e.chartY == null) return;
-
-      if (isZoomed && (e as ChartMouseEvent & { nativeEvent?: MouseEvent }).nativeEvent?.shiftKey) {
-        setPanning(true);
-        setPanStart({
-          chartX: e.chartX,
-          chartY: e.chartY,
-          xDomain: [...xDomain] as [number, number],
-          yDomain: [...yDomain] as [number, number],
-        });
-        return;
-      }
-
-      setSelecting(true);
-      setSelectStart({ x: e.chartX, y: e.chartY });
-      updateRefArea({ x: e.chartX, y: e.chartY }, { x: e.chartX, y: e.chartY });
-    },
-    [isZoomed, xDomain, yDomain, updateRefArea],
-  );
-
-  const handleMouseMove = useCallback(
-    (e: ChartMouseEvent) => {
-      if (e.chartX == null || e.chartY == null) return;
-
-      if (panning && panStart) {
-        const size = getChartSize();
-        if (!size) return;
-        const innerW = size.width - CHART_MARGIN.left - CHART_MARGIN.right;
-        const innerH = size.height - CHART_MARGIN.top - CHART_MARGIN.bottom;
-        const dx =
-          ((e.chartX - panStart.chartX) / innerW) *
-          (panStart.xDomain[1] - panStart.xDomain[0]);
-        const dy =
-          ((e.chartY - panStart.chartY) / innerH) *
-          (panStart.yDomain[1] - panStart.yDomain[0]);
-
-        setXDomain([panStart.xDomain[0] - dx, panStart.xDomain[1] - dx]);
-        setYDomain([panStart.yDomain[0] + dy, panStart.yDomain[1] + dy]);
-        return;
-      }
-
-      if (selecting && selectStart) {
-        updateRefArea(selectStart, { x: e.chartX, y: e.chartY });
-      }
-    },
-    [panning, panStart, selecting, selectStart, updateRefArea],
-  );
-
-  const endInteraction = useCallback(
-    (e?: ChartMouseEvent) => {
-      if (panning) {
-        const moved =
-          panStart &&
-          e?.chartX != null &&
-          e?.chartY != null &&
-          Math.hypot(e.chartX - panStart.chartX, e.chartY - panStart.chartY) > MIN_DRAG_PX;
-        if (moved) skipClickRef.current = true;
-        setPanning(false);
-        setPanStart(null);
-        return;
-      }
-
-      if (!selecting || !selectStart) {
-        setSelecting(false);
-        setRefArea(null);
-        return;
-      }
-
-      const endX = e?.chartX ?? selectStart.x;
-      const endY = e?.chartY ?? selectStart.y;
-      const dragged = Math.hypot(endX - selectStart.x, endY - selectStart.y) > MIN_DRAG_PX;
-
-      if (dragged && refArea) {
-        const xSpan = refArea.x2 - refArea.x1;
-        const ySpan = refArea.y2 - refArea.y1;
-        if (xSpan > 0.5 && ySpan > 0.5) {
-          setXDomain([refArea.x1, refArea.x2]);
-          setYDomain([refArea.y1, refArea.y2]);
-          skipClickRef.current = true;
-        }
-      }
-
-      setSelecting(false);
-      setSelectStart(null);
-      setRefArea(null);
-    },
-    [panning, panStart, selecting, selectStart, refArea],
-  );
+  const zoomOut = useCallback(() => {
+    setXDomain((d) => expandDomain(d, X_FULL_DOMAIN));
+    setYDomain((d) => expandDomain(d, Y_FULL_DOMAIN));
+  }, []);
 
   const resetZoom = useCallback(() => {
-    setXDomain(FULL_DOMAIN);
-    setYDomain(FULL_DOMAIN);
-    setSelecting(false);
-    setSelectStart(null);
-    setRefArea(null);
-    setPanning(false);
-    setPanStart(null);
+    setXDomain(X_FULL_DOMAIN);
+    setYDomain(Y_FULL_DOMAIN);
   }, []);
 
   const handleClick = useCallback(
     (data: ChartMouseEvent) => {
-      if (skipClickRef.current) {
-        skipClickRef.current = false;
-        return;
-      }
       if (data?.activePayload?.[0]) {
         const c = data.activePayload[0].payload;
         onSelect(selected === c.iso2 ? null : c);
@@ -277,29 +135,20 @@ export default function ScatterPlot({ onSelect, selected }: ScatterPlotProps) {
     [onSelect, selected],
   );
 
+  const btnClass =
+    "text-xs font-mono bg-paper border border-[var(--border)] text-ink px-2 py-1 hover:bg-[var(--amber)]/10 transition-colors shadow-sm leading-none";
+
   return (
     <div className="w-full">
       <div className="relative w-full" style={{ paddingBottom: "75%" }}>
-        {isZoomed && (
-          <button
-            type="button"
-            onClick={resetZoom}
-            className="absolute top-2 right-2 z-10 text-xs font-mono bg-paper border border-[var(--border)] text-ink px-2 py-1 hover:bg-[var(--amber)]/10 transition-colors shadow-sm"
-          >
-            Reset zoom
-          </button>
-        )}
-        <div ref={chartWrapRef} className="absolute inset-0">
+        <div className="absolute top-2 right-2 z-10 flex gap-1">
+          <button type="button" onClick={zoomIn} aria-label="Zoom in" className={`${btnClass} w-7 h-7`}>+</button>
+          <button type="button" onClick={zoomOut} aria-label="Zoom out" className={`${btnClass} w-7 h-7`}>−</button>
+          <button type="button" onClick={resetZoom} aria-label="Reset zoom" className={`${btnClass} h-7`}>Reset</button>
+        </div>
+        <div className="absolute inset-0">
           <ResponsiveContainer width="100%" height="100%">
-            <ScatterChart
-              margin={CHART_MARGIN}
-              onClick={handleClick}
-              onMouseDown={handleMouseDown}
-              onMouseMove={handleMouseMove}
-              onMouseUp={endInteraction}
-              onMouseLeave={() => endInteraction()}
-              style={{ cursor: selecting || panning ? "crosshair" : "default" }}
-            >
+            <ScatterChart margin={CHART_MARGIN} onClick={handleClick}>
               <CartesianGrid strokeDasharray="2 4" stroke="#DDD8CE" strokeOpacity={0.6} />
               <XAxis
                 type="number"
@@ -337,24 +186,8 @@ export default function ScatterPlot({ onSelect, selected }: ScatterPlotProps) {
                 axisLine={{ stroke: "#DDD8CE" }}
               />
               <Tooltip content={<CustomTooltip />} cursor={false} />
-              {!isZoomed && (
-                <>
-                  <ReferenceLine x={50} stroke="#DDD8CE" strokeDasharray="4 4" strokeWidth={1.5} />
-                  <ReferenceLine y={50} stroke="#DDD8CE" strokeDasharray="4 4" strokeWidth={1.5} />
-                </>
-              )}
-              {refArea && (
-                <ReferenceArea
-                  x1={refArea.x1}
-                  x2={refArea.x2}
-                  y1={refArea.y1}
-                  y2={refArea.y2}
-                  stroke="#6B6560"
-                  strokeOpacity={0.6}
-                  fill="#6B6560"
-                  fillOpacity={0.12}
-                />
-              )}
+              <ReferenceLine x={50} stroke="#DDD8CE" strokeDasharray="4 4" strokeWidth={1.5} />
+              <ReferenceLine y={50} stroke="#DDD8CE" strokeDasharray="4 4" strokeWidth={1.5} />
               <Scatter
                 data={COUNTRIES}
                 shape={(props: DotProps) => (
