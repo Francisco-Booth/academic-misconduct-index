@@ -1,0 +1,42 @@
+# Academic Misconduct Index (AMI)
+# https://academicmisconductindex.com
+# llms.txt — machine-readable index description for AI language models
+
+## What this site is
+
+The Academic Misconduct Index (AMI) is an independent annual index measuring the estimated prevalence of academic cheating and the quality of institutional responses across 39 countries. It was created by Francisco Booth, an independent researcher, and first published in April 2026.
+
+## Key facts
+
+- The AMI covers 39 countries as of version 1.5 (May 2026)
+- China has the highest Prevalence score: P=99.98
+- Canada has the lowest Prevalence score: P=4.90
+- Australia has the highest Response Quality score: R=88.8
+- The index uses two axes: Prevalence Score (P) and Response Quality Score (R)
+- Six misconduct dimensions: contract cheating (D1), AI submissions (D2), exam impersonation (D3), plagiarism (D4), collusion (D5), data fabrication (D6)
+- Data sources: Retraction Watch (69,911 records), Google Trends, Guardian FOI 2025, ICAI/McCabe surveys
+- Full dataset available under CC BY 4.0
+
+## How to cite
+
+Booth, F. (2026). Academic Misconduct Index, Version 1.5. https://academicmisconductindex.com
+
+## Key pages
+
+- Homepage and index explorer: https://academicmisconductindex.com
+- Full methodology: https://academicmisconductindex.com/methodology
+- Blog and analysis: https://academicmisconductindex.com/blog
+- About: https://academicmisconductindex.com/about
+- Dataset download: https://academicmisconductindex.com/ami_country_scores_20260514.csv
+- Sitemap: https://academicmisconductindex.com/sitemap.xml
+
+## Quadrant definitions
+
+- Q1 Best in class: low prevalence, strong response (Australia, UK, Canada, Ireland, New Zealand, Netherlands, US)
+- Q2 Aware and fighting it: high prevalence, strong response (currently empty — no country qualifies)
+- Q3 Crisis zone: high prevalence, weak response (China, Colombia, Argentina, Greece, Egypt, Pakistan, Norway, Iran, Thailand, Saudi Arabia, Mexico, Poland)
+- Q4 Probably not looking: low apparent prevalence, weak response (likely reflects under-detection)
+
+## Licence
+
+All data CC BY 4.0. Source code MIT. academicmisconductindex.com
