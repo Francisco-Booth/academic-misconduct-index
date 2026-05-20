@@ -905,4 +905,1473 @@ The methodology document, full dataset, and source code are available at academi
 **Cite as:** Booth, F. (2026). Academic Misconduct Index, Version 1.5. academicmisconductindex.com
     `.trim(),
   },
+
+  {
+    slug: "colombia-academic-misconduct-profile",
+    title: "Colombia: Academic Misconduct Index Country Profile",
+    seoTitle: "Colombia Academic Misconduct Profile 2026 | AMI P=77.4",
+    metaDescription: "Colombia scores P=77.4, R=16.5 on the AMI — second highest Prevalence globally. Maxed Google Trends signals for essay mills and AI tools, no specific legislation. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Colombia", "Latin America", "contract cheating", "essay mills", "country profile"],
+    tldr: "Colombia scores P=77.38, R=16.5, Q3 (Crisis zone). The second highest Prevalence score in the AMI dataset. Driven by maxed Google Trends signals (D1=100, D2=100) for essay mill and AI submission keywords combined with no specific legislation.",
+    excerpt: "Colombia scores P=77.4 on the Academic Misconduct Index — the second highest Prevalence score after China. The profile is driven almost entirely by demand signals: Google Trends data for essay mill and AI submission keywords both max out at 100. Here is what the data shows.",
+    faqSchema: [
+      {
+        question: "What is Colombia's academic misconduct score?",
+        answer: "Colombia scores P=77.38 (Prevalence) and R=16.5 (Response Quality) on the Academic Misconduct Index 2026. This places it in Q3 (Crisis zone) — the second highest Prevalence score of 39 countries, after China."
+      },
+      {
+        question: "Why does Colombia score so high on academic misconduct?",
+        answer: "Colombia's Prevalence score is driven almost entirely by demand signals. Google Trends data for both essay mill keywords (D1) and AI submission keywords (D2) max out at 100 — among the highest in Latin America. The country has no specific legislation against contract cheating and limited mandatory disclosure from universities."
+      },
+      {
+        question: "Are there any academic integrity laws in Colombia?",
+        answer: "Colombia has general fraud provisions and university-level disciplinary codes but no specific law equivalent to Australia's or the UK's essay mill bans. Institutional response varies widely between public and private universities. The country's R-Score of 16.5 reflects this weak legislative environment."
+      }
+    ],
+    content: `
+## TL;DR
+
+Colombia: P=77.38, R=16.5, Q3 (Crisis zone). Second highest Prevalence score after China. Both contract cheating (D1=100) and AI submission (D2=100) signals max out. No specific legislation, weak disclosure.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 77.38 — 2nd of 39 countries
+- **Response Quality (R):** 16.5
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Latin America
+
+### Dimension breakdown
+
+| Dimension | Score | Source |
+|---|---|---|
+| D1 Contract cheating | 100 | Google Trends |
+| D2 AI submissions | 100 | Google Trends |
+| D3 Exam impersonation | 14 | Literature |
+| D4 Plagiarism | 58 | Literature/regional |
+| D5 Collusion | 52 | Literature/regional |
+| D6 Data fabrication | 0 | Retraction Watch |
+
+## What drives Colombia's score
+
+### Maxed Google Trends signals (D1 = D2 = 100)
+
+The headline finding for Colombia is that both essay mill keyword search volume and AI submission keyword search volume are at the top of the Latin American distribution — both rescale to 100 in the AMI methodology. Searches for "ensayos a pedido", essay mill brand names, and Spanish-language AI bypass tools all show very high per-capita volume.
+
+This is a demand signal, not a confirmed-incidence signal. It indicates students are looking for these services in unusually high numbers; the actual conversion rate is not directly measured.
+
+### Low data fabrication (D6 = 0)
+
+Colombia's D6 score of 0 reflects very few entries in the Retraction Watch database relative to publication volume. Latin American research output is smaller in absolute terms than Asia or North America, and the rate of misconduct-linked retractions per 10,000 publications is low. This holds the overall P-Score below China's despite the maxed D1/D2 signals.
+
+### Plagiarism and collusion (D4 = 58, D5 = 52)
+
+Both scores are regional extrapolations rather than country-specific survey data. The ICAI McCabe surveys did not include Colombia in their original sample. Regional averages for Latin America have been applied. As survey data improves these scores may shift.
+
+## The response quality picture
+
+Colombia's R-Score of 16.5 reflects:
+- **Legislation: 10** — no specific contract cheating ban
+- **Detection tools: 28** — partial deployment of plagiarism detection
+- **Disclosure: 10** — minimal public reporting from universities
+- **Penalties: 18** — penalties exist on paper but are inconsistently applied
+
+Public universities including Universidad Nacional de Colombia and Universidad de los Andes have institutional misconduct codes, but enforcement varies widely. There is no national regulator equivalent to Australia's TEQSA.
+
+## Why Colombia is in Q3 not Q4
+
+The combination of very high Prevalence and very low Response Quality places Colombia firmly in Q3 (Crisis zone). This quadrant assignment reflects an active misconduct problem combined with weak institutional response — the configuration the AMI methodology flags as the primary target for intervention.
+
+## Implications
+
+For employers and graduate admissions assessing Colombian credentials, the AMI data suggests applying additional verification. The high demand signal does not mean individual credentials are fraudulent — the vast majority of Colombian graduates earn their qualifications legitimately — but the base rate of misconduct is elevated.
+
+For Colombian policymakers, the gap between Colombia and Q1 countries (Australia, UK, Ireland) is primarily legislative. The essay mill ban model has shown measurable effect in jurisdictions that adopt it.
+
+## Sources
+
+- Google Trends (2022–2026), country-level data
+- Retraction Watch Database, Crossref/GitLab (2026)
+- ICAI / McCabe regional extrapolation for plagiarism and collusion
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "argentina-academic-misconduct-profile",
+    title: "Argentina: Academic Misconduct Index Country Profile",
+    seoTitle: "Argentina Academic Misconduct Profile 2026 | AMI P=74.6",
+    metaDescription: "Argentina scores P=74.57, R=18.0 on the AMI — third highest Prevalence score globally. High Spanish-language essay mill and AI search volume, weak legislative response. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Argentina", "Latin America", "contract cheating", "AI submissions", "country profile"],
+    tldr: "Argentina scores P=74.57, R=18.0, Q3 (Crisis zone). Third highest Prevalence score in the AMI dataset. Like Colombia, the score is driven by maxed Google Trends signals for essay mill and AI submission keywords combined with no specific legislation.",
+    excerpt: "Argentina scores P=74.6 on the Academic Misconduct Index — the third highest Prevalence score globally. The profile is dominated by Spanish-language search demand for essay mill and AI submission services, with limited institutional response. Here is what the data shows.",
+    faqSchema: [
+      {
+        question: "What is Argentina's academic misconduct score?",
+        answer: "Argentina scores P=74.57 (Prevalence) and R=18.0 (Response Quality) on the Academic Misconduct Index 2026, placing it in Q3 (Crisis zone) — the third highest Prevalence score after China and Colombia."
+      },
+      {
+        question: "Why is Argentina's Prevalence score so high?",
+        answer: "Argentina's score is driven primarily by demand signals from Google Trends — both contract cheating keywords (D1) and AI submission keywords (D2) are at the top of the Latin American distribution, scoring 100 each. There is no specific legislation against essay mill services and limited mandatory disclosure from universities."
+      },
+      {
+        question: "Does Argentina have specific academic integrity legislation?",
+        answer: "Argentina has general fraud provisions and university-level codes of conduct but no specific contract cheating ban. CONEAU, the national accreditation body, sets quality standards for universities but does not mandate specific misconduct disclosure. The AMI's R-Score of 18.0 reflects this weak legislative environment."
+      }
+    ],
+    content: `
+## TL;DR
+
+Argentina: P=74.57, R=18.0, Q3 (Crisis zone). Third highest Prevalence score after China and Colombia. Both Google Trends dimensions (D1=100, D2=100) max out. No specific contract cheating legislation, weak disclosure requirements.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 74.57 — 3rd of 39 countries
+- **Response Quality (R):** 18.0
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Latin America
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 100 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 12 |
+| D4 Plagiarism | 55 |
+| D5 Collusion | 50 |
+| D6 Data fabrication | 0 |
+
+## What drives Argentina's score
+
+### Spanish-language demand signals
+
+Argentina's P-Score is structurally similar to Colombia's. Spanish-language search volume for essay mill terms and AI submission tools is exceptionally high relative to student population. The shared language across Latin America means essay mill services targeting one Spanish-speaking market often reach others, and Argentine search volume sits at the top of the regional distribution.
+
+### Data fabrication near zero
+
+Like Colombia, Argentina shows almost no signal in the Retraction Watch database relative to publication volume. Argentine research output is significant by Latin American standards — CONICET produces respected work — but misconduct-linked retractions are rare. This holds the overall P-Score below China's.
+
+### Plagiarism and collusion are regional estimates
+
+D4 (55) and D5 (50) are not based on Argentine-specific survey data — the ICAI McCabe surveys did not sample Argentina directly. These scores reflect Latin American regional averages and may shift as country-specific data becomes available.
+
+## The response quality picture
+
+Argentina's R-Score of 18.0 breaks down as:
+- **Legislation: 12** — no specific contract cheating ban
+- **Detection tools: 30** — partial Turnitin deployment, mostly at private universities
+- **Disclosure: 10** — minimal public reporting
+- **Penalties: 20** — institutional codes exist; enforcement varies
+
+CONEAU sets accreditation standards for Argentine universities but does not mandate misconduct reporting. The Universidad de Buenos Aires and other major public universities have integrity codes but face resource constraints in detection and investigation. Private universities have higher detection tool adoption rates than public ones.
+
+## Why Argentina is in Q3
+
+Q3 (Crisis zone) reflects the combination of high Prevalence and weak Response. Argentina's pattern — high demand combined with limited institutional response — is the configuration the AMI methodology flags as the primary target for policy intervention.
+
+The pattern across Latin American countries in the AMI dataset is consistent: high D1/D2 demand signals, near-zero D6, low Response Quality. Mexico (P=51.36), Brazil (P=39.75), and Colombia (P=77.38) all share a similar structural profile, varying primarily in the intensity of demand signals.
+
+## Implications
+
+For Argentine universities, the most direct policy lever is detection tool deployment — moving from current partial coverage toward the near-universal deployment seen in Q1 countries. Legislative reform on the Australian model would address the supply side but requires national-level action.
+
+For employers and admissions offices assessing Argentine credentials, the AMI data suggests applying verification proportional to the Q3 placement — particularly for fields with high contract cheating exposure (business, law, engineering).
+
+## Sources
+
+- Google Trends (2022–2026), Argentina country-level data
+- Retraction Watch Database, Crossref/GitLab (2026)
+- ICAI / McCabe regional extrapolation
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "greece-academic-misconduct-profile",
+    title: "Greece: Academic Misconduct Index Country Profile",
+    seoTitle: "Greece Academic Misconduct Profile 2026 | AMI P=74.0",
+    metaDescription: "Greece scores P=74.0, R=20.0 on the AMI — fourth highest Prevalence globally and the highest in Europe. Greek-language essay mill demand and weak national response. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Greece", "Europe", "contract cheating", "essay mills", "country profile"],
+    tldr: "Greece scores P=74.00, R=20.0, Q3 (Crisis zone). The fourth highest Prevalence score globally and the highest in Europe. Driven by maxed Google Trends signals and limited institutional response despite EU integration.",
+    excerpt: "Greece scores P=74.0 on the Academic Misconduct Index — the fourth highest Prevalence globally and the highest in Europe. The data shows maxed essay mill and AI submission search demand combined with weak institutional response. Here is what drives Greece's position.",
+    faqSchema: [
+      {
+        question: "What is Greece's academic misconduct score?",
+        answer: "Greece scores P=74.00 (Prevalence) and R=20.0 (Response Quality) on the Academic Misconduct Index 2026, placing it in Q3 (Crisis zone). This is the fourth highest Prevalence score in the dataset and the highest among European countries scored."
+      },
+      {
+        question: "Why does Greece score worst in Europe on academic misconduct?",
+        answer: "Greece's score reflects two factors: very high Google Trends demand for essay mill and AI submission keywords (D1=D2=100), and weak institutional response measures. Despite EU integration and access to European-wide initiatives, Greece's national framework for academic integrity remains underdeveloped relative to other EU member states."
+      },
+      {
+        question: "Are essay mills legal in Greece?",
+        answer: "Greece has no specific legislation against contract cheating equivalent to Australia's, the UK's, or Ireland's. General fraud provisions apply but are not used for academic misconduct cases. Greek universities have institutional codes but enforcement is inconsistent and disclosure requirements are minimal."
+      }
+    ],
+    content: `
+## TL;DR
+
+Greece: P=74.00, R=20.0, Q3 (Crisis zone). Fourth highest Prevalence score globally, highest in Europe. Both contract cheating (D1=100) and AI submissions (D2=100) max out. No specific legislation despite EU membership.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 74.00 — 4th of 39 countries
+- **Response Quality (R):** 20.0
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (3/6 dimensions from live data — see notes)
+- **Region:** Europe
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 100 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 60 |
+| D5 Collusion | 45 |
+| D6 Data fabrication | 0 |
+
+## What drives Greece's score
+
+### Greek-language search demand
+
+Greece sits at the top of the European distribution for essay mill and AI submission keyword search volume. Greek-language equivalents of contract cheating terms show very high per-capita query volume. The narrow language market means search volume signals can be interpreted with relative confidence — there is little spillover from regional neighbours, unlike in the Spanish-speaking Latin American countries.
+
+### Plagiarism estimates (D4 = 60)
+
+Eret & Ok (2014) [verify — original paper covers Turkey; Greek-specific equivalent data is limited] identified elevated plagiarism rates across Southern European countries including Greece. The D4 score reflects regional estimates plus some Greek-specific survey work. As country-specific survey coverage improves these scores may be revised.
+
+### Live data coverage
+
+Only 3 of 6 Greek dimensions come from fully live data sources (D1, D2, D6). D3, D4, and D5 rely on literature-derived estimates and regional extrapolation. This is the principal data quality limitation in Greece's profile.
+
+## The response quality picture
+
+Greece's R-Score of 20.0 breaks down as:
+- **Legislation: 10** — no specific contract cheating ban
+- **Detection tools: 30** — partial Turnitin deployment
+- **Disclosure: 15** — limited public reporting
+- **Penalties: 25** — institutional codes exist
+
+Greece is the only EU country in the Q3 (Crisis zone) quadrant. Other EU member states with elevated Prevalence scores (Poland, Italy, France) all fall into Q3 or Q4 but with R-Scores above Greece's 20.0.
+
+## Why Greece stands out within Europe
+
+Most European countries cluster between R=25 and R=60. Greece's R=20.0 is exceptionally low for an EU member state. The contributing factors include limited adoption of mandatory disclosure requirements, low investment in detection technology, and the absence of any specific contract cheating legislation. The European University Association has flagged academic integrity as an area requiring coordinated EU action.
+
+## Implications
+
+Greece illustrates a pattern visible in several Southern European countries: high demand combined with limited institutional response. Policy options include adopting the Irish or UK legislative model, mandating detection tool deployment, and requiring institutional misconduct disclosure.
+
+For employers receiving Greek credentials, the AMI data suggests verification proportional to the Q3 placement. Greek universities including the National and Kapodistrian University of Athens have institutional integrity offices, but enforcement varies.
+
+## Sources
+
+- Google Trends (2022–2026), Greece country-level
+- Eret & Ok (2014) and related Southern European integrity research [verify]
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "egypt-academic-misconduct-profile",
+    title: "Egypt: Academic Misconduct Index Country Profile",
+    seoTitle: "Egypt Academic Misconduct Profile 2026 | AMI P=64.6",
+    metaDescription: "Egypt scores P=64.6, R=12.0 on the AMI — the lowest R-Score of any country scored. High AI submission demand (D2=100), elevated retraction rate, weak institutional response. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Egypt", "Middle East", "contract cheating", "AI submissions", "country profile"],
+    tldr: "Egypt scores P=64.60, R=12.0, Q3 (Crisis zone). The lowest Response Quality score of any country in the AMI dataset. Driven by maxed AI submission demand, elevated retraction-linked fabrication signals, and minimal institutional response infrastructure.",
+    excerpt: "Egypt scores P=64.6 on the AMI Prevalence axis and R=12.0 on Response Quality — the lowest R-Score of any country in the dataset. The combination places Egypt deep in the Crisis zone. Here is what drives the score.",
+    faqSchema: [
+      {
+        question: "What is Egypt's academic misconduct score?",
+        answer: "Egypt scores P=64.60 (Prevalence) and R=12.0 (Response Quality) on the Academic Misconduct Index 2026. Its R-Score is the lowest of any country in the 39-country dataset, placing Egypt firmly in Q3 (Crisis zone)."
+      },
+      {
+        question: "Why does Egypt have the lowest Response Quality score?",
+        answer: "Egypt's R-Score reflects limited legislation, minimal detection tool deployment, very low public disclosure from universities, and weak penalty structures. The Supreme Council of Universities sets some standards but enforcement is inconsistent across the public university system, which serves the majority of Egyptian students."
+      },
+      {
+        question: "Is there a major AI cheating problem in Egyptian universities?",
+        answer: "Egypt's D2 (AI submissions) dimension scores 100 — the top of the global distribution. Google Trends data for Arabic-language AI submission tool keywords shows very high per-capita demand. This is a demand signal, not a confirmed incidence rate, but combined with weak detection it suggests AI submissions are likely a significant issue."
+      }
+    ],
+    content: `
+## TL;DR
+
+Egypt: P=64.60, R=12.0, Q3 (Crisis zone). Lowest Response Quality score in the entire AMI dataset. Driven by maxed AI submission demand signals (D2=100), elevated data fabrication signal (D6=60), and minimal institutional response.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 64.60 — 5th of 39 countries
+- **Response Quality (R):** 12.0 — lowest in dataset
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (3/6 dimensions from live data)
+- **Region:** Middle East
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 67 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 20 |
+| D4 Plagiarism | 68 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 60 |
+
+## What drives Egypt's score
+
+### Maxed AI submission demand (D2 = 100)
+
+Egypt's D2 score reflects the top of the distribution for Arabic-language AI submission keyword search volume. The combination of large student population, widespread English-medium instruction in higher education, and high smartphone penetration creates a market for AI submission tools. The signal is consistently high across the 2022–2026 measurement window.
+
+### Elevated data fabrication signal (D6 = 60)
+
+The Retraction Watch database shows elevated misconduct-linked retraction rates for Egypt relative to publication volume. The Cairo University and Ain Shams University scientific publication base is substantial; the retraction-to-publication ratio places Egypt above the global average. Specific high-profile cases include retractions in medical and engineering literature [verify specifics].
+
+### Plagiarism (D4 = 68)
+
+D4 reflects regional Middle East/North Africa survey estimates plus literature evidence. Multiple peer-reviewed studies have documented elevated plagiarism rates in Egyptian universities, particularly in graduate dissertations. The 68 score is consistent with this literature but country-specific large-N survey data is limited.
+
+## The lowest R-Score in the dataset
+
+Egypt's R-Score of 12.0 is the lowest of any country in the AMI 39-country set. The breakdown:
+- **Legislation: 10** — general fraud law applies; no specific provisions
+- **Detection tools: 18** — limited Turnitin or equivalent deployment
+- **Disclosure: 8** — very limited public reporting
+- **Penalties: 12** — codes exist but rarely enforced
+
+The Supreme Council of Universities oversees Egyptian higher education but does not mandate specific misconduct reporting. Public universities, which serve the majority of Egyptian students, have particularly limited integrity infrastructure compared to private institutions like the American University in Cairo.
+
+## Why Egypt's Q3 placement matters
+
+The combination of P=64.60 and R=12.0 places Egypt unambiguously in the Crisis zone. Among Middle Eastern countries scored, Egypt's R-Score is the lowest — even Iran (R=13.2) and Saudi Arabia (R=17.5) score marginally higher. The gap between Egypt and Q1 countries on the Response axis is the largest in the dataset.
+
+## Implications
+
+Egypt sits at one of the lowest baseline positions for academic integrity infrastructure in the dataset. Policy reform faces resource constraints — many public universities operate with limited budgets for detection technology or compliance staff.
+
+For employers and graduate admissions evaluating Egyptian credentials, the AMI data suggests careful verification. Egypt's elite institutions (AUC, GUC) have substantially different integrity profiles from the public university system; institution-level signals are likely more informative than country-level scores in this context.
+
+## Sources
+
+- Google Trends (2022–2026), Egypt country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Regional Middle East/North Africa integrity literature
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "pakistan-academic-misconduct-profile",
+    title: "Pakistan: Academic Misconduct Index Country Profile",
+    seoTitle: "Pakistan Academic Misconduct Profile 2026 | AMI P=59.1",
+    metaDescription: "Pakistan scores P=59.08, R=14.2 on the AMI. Maxed contract cheating demand (D1=100), elevated retraction rate, and HEC reforms that have not yet shifted institutional culture. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Pakistan", "Asia", "contract cheating", "HEC", "country profile"],
+    tldr: "Pakistan scores P=59.08, R=14.2, Q3 (Crisis zone). Sixth highest Prevalence globally. Maxed contract cheating demand (D1=100), high plagiarism (D4=72), elevated fabrication (D6=65). HEC reforms exist but enforcement remains weak.",
+    excerpt: "Pakistan scores P=59.1 on the Academic Misconduct Index, placing it sixth globally for estimated misconduct prevalence. The Higher Education Commission has introduced reforms but the data shows persistent challenges. Here is what drives Pakistan's position.",
+    faqSchema: [
+      {
+        question: "What is Pakistan's academic misconduct score?",
+        answer: "Pakistan scores P=59.08 (Prevalence) and R=14.2 (Response Quality) on the Academic Misconduct Index 2026. This places it in Q3 (Crisis zone) — the sixth highest Prevalence score in the dataset."
+      },
+      {
+        question: "What is the Higher Education Commission doing about cheating in Pakistan?",
+        answer: "The Pakistan Higher Education Commission (HEC) has issued plagiarism policies requiring universities to use detection tools and has set thresholds for acceptable similarity rates in theses. However, the AMI Response Quality score of 14.2 indicates that enforcement and institutional culture have lagged the formal policy framework."
+      },
+      {
+        question: "Why is contract cheating so high in Pakistan?",
+        answer: "Pakistan's D1 (contract cheating) score of 100 reflects very high search volume for essay mill keywords — both English-language and Urdu-language equivalents. Pakistan also hosts a documented domestic essay mill industry that exports services to other markets, particularly the UK and Gulf states."
+      }
+    ],
+    content: `
+## TL;DR
+
+Pakistan: P=59.08, R=14.2, Q3 (Crisis zone). Sixth highest Prevalence score in the AMI dataset. Maxed contract cheating demand (D1=100), high plagiarism (D4=72), elevated fabrication (D6=65). HEC policy exists; enforcement weak.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 59.08 — 6th of 39 countries
+- **Response Quality (R):** 14.2
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (4/6 dimensions from live data)
+- **Region:** Asia
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 100 |
+| D2 AI submissions | 66 |
+| D3 Exam impersonation | 25 |
+| D4 Plagiarism | 72 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 65 |
+
+## What drives Pakistan's score
+
+### Contract cheating exports
+
+Pakistan has a documented essay mill industry that serves both domestic and international demand. The country's English-language proficiency and lower labour costs have made it a hub for outsourced academic writing, particularly serving UK and Gulf-state student markets. This shows up in Pakistan's own Google Trends data (D1=100) but also has been documented through investigative reporting on essay mill operations [verify].
+
+### Plagiarism (D4 = 72)
+
+Pakistan's D4 score reflects multiple country-specific studies. Plagiarism rates in graduate theses have been a recurring concern — the HEC introduced mandatory plagiarism checking for doctoral dissertations partly in response to a series of high-profile cases. Survey data consistently shows elevated self-reported plagiarism rates relative to global averages.
+
+### Data fabrication (D6 = 65)
+
+Retraction Watch data shows Pakistan has elevated misconduct-linked retraction rates per 10,000 publications. The score sits below China's (100) and Iran's (65) but above regional Asian peers. Specific high-profile cases include retractions in medical and pharmaceutical literature.
+
+### Exam impersonation (D3 = 25)
+
+Pakistan's D3 score is the second highest in the dataset (only Nigeria scores higher at 28). The literature documents systematic exam impersonation in Pakistani public examinations including the Federal Public Service Commission examinations [verify], with prosecutions reported.
+
+## The HEC framework — strong on paper
+
+Pakistan's Higher Education Commission has one of the more developed policy frameworks in the region. The HEC has:
+- Issued mandatory plagiarism detection requirements
+- Set similarity thresholds for dissertations
+- Required HEC-recognised universities to deploy detection tools
+- Maintained a register of plagiarism cases
+
+However, the R-Score of 14.2 reflects the gap between policy and enforcement. Many universities operate with limited compliance infrastructure, and institutional disclosure of misconduct cases remains minimal.
+
+## R-Score breakdown
+
+- **Legislation: 10** — HEC policy exists but no statutory ban on essay mills
+- **Detection tools: 22** — partial deployment, concentrated at HEC-recognised institutions
+- **Disclosure: 10** — minimal public reporting
+- **Penalties: 15** — codes exist; enforcement varies
+
+## Implications
+
+Pakistan illustrates a pattern where formal academic integrity policy exists but institutional culture and resourcing have not caught up. The HEC framework gives Pakistan a higher policy baseline than several Q3 peers, but the practical R-Score remains very low.
+
+For employers and admissions offices, Pakistani credentials warrant verification proportional to the Q3 placement. Pakistani diaspora students at international institutions show academic integrity outcomes consistent with the institutions they attend rather than country-of-origin patterns — the AMI score reflects institutional conditions, not student capability.
+
+## Sources
+
+- Google Trends (2022–2026), Pakistan country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- HEC policy documents
+- Pakistani higher education integrity literature [verify specific citations]
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "norway-academic-misconduct-profile",
+    title: "Norway: Academic Misconduct Index Country Profile",
+    seoTitle: "Norway Academic Misconduct Profile 2026 | AMI P=57.2 Anomaly",
+    metaDescription: "Norway scores P=57.16, R=47.5 on the AMI — surprisingly high Prevalence given Nordic norms. The score is largely driven by Google Trends signal interpretation, not student behaviour. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Norway", "Europe", "Nordic", "academic integrity", "Google Trends anomaly", "country profile"],
+    tldr: "Norway scores P=57.16, R=47.5, Q3 (Crisis zone) — surprisingly high for a country with strong NESH guidelines and integrity infrastructure. The score is largely an artefact of Google Trends search volume from academic and policy discussion of AI tools, not student misconduct. The R-Score reflects genuinely strong institutional response.",
+    excerpt: "Norway's appearance at P=57.16 — seventh globally — surprises most observers given its strong NESH ethics framework. This profile explains why Norway's score sits where it does and how to read it correctly.",
+    faqSchema: [
+      {
+        question: "Why does Norway score high on academic misconduct?",
+        answer: "Norway's elevated P-Score is largely a methodological artefact. The Google Trends signal for AI submission keywords picks up substantial academic, policy, and educator discussion of AI tools in Norway — a country where these topics are debated openly — rather than just student misconduct demand. The AMI methodology notes this limitation explicitly, and Norway is the principal case discussed in the methodology's caveat section."
+      },
+      {
+        question: "Is academic cheating actually common in Norway?",
+        answer: "All indications from Norwegian institutional data and literature suggest actual cheating rates in Norway are well below the P-Score would imply. Norway has the NESH ethics guidelines, robust institutional integrity infrastructure, and a culture of open academic discussion that elevates search volume on integrity topics. The R-Score of 47.5 reflects this strong response infrastructure."
+      },
+      {
+        question: "What does NESH do for academic integrity in Norway?",
+        answer: "NESH (the National Committee for Research Ethics in the Social Sciences and Humanities) and its sister committees set ethical guidelines for Norwegian research. The framework is one of the most comprehensive in Europe, mandating ethics review for sensitive research, governing co-authorship, and addressing misconduct. NESH guidelines are credited as a model for Nordic research integrity infrastructure."
+      }
+    ],
+    content: `
+## TL;DR
+
+Norway: P=57.16, R=47.5, Q3 (Crisis zone). The most prominent methodological anomaly in the AMI dataset. The elevated P-Score is largely driven by Google Trends signal interpretation — Norway's high search volume on AI submission topics reflects academic and policy discussion, not student misconduct demand. The R-Score of 47.5 reflects genuinely strong NESH-anchored response infrastructure.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 57.16 — 7th of 39 countries
+- **Response Quality (R):** 47.5 — 10th highest
+- **Quadrant:** Q3 — Crisis zone (with methodological caveats)
+- **Data quality:** A (4/6 dimensions from live data)
+- **Region:** Europe (Nordic)
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 50 |
+| D2 AI submissions | 31 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 32 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 15 |
+
+## The Norway anomaly explained
+
+Norway's elevated P-Score is the most discussed result in the AMI dataset. It comes primarily from the relative weighting given to Google Trends signals in the methodology. Norway has unusually high per-capita search volume for AI tool, plagiarism, and academic integrity keywords because:
+
+1. **Open academic and policy discussion.** Norwegian universities, government, and media discuss AI and integrity topics extensively. Searches generated by educators, policy analysts, journalists, and researchers contribute to the signal.
+
+2. **High digital literacy.** Norwegian academics and students are more likely to search for tools and policies online than peers in countries with less developed digital infrastructure.
+
+3. **Small population, high signal-to-noise.** With a population of ~5.5 million, signal volume per capita is sensitive to small absolute changes.
+
+The AMI methodology documentation flags Norway as the principal example of this limitation. Future versions will incorporate language-disambiguated signals and weighted survey data to address this.
+
+## What Norway gets right (R = 47.5)
+
+Norway's R-Score of 47.5 places it 10th highest in the dataset. The breakdown:
+- **Legislation: 20** — research ethics law but no specific essay mill ban
+- **Detection tools: 60** — widespread deployment across the university sector
+- **Disclosure: 55** — institutional reporting via NESH and similar bodies
+- **Penalties: 55** — clear policy frameworks
+
+The NESH framework, the Research Ethics Act (2017), and the National Commission for the Investigation of Research Misconduct create a coherent system. Norway is one of the few countries with a statutory national research integrity investigator.
+
+## How to read Norway's quadrant placement
+
+Q3 (Crisis zone) is technically Norway's quadrant assignment based on the numeric P and R values. However, the AMI methodology explicitly notes that Norway's actual situation more closely resembles Q1 countries on the Response axis, while the P-Score is structurally inflated.
+
+Users of the data should treat the Norway score as a methodology caveat rather than a substantive finding about Norwegian student behaviour.
+
+## Implications
+
+Norway is the case that motivated the methodology's planned future improvements:
+- Language-disambiguated Google Trends queries
+- Weighted survey data prioritised over search-volume signals
+- Country population adjustments at the small-N end
+
+For users of Norwegian credentials, the AMI data should not be read as a warning. Norwegian institutional integrity infrastructure is genuinely strong, and the literature does not support elevated misconduct rates among Norwegian students.
+
+## Sources
+
+- NESH guidelines, Norwegian Research Ethics Act (2017)
+- Google Trends (2022–2026), Norway country-level
+- Retraction Watch Database (Norway shows low signal)
+- Academic Misconduct Index v1.5 methodology, Norway caveat section
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "iran-academic-misconduct-profile",
+    title: "Iran: Academic Misconduct Index Country Profile",
+    seoTitle: "Iran Academic Misconduct Profile 2026 | AMI P=57.0",
+    metaDescription: "Iran scores P=57.0, R=13.2 on the AMI. Maxed AI submission demand, elevated retraction rate, high plagiarism and collusion. Sanctions context limits institutional response infrastructure. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Iran", "Middle East", "contract cheating", "research integrity", "country profile"],
+    tldr: "Iran scores P=57.00, R=13.2, Q3 (Crisis zone). Eighth highest Prevalence globally. Maxed AI submission demand (D2=100), high plagiarism (D4=65), elevated fabrication (D6=65). Sanctions and isolation constrain institutional integrity infrastructure.",
+    excerpt: "Iran scores P=57.0 on the AMI, placing it eighth globally for estimated misconduct prevalence. The profile combines high demand signals with one of the lowest Response Quality scores in the dataset. Here is what drives Iran's position.",
+    faqSchema: [
+      {
+        question: "What is Iran's academic misconduct score?",
+        answer: "Iran scores P=57.00 (Prevalence) and R=13.2 (Response Quality) on the Academic Misconduct Index 2026. This places it in Q3 (Crisis zone) — the eighth highest Prevalence and the second lowest Response Quality in the dataset."
+      },
+      {
+        question: "Why does Iran have such a low Response Quality score?",
+        answer: "Iran's R-Score of 13.2 reflects multiple structural constraints: limited access to international detection tool platforms due to sanctions, minimal mandatory disclosure from universities, weak penalty frameworks, and political constraints on autonomous academic governance. These factors compound to produce the second lowest R-Score in the AMI dataset."
+      },
+      {
+        question: "How big is the academic integrity problem in Iranian universities?",
+        answer: "Iran's Prevalence indicators consistently sit at the high end of the regional distribution. The Retraction Watch database shows elevated misconduct-linked retractions per publication, plagiarism rates documented in the literature are above global averages, and Google Trends data for AI submission tools is maxed at the top of the scale. The combination places Iran clearly in the Crisis zone."
+      }
+    ],
+    content: `
+## TL;DR
+
+Iran: P=57.00, R=13.2, Q3 (Crisis zone). Eighth highest Prevalence globally, second lowest Response Quality after Egypt. Maxed AI submission demand (D2=100), high plagiarism (D4=65) and collusion (D5=69), elevated data fabrication (D6=65). Sanctions context limits detection infrastructure.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 57.00 — 8th of 39 countries
+- **Response Quality (R):** 13.2 — 2nd lowest in dataset
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Middle East
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 67 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 16 |
+| D4 Plagiarism | 65 |
+| D5 Collusion | 69 |
+| D6 Data fabrication | 65 |
+
+## What drives Iran's score
+
+### Maxed AI submission demand (D2 = 100)
+
+Iran sits at the top of the regional distribution for AI submission tool keyword search volume. Persian-language equivalents of relevant terms and English-language searches both show high per-capita volume. Iran has high higher-education enrolment relative to regional peers, contributing to the absolute volume of demand signals.
+
+### Elevated data fabrication (D6 = 65)
+
+The Retraction Watch database shows Iran with elevated misconduct-linked retraction rates per 10,000 publications. Iran's research output has grown substantially over the past two decades; the retraction rate has not declined proportionately. Specific high-profile cases include retractions in medical and engineering journals [verify specifics].
+
+### Collusion (D5 = 69)
+
+Iran's D5 score is among the highest in the dataset. The score reflects elevated rates of unauthorised collaboration documented in the regional literature, including group work submitted as individual assignments and shared exam preparation that crosses into prohibited collaboration.
+
+## The Response Quality crisis
+
+Iran's R-Score of 13.2 is the second lowest in the entire AMI dataset, exceeded only by Egypt's 12.0. The breakdown:
+- **Legislation: 10** — general fraud provisions only
+- **Detection tools: 20** — limited deployment, partly due to sanctions affecting access to Turnitin and similar tools
+- **Disclosure: 8** — minimal institutional reporting
+- **Penalties: 15** — codes exist but inconsistently enforced
+
+### The sanctions constraint
+
+International sanctions limit Iranian universities' access to the standard integrity infrastructure used in other countries. Turnitin and similar commercial detection platforms have limited or no licensing arrangements in Iran. Some Iranian universities have developed domestic alternatives but coverage and capability are uneven.
+
+## Why Iran is in Q3 not Q4
+
+Iran's Prevalence score of 57.00 exceeds the Q3 threshold. Both the high Prevalence and very low Response combine to place Iran among the most clear-cut Crisis zone cases in the dataset. The structural constraints from sanctions exacerbate the gap; even with strong domestic policy intent, the practical infrastructure for academic integrity remains limited.
+
+## Implications
+
+Iran sits at the difficult intersection of high actual misconduct demand and constrained institutional response capacity. Domestic policy reform faces real resource and access constraints rather than just political will.
+
+For employers and admissions offices, Iranian credentials warrant verification proportional to the Q3 placement. Iranian diaspora students consistently perform well at international institutions, suggesting capability is high; the country-level score reflects institutional conditions, not student ability.
+
+## Sources
+
+- Google Trends (2022–2026), Iran country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Regional Middle East integrity research literature [verify specific citations]
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "thailand-academic-misconduct-profile",
+    title: "Thailand: Academic Misconduct Index Country Profile",
+    seoTitle: "Thailand Academic Misconduct Profile 2026 | AMI P=55.7",
+    metaDescription: "Thailand scores P=55.67, R=19.0 on the AMI. High contract cheating and plagiarism rates, partial detection deployment, limited disclosure. Q3 Crisis zone country profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Thailand", "Asia", "contract cheating", "country profile"],
+    tldr: "Thailand scores P=55.67, R=19.0, Q3 (Crisis zone). Ninth highest Prevalence globally. Elevated contract cheating demand (D1=67), high plagiarism (D4=60), moderate AI submission signal (D2=56). Limited institutional response infrastructure.",
+    excerpt: "Thailand scores P=55.7 on the Academic Misconduct Index, placing it ninth globally for estimated prevalence. The profile shows elevated demand signals and limited institutional response. Here is what drives Thailand's position.",
+    faqSchema: [
+      {
+        question: "What is Thailand's academic misconduct score?",
+        answer: "Thailand scores P=55.67 (Prevalence) and R=19.0 (Response Quality) on the Academic Misconduct Index 2026. This places Thailand in Q3 (Crisis zone) — the ninth highest Prevalence in the 39-country dataset."
+      },
+      {
+        question: "Is academic cheating a problem in Thai universities?",
+        answer: "The AMI data places Thailand in the Crisis zone. Indicators include elevated Google Trends signals for essay mill and AI submission keywords, plagiarism rates above regional averages, and limited mandatory institutional disclosure. The Office of the Higher Education Commission sets standards but enforcement varies across the public and private university sectors."
+      },
+      {
+        question: "Does Thailand have detection tools deployed in universities?",
+        answer: "Thailand has partial deployment of plagiarism detection tools, with higher coverage at major research universities (Chulalongkorn, Mahidol, Chiang Mai) than across the broader university system. The D-Score component for detection tools sits at 32 — moderate but well below the Q1-country range of 65 to 90."
+      }
+    ],
+    content: `
+## TL;DR
+
+Thailand: P=55.67, R=19.0, Q3 (Crisis zone). Ninth highest Prevalence in the AMI dataset. Elevated contract cheating demand (D1=67), high plagiarism (D4=60), moderate AI submission signal (D2=56). Detection tools partially deployed but limited beyond top-tier universities.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 55.67 — 9th of 39 countries
+- **Response Quality (R):** 19.0
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Asia
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 67 |
+| D2 AI submissions | 56 |
+| D3 Exam impersonation | 14 |
+| D4 Plagiarism | 60 |
+| D5 Collusion | 55 |
+| D6 Data fabrication | 30 |
+
+## What drives Thailand's score
+
+### Contract cheating demand (D1 = 67)
+
+Thai-language and English-language search volume for essay mill terms places Thailand in the elevated band, though below the maxed scores of Latin American countries. Bangkok-based essay mill services and tutoring/writing services operating in grey areas have been documented in the region.
+
+### Plagiarism (D4 = 60)
+
+The D4 score reflects regional Southeast Asian estimates plus Thailand-specific literature. Plagiarism in Thai academic writing has been a documented concern, particularly in graduate theses where Thai-to-English translation issues blur lines between paraphrasing and plagiarism. Several Thai universities have implemented mandatory plagiarism checking for theses in response.
+
+### Data fabrication (D6 = 30)
+
+Thailand's Retraction Watch signal is moderate — well below the Asian regional leader (China) but above the Q1 European countries. Thai research output is substantial, particularly in medical and life sciences, and the misconduct-linked retraction rate per publication is consistent with regional norms.
+
+## The response quality picture
+
+Thailand's R-Score of 19.0 breaks down as:
+- **Legislation: 12** — no specific contract cheating ban
+- **Detection tools: 32** — partial Turnitin deployment, concentrated at top universities
+- **Disclosure: 12** — limited public reporting
+- **Penalties: 20** — institutional codes exist
+
+The Office of the Higher Education Commission (OHEC) sets accreditation standards but does not mandate misconduct disclosure. Chulalongkorn University, Mahidol University, and Chiang Mai University — the leading research institutions — have stronger integrity infrastructure than the broader public and private university sector.
+
+## Why Thailand is in Q3
+
+The combination of high Prevalence (55.67) and low Response (19.0) places Thailand firmly in Q3 (Crisis zone). Across Southeast Asian countries in the AMI dataset, Thailand sits between Vietnam (P=42.58) and Malaysia (P=40.40) — Thailand's higher P-Score is driven primarily by the higher contract cheating demand signal.
+
+## Implications
+
+For Thai policymakers, the gap from Q1 (Best in class) status is primarily on the Response axis. Mandating detection tool deployment beyond top-tier universities and introducing disclosure requirements would lift the R-Score substantially without requiring complex legislative reform.
+
+For employers and admissions offices, Thai credentials warrant verification proportional to the Q3 placement. Thailand's elite institutions have substantially different integrity profiles from the broader system; institution-level signals carry meaningful information in this context.
+
+## Sources
+
+- Google Trends (2022–2026), Thailand country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Regional Southeast Asian integrity literature
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "saudi-arabia-academic-misconduct-profile",
+    title: "Saudi Arabia: Academic Misconduct Index Country Profile",
+    seoTitle: "Saudi Arabia Academic Misconduct Profile 2026 | AMI P=54.0",
+    metaDescription: "Saudi Arabia scores P=53.98, R=17.5 on the AMI. High contract cheating demand (D1=83), maxed AI submissions (D2=100), elevated fabrication. Vision 2030 reforms in early stages. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Saudi Arabia", "Middle East", "Vision 2030", "AI submissions", "country profile"],
+    tldr: "Saudi Arabia scores P=53.98, R=17.5, Q3 (Crisis zone). Tenth highest Prevalence globally. High contract cheating demand (D1=83), maxed AI submission signal (D2=100). Vision 2030 education reforms exist but have not yet shifted integrity outcomes.",
+    excerpt: "Saudi Arabia scores P=54.0 on the Academic Misconduct Index, placing it tenth globally. The profile combines high demand signals with Vision 2030 reform efforts that have not yet shifted the integrity baseline. Here is what the data shows.",
+    faqSchema: [
+      {
+        question: "What is Saudi Arabia's academic misconduct score?",
+        answer: "Saudi Arabia scores P=53.98 (Prevalence) and R=17.5 (Response Quality) on the Academic Misconduct Index 2026. This places it in Q3 (Crisis zone), the tenth highest Prevalence in the 39-country dataset."
+      },
+      {
+        question: "How does Vision 2030 affect academic integrity in Saudi Arabia?",
+        answer: "Saudi Arabia's Vision 2030 reform programme includes significant investment in higher education, including the National Centre for Academic Accreditation and Evaluation (NCAAA). However, the AMI Response Quality score of 17.5 reflects that reform implementation has not yet translated into measurable improvement in integrity outcomes. This is typical of large-scale reforms — measurable effects often lag implementation by 5 to 10 years."
+      },
+      {
+        question: "Why is AI submission demand so high in Saudi Arabia?",
+        answer: "Saudi Arabia's D2 score of 100 reflects the top of the Middle East distribution for AI submission tool search volume. The combination of high smartphone penetration, widespread English-medium higher education, and substantial student population creates high absolute demand signal. The signal has been consistently high across the 2022–2026 measurement window."
+      }
+    ],
+    content: `
+## TL;DR
+
+Saudi Arabia: P=53.98, R=17.5, Q3 (Crisis zone). Tenth highest Prevalence globally. High contract cheating demand (D1=83), maxed AI submission signal (D2=100), elevated fabrication (D6=45). NCAAA accreditation framework exists but enforcement gap remains.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 53.98 — 10th of 39 countries
+- **Response Quality (R):** 17.5
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (3/6 dimensions from live data)
+- **Region:** Middle East
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 83 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 18 |
+| D4 Plagiarism | 60 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 45 |
+
+## What drives Saudi Arabia's score
+
+### Maxed AI submission demand (D2 = 100)
+
+Arabic-language and English-language search volume for AI submission tool keywords places Saudi Arabia at the top of the Middle East distribution. High smartphone penetration, widespread English-medium higher education, and substantial international student population contribute to the volume.
+
+### Contract cheating demand (D1 = 83)
+
+The D1 score reflects high search volume for essay mill services targeted at Gulf students. English-language essay mills based in South Asia and Eastern Europe actively market to Gulf student populations; the search-volume signal captures the demand side of this market.
+
+### Elevated data fabrication (D6 = 45)
+
+Saudi research output has grown substantially in the past decade, particularly at King Abdullah University of Science and Technology (KAUST) and major public universities. The Retraction Watch signal shows elevated misconduct-linked retractions per publication, though below the regional leaders (Iran, Egypt).
+
+## The Vision 2030 context
+
+Saudi Arabia has invested significantly in higher education reform under Vision 2030. Key elements:
+- **NCAAA (National Centre for Academic Accreditation and Evaluation):** sets quality standards for Saudi universities
+- **Research University investment:** KAUST established as international research hub
+- **Detection tool deployment:** Turnitin and similar platforms increasingly deployed at major institutions
+- **Branch campus partnerships:** international universities operating in Saudi Arabia bring external integrity standards
+
+However, the AMI R-Score of 17.5 reflects that these reforms have not yet translated into measurable changes in integrity outcomes. This is typical of large-scale reform programmes — measurable effects often lag implementation by 5–10 years.
+
+## R-Score breakdown
+
+- **Legislation: 10** — no specific contract cheating ban
+- **Detection tools: 30** — partial deployment, stronger at top institutions
+- **Disclosure: 10** — limited public reporting
+- **Penalties: 20** — institutional codes exist
+
+## Why Saudi Arabia is in Q3
+
+The combination of elevated Prevalence (53.98) and low Response (17.5) places Saudi Arabia in Q3. The country profile sits between Egypt (P=64.60) and the regional Q4 countries — high enough Prevalence to clear the Crisis zone threshold but with stronger Response Quality than Egypt or Iran.
+
+## Implications
+
+For Saudi policymakers, the Vision 2030 framework provides infrastructure for improvement. The most direct policy levers are mandatory misconduct disclosure (currently a major R-Score weakness) and consistent enforcement of existing institutional codes.
+
+For employers and admissions offices, Saudi credentials warrant verification proportional to the Q3 placement. KAUST and the elite Saudi universities have different integrity profiles from the broader system; institution-level signals are meaningful.
+
+## Sources
+
+- Google Trends (2022–2026), Saudi Arabia country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- NCAAA framework documentation [verify specifics]
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "mexico-academic-misconduct-profile",
+    title: "Mexico: Academic Misconduct Index Country Profile",
+    seoTitle: "Mexico Academic Misconduct Profile 2026 | AMI P=51.4",
+    metaDescription: "Mexico scores P=51.36, R=17.5 on the AMI. Elevated contract cheating demand, moderate fabrication signal, weak institutional disclosure. Q3 Crisis zone country profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Mexico", "Latin America", "contract cheating", "country profile"],
+    tldr: "Mexico scores P=51.36, R=17.5, Q3 (Crisis zone). Eleventh highest Prevalence in the AMI dataset. Elevated contract cheating demand (D1=67), high collusion (D5=62), moderate fabrication (D6=32). No specific legislation, weak institutional disclosure.",
+    excerpt: "Mexico scores P=51.4 on the Academic Misconduct Index, placing it in the Crisis zone alongside several Latin American peers. The profile shows elevated demand signals and limited institutional response. Here is what drives the score.",
+    faqSchema: [
+      {
+        question: "What is Mexico's academic misconduct score?",
+        answer: "Mexico scores P=51.36 (Prevalence) and R=17.5 (Response Quality) on the Academic Misconduct Index 2026. This places it in Q3 (Crisis zone) — the eleventh highest Prevalence in the 39-country dataset."
+      },
+      {
+        question: "Is essay mill use common among Mexican students?",
+        answer: "Mexico's D1 (contract cheating) score of 67 reflects elevated but not maxed Google Trends signals for essay mill keywords. Spanish-language essay mill services targeting Latin American students operate openly online. Mexico has substantially more institutional integrity infrastructure than Colombia or Argentina but the demand signal remains significant."
+      },
+      {
+        question: "Does Mexico have academic integrity legislation?",
+        answer: "Mexico has general fraud law and university-level codes but no specific contract cheating ban. The Secretaría de Educación Pública (SEP) regulates the education sector but does not mandate misconduct disclosure for universities. UNAM and other major institutions have integrity offices but country-wide enforcement is uneven."
+      }
+    ],
+    content: `
+## TL;DR
+
+Mexico: P=51.36, R=17.5, Q3 (Crisis zone). Elevated contract cheating demand (D1=67), high collusion (D5=62), moderate fabrication (D6=32). No specific contract cheating legislation. SEP sets standards but does not mandate misconduct disclosure.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 51.36 — 11th of 39 countries
+- **Response Quality (R):** 17.5
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Latin America
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 67 |
+| D2 AI submissions | 56 |
+| D3 Exam impersonation | 12 |
+| D4 Plagiarism | 54 |
+| D5 Collusion | 62 |
+| D6 Data fabrication | 32 |
+
+## What drives Mexico's score
+
+### Spanish-language demand
+
+Mexico shares the regional pattern of elevated Spanish-language essay mill demand, though at a substantially lower level than Colombia (P=77.4) or Argentina (P=74.6). Mexican search volume for essay mill terms (D1=67) sits in the elevated band but is well below the maxed-out neighbours.
+
+### Collusion (D5 = 62)
+
+The D5 score is among the higher in Latin America. The literature documents elevated rates of unauthorised collaboration in Mexican universities, particularly in large-enrolment public institutions where group work cultures can blur into prohibited collaboration on individual assessments.
+
+### Data fabrication (D6 = 32)
+
+Mexico's Retraction Watch signal is moderate. Mexico has substantial research output, particularly in medicine, biology, and chemistry, and misconduct-linked retractions per publication are above Q1 European countries but well below the regional leaders.
+
+## The institutional landscape
+
+Mexico has a substantial public university sector anchored by UNAM (Universidad Nacional Autónoma de México), IPN (Instituto Politécnico Nacional), and the state universities, plus a large private sector including ITESM (Tecnológico de Monterrey) and Universidad Iberoamericana. Integrity infrastructure varies significantly across these institutions.
+
+UNAM has an established academic integrity office and uses detection tools for graduate theses. ITESM has institutional integrity programmes modelled on US private-university practice. However, country-wide coverage and enforcement remain uneven.
+
+## R-Score breakdown
+
+- **Legislation: 12** — no specific essay mill ban
+- **Detection tools: 28** — partial deployment, concentrated at major institutions
+- **Disclosure: 10** — limited public reporting
+- **Penalties: 20** — institutional codes exist
+
+## Why Mexico is in Q3
+
+The combination of elevated Prevalence (51.36) and low Response (17.5) places Mexico in Q3. Among Latin American countries in the AMI dataset, Mexico sits below the Colombia/Argentina cluster but above Brazil (P=39.75) on Prevalence, with similar Response Quality scores across the region.
+
+## Implications
+
+For Mexican policymakers, the gap from Q1 status is primarily on the Response axis. The SEP could mandate misconduct disclosure across federally-recognised institutions as a policy lever requiring no statutory change. Detection tool deployment beyond top-tier institutions would also lift the R-Score.
+
+For employers and admissions offices, Mexican credentials warrant verification proportional to the Q3 placement. UNAM, ITESM, and other elite institutions have stronger integrity profiles than the broader system.
+
+## Sources
+
+- Google Trends (2022–2026), Mexico country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Latin American integrity literature
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "poland-academic-misconduct-profile",
+    title: "Poland: Academic Misconduct Index Country Profile",
+    seoTitle: "Poland Academic Misconduct Profile 2026 | AMI P=51.2",
+    metaDescription: "Poland scores P=51.19, R=32.5 on the AMI. Maxed AI submission demand combined with the strongest Response Quality among Eastern European countries scored. Q3 Crisis zone profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Poland", "Europe", "Eastern Europe", "contract cheating", "country profile"],
+    tldr: "Poland scores P=51.19, R=32.5, Q3 (Crisis zone). Twelfth highest Prevalence globally. Maxed AI submission demand (D2=100), but the strongest Response Quality among Eastern European countries scored — driven by relatively mature detection tool deployment and disclosure practice.",
+    excerpt: "Poland scores P=51.2 on the Academic Misconduct Index, placing it twelfth globally for estimated prevalence. The Response Quality score of 32.5 is the highest among Eastern European countries scored. Here is what drives Poland's position.",
+    faqSchema: [
+      {
+        question: "What is Poland's academic misconduct score?",
+        answer: "Poland scores P=51.19 (Prevalence) and R=32.5 (Response Quality) on the Academic Misconduct Index 2026. This places it in Q3 (Crisis zone), with the twelfth highest Prevalence in the dataset. The R-Score is the highest among the Eastern European countries scored."
+      },
+      {
+        question: "Why does Poland have higher Response Quality than other Eastern European countries?",
+        answer: "Poland's R-Score of 32.5 reflects mandatory plagiarism detection across the higher education sector (introduced by the Ministry of Science), broader Turnitin and JSA system deployment, and the activity of the Polish Accreditation Committee (PKA). Poland is one of the few countries with a national-level mandatory anti-plagiarism system for graduate theses."
+      },
+      {
+        question: "Is AI cheating common in Polish universities?",
+        answer: "Poland's D2 score of 100 indicates very high Google Trends search volume for AI submission tool keywords. Polish-language equivalents and English-language searches both show high per-capita volume. This is a demand signal — actual incidence is moderated by Poland's mandatory plagiarism detection requirements, which now include AI content detection at many institutions."
+      }
+    ],
+    content: `
+## TL;DR
+
+Poland: P=51.19, R=32.5, Q3 (Crisis zone). Twelfth highest Prevalence globally. Maxed AI submission demand (D2=100). Highest Response Quality among Eastern European countries scored — anchored by mandatory plagiarism detection for graduate theses.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 51.19 — 12th of 39 countries
+- **Response Quality (R):** 32.5
+- **Quadrant:** Q3 — Crisis zone
+- **Data quality:** A (3/6 dimensions from live data)
+- **Region:** Europe (Central/Eastern)
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 67 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 44 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 30 |
+
+## What drives Poland's score
+
+### Maxed AI submission demand
+
+Poland's D2 score of 100 reflects very high search volume for AI submission tool keywords. The Polish university sector is large (over 1.2 million students) and digitally connected, generating substantial search volume. Polish-language equivalents of AI bypass terms show elevated query volume in the Google Trends signal.
+
+### Contract cheating (D1 = 67)
+
+The Polish essay mill market has been a documented phenomenon, with Polish-language services targeting domestic students. Google Trends data shows elevated but not maxed search volume — the D1 score of 67 reflects this moderate-to-high signal.
+
+### Data fabrication (D6 = 30)
+
+Poland's Retraction Watch signal is moderate, consistent with other Central European countries. The misconduct-linked retraction rate per publication is below the regional leaders but above Q1 European peers.
+
+## The response quality picture — strongest in Eastern Europe
+
+Poland's R-Score of 32.5 is the highest among the Eastern European countries in the AMI dataset (Russia: 16.8; Ukraine: 28.2). The breakdown:
+- **Legislation: 20** — Ministry of Science mandates plagiarism detection
+- **Detection tools: 45** — JSA system (Jednolity System Antyplagiatowy) mandatory for theses
+- **Disclosure: 30** — PKA accreditation framework provides some disclosure
+- **Penalties: 35** — institutional codes plus PKA oversight
+
+### The JSA system
+
+Poland's Jednolity System Antyplagiatowy (Uniform Anti-Plagiarism System) is mandatory for checking master's and doctoral theses across the Polish university sector. The system was introduced by the Ministry of Science and Higher Education and represents one of the most coordinated national-level integrity infrastructures in Europe. The JSA contributes significantly to Poland's relatively high R-Score for the region.
+
+## Why Poland is in Q3
+
+The combination of high Prevalence (51.19) and moderate Response (32.5) places Poland in Q3. The maxed D2 signal — partly attributable to high engagement with AI tool discussion — drives the Prevalence score above the Q3 threshold. The R-Score is high relative to the Polish region but not yet at Q1 levels.
+
+If Poland's Prevalence score drops in future versions (likely as the Google Trends signal interpretation improves), the country may shift toward Q4 or even Q2 territory.
+
+## Implications
+
+For Polish policymakers, Poland already operates one of the more developed integrity systems in Central/Eastern Europe. The most direct policy levers for further improvement are extending JSA-style mandatory detection to undergraduate work and introducing more standardised public disclosure requirements.
+
+For employers and admissions offices, Polish credentials carry relatively strong integrity infrastructure signals despite the Q3 placement. The JSA system means graduate theses in particular have been formally checked against plagiarism databases.
+
+## Sources
+
+- Google Trends (2022–2026), Poland country-level
+- JSA system documentation (Ministry of Science and Higher Education)
+- Polish Accreditation Committee (PKA) framework
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "united-states-academic-misconduct-profile",
+    title: "United States: Academic Misconduct Index Country Profile",
+    seoTitle: "USA Academic Misconduct Profile 2026 | AMI P=48.2 R=51.2",
+    metaDescription: "The United States scores P=48.15, R=51.2 on the AMI — the only major Anglophone country outside Q1. Strong detection (R_det=80) but moderate legislation and disclosure. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["United States", "USA", "academic integrity", "Title IX", "Turnitin", "country profile"],
+    tldr: "The United States scores P=48.15, R=51.2, Q1 (Best in class). The only major Anglophone country outside Q1 on prevalence is Norway. Strong detection deployment (R_det=80) but weaker legislative and disclosure infrastructure than Q1 peers. The thirteenth highest Prevalence in the dataset.",
+    excerpt: "The United States scores P=48.2 and R=51.2 on the Academic Misconduct Index — high Prevalence by Anglophone standards but with strong detection infrastructure pushing it just into Q1. Here is what drives the US position and where the gaps lie.",
+    faqSchema: [
+      {
+        question: "What is the United States' academic misconduct score?",
+        answer: "The United States scores P=48.15 (Prevalence) and R=51.2 (Response Quality) on the Academic Misconduct Index 2026. The US is in Q1 (Best in class), though by a narrower margin than other Q1 countries like Australia or the UK. The P-Score is the thirteenth highest in the dataset."
+      },
+      {
+        question: "Why does the US have higher cheating prevalence than Australia or the UK?",
+        answer: "The US Prevalence score of 48.15 is well above Australia (7.43) and the UK (11.41). The gap is driven by three factors: no federal essay mill ban (unlike Australia, UK, Ireland), no mandatory federal disclosure of misconduct statistics, and a fragmented university system where integrity policy varies significantly between institutions. Detection tool adoption is strong, but the supply-side and disclosure infrastructure lags."
+      },
+      {
+        question: "What does the US do well on academic integrity?",
+        answer: "The United States has the second highest detection tool deployment in the dataset (R_det=80), reflecting near-universal Turnitin adoption, Title IX investigative structures applied to academic integrity in some cases, and a mature institutional integrity office model. Honor codes at institutions like the University of Virginia and Princeton have set global standards for student-led integrity systems."
+      }
+    ],
+    content: `
+## TL;DR
+
+United States: P=48.15, R=51.2, Q1 (Best in class — just). The only major Anglophone country outside Q1 on Prevalence is Norway. Strong detection deployment (R_det=80) but no federal essay mill ban, no mandatory federal disclosure. The narrowest Q1 placement in the dataset.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 48.15 — 13th of 39 countries
+- **Response Quality (R):** 51.2 — tied 9th highest with Netherlands
+- **Quadrant:** Q1 — Best in class
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** North America
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 50 |
+| D2 AI submissions | 44 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 45 |
+| D5 Collusion | 68 |
+| D6 Data fabrication | 30 |
+
+## What drives the US Prevalence score
+
+### Contract cheating (D1 = 50)
+
+US Google Trends data for essay mill terms is moderate — well below Latin American countries (D1=100) but above other Q1 peers like Australia (D1=33) or the UK (D1=33). The US essay mill market is large in absolute terms; the per-capita signal is moderate.
+
+### Collusion (D5 = 68)
+
+The US D5 score is notably high — tied for one of the highest in the dataset. This reflects McCabe survey findings of elevated rates of unauthorised collaboration among US undergraduates, particularly in STEM disciplines with group-problem-set cultures. The McCabe data has been one of the more reliable signals for the US dimension scores.
+
+### AI submissions (D2 = 44)
+
+Moderate AI submission demand signal. US universities have responded relatively early to ChatGPT-era cheating — many introduced AI detection in Turnitin and Copyleaks from 2023 onward. The demand signal is moderated by widespread institutional AI policies.
+
+## Why the US is in Q1 not Q2
+
+The US sits in Q1 because the combination of R=51.2 and P=48.15 puts it on the high-Response side of the prevalence-response distribution. However, it is the most marginal Q1 placement in the dataset — a small Prevalence increase would move the US to Q2 (Aware and fighting it).
+
+The Q2 quadrant is currently empty in v1.5. If any country were to first appear in Q2 in future versions, the US is among the most likely candidates.
+
+## What the US does well (R = 51.2)
+
+The breakdown:
+- **Legislation: 30** — federal research misconduct definitions; no essay mill ban
+- **Detection tools: 80** — second highest in dataset
+- **Disclosure: 40** — Clery Act and Title IX frameworks adjacent to integrity
+- **Penalties: 55** — institutional codes are mature
+
+The R_det=80 score reflects near-universal Turnitin deployment across US higher education, plus the early adoption of AI detection tools. ORI (Office of Research Integrity) provides federal oversight for research misconduct in federally-funded research, contributing to the legislation sub-score.
+
+## Where the US lags
+
+The US has no federal essay mill ban (Australia, Ireland, UK all do). There is no federal mandatory disclosure of misconduct statistics — universities self-report inconsistently. The fragmented institutional landscape means integrity standards vary significantly between an Ivy League institution, a state flagship, a community college, and an unaccredited for-profit.
+
+## Implications
+
+For US policymakers, the gap from Australia (R=88.8) or the UK (R=87.5) is primarily legislative and disclosure-related. State-level essay mill bans have been discussed [verify specific states] but no federal action has progressed.
+
+For employers and admissions offices, US credentials reflect the institutional reputation more than country-level integrity infrastructure. The variance within the US system is substantial.
+
+## Sources
+
+- McCabe ICAI survey data (US-specific)
+- Office of Research Integrity (ORI) data
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Google Trends (2022–2026), US country-level
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "italy-academic-misconduct-profile",
+    title: "Italy: Academic Misconduct Index Country Profile",
+    seoTitle: "Italy Academic Misconduct Profile 2026 | AMI P=45.0",
+    metaDescription: "Italy scores P=44.98, R=25.2 on the AMI. High contract cheating (D1=83) and maxed AI submission signals (D2=100). ANVUR oversight exists but Italy sits in Q4 (Probably not looking). Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Italy", "Europe", "contract cheating", "ANVUR", "country profile"],
+    tldr: "Italy scores P=44.98, R=25.2, Q4 (Probably not looking). High contract cheating demand (D1=83), maxed AI submissions (D2=100), moderate plagiarism. ANVUR oversight exists but weak institutional disclosure and limited detection deployment.",
+    excerpt: "Italy scores P=45.0 on the Academic Misconduct Index, placing it in Q4 (Probably not looking) — the AMI quadrant indicating low apparent prevalence likely reflects under-detection. Here is what the data shows.",
+    faqSchema: [
+      {
+        question: "What is Italy's academic misconduct score?",
+        answer: "Italy scores P=44.98 (Prevalence) and R=25.2 (Response Quality) on the Academic Misconduct Index 2026. This places Italy in Q4 (Probably not looking) — meaning the relatively moderate Prevalence score combined with low Response Quality likely reflects under-detection rather than genuinely low misconduct."
+      },
+      {
+        question: "Does Italy have specific contract cheating legislation?",
+        answer: "Italy has no specific legislation against contract cheating equivalent to Australia's, the UK's, or Ireland's. General fraud provisions apply. ANVUR (the Italian National Agency for the Evaluation of Universities and Research Institutes) oversees quality but does not mandate misconduct disclosure. Universities have institutional codes that vary in enforcement."
+      },
+      {
+        question: "Why is Italy in Q4 (Probably not looking)?",
+        answer: "Italy's Q4 placement reflects the AMI methodology's assessment that the moderate Prevalence score combined with limited institutional response infrastructure suggests under-detection rather than genuinely low misconduct. Maxed AI submission demand (D2=100) and high contract cheating demand (D1=83) indicate substantial demand signal that the response system is not measuring or addressing systematically."
+      }
+    ],
+    content: `
+## TL;DR
+
+Italy: P=44.98, R=25.2, Q4 (Probably not looking). High contract cheating demand (D1=83), maxed AI submission demand (D2=100). ANVUR oversight exists; institutional disclosure and detection deployment lag.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 44.98 — 14th of 39 countries
+- **Response Quality (R):** 25.2
+- **Quadrant:** Q4 — Probably not looking
+- **Data quality:** A (3/6 dimensions from live data)
+- **Region:** Europe (Southern)
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 83 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 52 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 35 |
+
+## What drives Italy's score
+
+### Maxed AI submission demand (D2 = 100)
+
+Italian-language AI submission tool keyword search volume is at the top of the European distribution. Italy has a large student population (1.7 million in higher education [verify]) and high mobile and broadband penetration, generating substantial absolute search volume. Italian-language equivalents of AI bypass tools show high per-capita query volume.
+
+### Contract cheating (D1 = 83)
+
+Italy's D1 score reflects elevated search volume for essay mill services. The Italian-language essay mill market is well-established, with services advertised openly online. Italian undergraduate culture, particularly around dissertation preparation, includes a documented grey market for "writing assistance" that crosses into contract cheating.
+
+### Data fabrication (D6 = 35)
+
+Italy's Retraction Watch signal is moderate. The misconduct-linked retraction rate per publication is consistent with other European countries — well below China but above the Q1 European leaders.
+
+## Why Italy is in Q4
+
+Q4 (Probably not looking) reflects two factors:
+1. Italy's Prevalence score (44.98) is below the Q3 threshold despite very high D1/D2 signals
+2. The Response Quality (25.2) is too low to indicate active engagement with the problem
+
+The combination suggests Italy is not systematically measuring or responding to misconduct at the scale the demand signals would predict. This is the AMI's characterisation of Q4 — apparent moderation of prevalence likely reflects measurement gaps rather than genuinely low misconduct.
+
+## R-Score breakdown
+
+- **Legislation: 15** — no specific essay mill ban
+- **Detection tools: 40** — partial deployment, varies by institution
+- **Disclosure: 18** — limited public reporting
+- **Penalties: 28** — institutional codes exist; ANVUR oversight
+
+### ANVUR
+
+The Italian National Agency for the Evaluation of Universities and Research Institutes evaluates research quality and accredits programmes. ANVUR's remit does not include mandatory misconduct disclosure or detection tool requirements. The agency's quality assessments focus on research output and teaching rather than integrity infrastructure.
+
+## Implications
+
+For Italian policymakers, the gap from Q1 status is significant on both axes. The most direct policy levers are mandatory detection tool deployment, mandatory misconduct disclosure through ANVUR or the Ministry of Universities and Research, and consideration of essay mill legislation on the Irish/UK model (Italy is in the EU and could coordinate with European-level action).
+
+For employers and admissions offices, Italian credentials warrant verification proportional to the Q4 placement. The combination of high demand signals and weak response suggests the actual misconduct rate may be substantially higher than the P-Score alone indicates.
+
+## Sources
+
+- Google Trends (2022–2026), Italy country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- ANVUR framework documentation
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "netherlands-academic-misconduct-profile",
+    title: "Netherlands: Academic Misconduct Index Country Profile",
+    seoTitle: "Netherlands Academic Misconduct Profile 2026 | AMI Q1",
+    metaDescription: "The Netherlands scores P=44.47, R=51.2 on the AMI. Q1 (Best in class) despite moderate prevalence — strong VSNU code, mandatory data management, broad detection deployment. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Netherlands", "Europe", "academic integrity", "VSNU", "country profile"],
+    tldr: "The Netherlands scores P=44.47, R=51.2, Q1 (Best in class). Strong Response Quality anchored by the VSNU code of conduct, mandatory research data management, broad detection tool deployment, and active misconduct disclosure.",
+    excerpt: "The Netherlands scores P=44.5 on Prevalence and R=51.2 on Response Quality — placing it in Q1 (Best in class) despite moderate prevalence. The Dutch academic integrity infrastructure is one of the most mature in Europe. Here is what drives the score.",
+    faqSchema: [
+      {
+        question: "What is the Netherlands' academic misconduct score?",
+        answer: "The Netherlands scores P=44.47 (Prevalence) and R=51.2 (Response Quality) on the Academic Misconduct Index 2026. This places it in Q1 (Best in class), with the strongest Response Quality among continental European countries scored."
+      },
+      {
+        question: "What is the VSNU code of conduct?",
+        answer: "The VSNU Netherlands Code of Conduct for Research Integrity is a binding code adopted by all Dutch universities. It defines integrity principles, governs research data management, and establishes investigation procedures for alleged misconduct. The code is unusually comprehensive and is one of the principal contributors to the Netherlands' high R-Score."
+      },
+      {
+        question: "Does the Netherlands have essay mill legislation?",
+        answer: "The Netherlands does not have specific essay mill legislation equivalent to Australia's or the UK's. The country's R-Score of 51.2 is driven primarily by institutional rather than legislative infrastructure — the VSNU code, mandatory data management, and broad detection tool deployment compensate for the absence of statutory bans."
+      }
+    ],
+    content: `
+## TL;DR
+
+Netherlands: P=44.47, R=51.2, Q1 (Best in class). Strong continental European integrity infrastructure anchored by the binding VSNU code of conduct, mandatory research data management, broad detection deployment, and active disclosure practice. No essay mill law but institutional response is strong.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 44.47 — 15th of 39 countries
+- **Response Quality (R):** 51.2 — tied 9th highest with USA
+- **Quadrant:** Q1 — Best in class
+- **Data quality:** A (4/6 dimensions from live data)
+- **Region:** Europe
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 50 |
+| D2 AI submissions | 31 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 35 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 15 |
+
+## What the Netherlands gets right
+
+### The VSNU code
+
+The Netherlands Code of Conduct for Research Integrity, adopted by all Dutch universities and research institutes, is one of the most comprehensive integrity frameworks in Europe. The code:
+- Sets binding integrity principles
+- Mandates research data management
+- Establishes investigation procedures for misconduct allegations
+- Provides for institutional ombudsperson functions
+
+The code is updated periodically and is binding through institutional adoption — it is not merely aspirational guidance.
+
+### Low D-Scores across the board
+
+Dutch dimension scores are notably low across the board:
+- D1 Contract cheating: 50 (vs. Latin American 100)
+- D2 AI submissions: 31 (vs. Polish 100)
+- D4 Plagiarism: 35 (vs. Pakistani 72)
+- D6 Data fabrication: 15 (vs. Chinese 100)
+
+The Dutch profile shows what a high-Response system produces over time: consistently moderate-to-low scores across all dimensions, rather than peaks driven by specific demand signals.
+
+## R-Score breakdown
+
+- **Legislation: 25** — strong research integrity law framework
+- **Detection tools: 65** — broad Turnitin/Ephorus deployment
+- **Disclosure: 55** — institutional annual reporting via VSNU
+- **Penalties: 60** — clear, applied frameworks
+
+### LOWI
+
+The Netherlands Board on Research Integrity (LOWI) provides national-level adjudication of complex misconduct cases. LOWI functions as an appeal mechanism for institutional misconduct decisions and contributes to the Disclosure sub-score through its published findings.
+
+## Why the Netherlands is solidly in Q1
+
+The combination of moderate Prevalence (44.47) and strong Response (51.2) places the Netherlands clearly in Q1, with more margin than the US. The Dutch position reflects the long-term effect of investment in integrity infrastructure — the country has built a coherent system over multiple decades.
+
+The Netherlands shows that Q1 placement is achievable without essay mill legislation, provided that institutional infrastructure (codes, mandatory data management, detection deployment, disclosure) is strong.
+
+## What the Netherlands could improve
+
+The Prevalence score of 44.47 is higher than other Q1 countries — Australia (7.43), UK (11.41), Ireland (12.21), Canada (4.90). This is partly a Google Trends effect (Dutch academic and policy discussion contributes to search volume) and partly a genuine measurement of moderate demand signal.
+
+Adding a specific contract cheating ban on the Irish/UK model would lift the Legislation sub-score from 25 toward the Q1-leader range of 100.
+
+## Implications
+
+For Dutch policymakers, the Netherlands' Q1 position is well-earned but the Prevalence score still has room to fall. Legislative action against essay mills would close the gap to Anglophone Q1 leaders.
+
+For employers and admissions offices, Dutch credentials carry strong integrity infrastructure signals. The VSNU code and LOWI adjudication framework provide meaningful institutional accountability.
+
+## Sources
+
+- VSNU Netherlands Code of Conduct for Research Integrity
+- LOWI (Landelijk Orgaan Wetenschappelijke Integriteit) reports
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Google Trends (2022–2026), Netherlands country-level
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "france-academic-misconduct-profile",
+    title: "France: Academic Misconduct Index Country Profile",
+    seoTitle: "France Academic Misconduct Profile 2026 | AMI P=44.0",
+    metaDescription: "France scores P=43.96, R=32.5 on the AMI. Maxed AI submission demand (D2=100), moderate plagiarism. HCERES quality framework but no specific essay mill ban. Q4 country profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["France", "Europe", "contract cheating", "HCERES", "country profile"],
+    tldr: "France scores P=43.96, R=32.5, Q4 (Probably not looking). Maxed AI submission demand (D2=100), moderate other dimensions. HCERES quality framework exists but no specific contract cheating legislation and limited mandatory disclosure.",
+    excerpt: "France scores P=44.0 on the Academic Misconduct Index, placing it in Q4 (Probably not looking). The French integrity framework exists at the policy level but lacks the legislative anchoring of Q1 peers. Here is what drives the score.",
+    faqSchema: [
+      {
+        question: "What is France's academic misconduct score?",
+        answer: "France scores P=43.96 (Prevalence) and R=32.5 (Response Quality) on the Academic Misconduct Index 2026. This places France in Q4 (Probably not looking) — moderate Prevalence combined with limited institutional response suggests under-detection."
+      },
+      {
+        question: "Why is France not in Q1 like the UK or Germany's Q4 placement?",
+        answer: "France's Q4 placement reflects two factors: maxed AI submission demand (D2=100) keeps the Prevalence score elevated, and the absence of specific contract cheating legislation or mandatory misconduct disclosure keeps the R-Score below Q1 thresholds. HCERES provides quality oversight but does not mandate integrity-specific reporting from institutions."
+      },
+      {
+        question: "Does France have detection tools deployed in universities?",
+        answer: "France has moderate detection tool deployment, scoring 50 on the detection tools sub-component. Compilatio and other French-language systems are deployed at many institutions but coverage is not universal. The CNRS and CPU (Conférence des Présidents d'Université) have promoted integrity standards but mandatory deployment is not enforced nationally."
+      }
+    ],
+    content: `
+## TL;DR
+
+France: P=43.96, R=32.5, Q4 (Probably not looking). Maxed AI submission demand (D2=100) drives Prevalence; moderate Response Quality reflects HCERES oversight without integrity-specific legislative or disclosure mandates.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 43.96 — 16th of 39 countries
+- **Response Quality (R):** 32.5
+- **Quadrant:** Q4 — Probably not looking
+- **Data quality:** A (3/6 dimensions from live data)
+- **Region:** Europe
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 67 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 42 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 25 |
+
+## What drives France's score
+
+### Maxed AI submission demand
+
+French-language search volume for AI submission tool keywords is at the top of the European distribution. France has a large student population (~2.7 million [verify]) and a vibrant public discussion of AI tools, both of which contribute to high absolute search volume. The Norway caveat applies partially — some of the signal reflects academic and policy discussion rather than pure student demand — but France's volume is sufficiently large that the demand signal is substantively meaningful.
+
+### Contract cheating (D1 = 67)
+
+The French-language essay mill market is well-developed, with services targeting French students and the broader Francophone academic market. Google Trends data places France in the elevated band on D1.
+
+### Data fabrication (D6 = 25)
+
+France's Retraction Watch signal is moderate-low. French research output is substantial, particularly in physics, mathematics, and biology; the misconduct-linked retraction rate is consistent with other Western European countries.
+
+## R-Score breakdown
+
+- **Legislation: 15** — research integrity provisions; no essay mill ban
+- **Detection tools: 50** — Compilatio and Turnitin partial deployment
+- **Disclosure: 25** — HCERES quality reporting but not integrity-specific
+- **Penalties: 40** — institutional codes; CNRS framework for research misconduct
+
+### HCERES
+
+The Haut Conseil de l'Évaluation de la Recherche et de l'Enseignement Supérieur evaluates French universities and research organisations. HCERES focuses on quality and impact rather than mandating integrity-specific disclosure. This limits the contribution to the Disclosure sub-component of the R-Score.
+
+### OFIS
+
+The Office Français de l'Intégrité Scientifique (created 2017) [verify date] provides national-level coordination on research integrity. OFIS contributes to the Legislation sub-component but its remit is research-focused rather than covering student academic misconduct.
+
+## Why France is in Q4 not Q1
+
+France's R-Score of 32.5 is meaningfully below Q1 thresholds. Compared to the Netherlands (R=51.2):
+- Netherlands has a binding VSNU code; France has multiple frameworks without single binding integrity code
+- Netherlands mandates research data management; French requirements are weaker
+- LOWI provides Dutch national adjudication; OFIS focus is narrower
+
+The Prevalence score of 43.96 is similar to the Netherlands (44.47), but the R-Score gap (32.5 vs 51.2) places France in Q4 while the Netherlands sits in Q1.
+
+## Implications
+
+For French policymakers, the path to Q1 is primarily institutional rather than legislative. A binding national integrity code on the VSNU model would lift several R-Score components. Mandatory misconduct disclosure through HCERES or OFIS would address another major gap.
+
+For employers and admissions offices, French credentials carry moderate integrity infrastructure signals. The elite institutions (ENS, Polytechnique, Sciences Po) have stronger institutional integrity practices than the broader university system.
+
+## Sources
+
+- HCERES evaluation framework documentation
+- OFIS (Office Français de l'Intégrité Scientifique)
+- Google Trends (2022–2026), France country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
 ];

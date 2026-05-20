@@ -154,6 +154,7 @@ export default function ScatterPlot({ onSelect, selected }: ScatterPlotProps) {
                 type="number"
                 dataKey="p_score"
                 domain={xDomain}
+                ticks={[0, 25, 50, 75, 100]}
                 allowDataOverflow
                 label={{
                   value: "Prevalence Score (P) →",
@@ -171,6 +172,7 @@ export default function ScatterPlot({ onSelect, selected }: ScatterPlotProps) {
                 type="number"
                 dataKey="r_score"
                 domain={yDomain}
+                ticks={[0, 25, 50, 75, 100]}
                 allowDataOverflow
                 label={{
                   value: "Response Quality (R) →",
