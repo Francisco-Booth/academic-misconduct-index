@@ -7906,4 +7906,2581 @@ The Norway methodology caveat is the most prominent example. All scores carry me
     `.trim(),
   },
 
+  {
+    slug: "essay-mill-demand-google-trends",
+    title: "Essay Mill Demand from Google Trends: 2022–2026 Data",
+    seoTitle: "Essay Mill Demand 2022–2026 | Google Trends Data Analysis",
+    metaDescription: "Google Trends data on essay mill demand 2022–2026 across 39 countries. Spanish-language demand dominates; Anglophone ban countries show lowest signal. AMI D1 analysis.",
+    date: "2026-05-20",
+    category: "data",
+    tags: ["Google Trends", "essay mills", "D1", "demand", "data"],
+    tldr: "Essay mill search demand 2022–2026 across 39 countries. Highest: Spanish-language Latin America (Colombia, Argentina, Mexico) and Greek-language Greece. Lowest: Anglophone ban countries (Australia, UK, Ireland). Brand name searches more precise than generic terms.",
+    excerpt: "Four years of Google Trends data on essay mill search demand across 39 countries. Spanish-language demand dominates the top of the rankings; countries with specific bans score lowest. Here is the breakdown.",
+    faqSchema: [
+      {
+        question: "What does Google Trends data show about essay mill demand?",
+        answer: "Across 2022–2026, Spanish-language essay mill demand dominates the top of the AMI's D1 rankings — Colombia, Argentina, Mexico, and several other Latin American countries show consistently high search volume. Greek-language Greece, Pakistani-language Pakistan, and Italian-language Italy round out the high-demand cluster. The lowest demand signals appear in the three countries with specific contract cheating bans: Australia, UK, and Ireland."
+      },
+      {
+        question: "Has essay mill demand declined since ChatGPT launched?",
+        answer: "Mixed evidence. Brand name searches for major English-language essay mill services declined in 2023–2024, suggesting partial substitution toward free AI alternatives. However, overall D1 demand signals have not collapsed — generic contract cheating terms remain elevated. The substitution-vs-coexistence balance is an active research question."
+      },
+      {
+        question: "Why are essay mill brand name searches more reliable than generic terms?",
+        answer: "Generic terms like 'buy essay online' can be searched by educators, journalists, or policymakers researching the phenomenon. Brand name searches for specific essay mill services (UKessays, EduBirdie, PapersOwl) more reliably reflect actual demand intent — fewer people search for specific brand names without intent to purchase. The AMI uses both signal types but weights brand name searches more confidently."
+      }
+    ],
+    content: `
+## TL;DR
+
+Four-year (2022–2026) Google Trends data analysis. Spanish-language Latin America (Colombia, Argentina, Mexico) and Greek-language Greece dominate the top of demand rankings. Anglophone ban countries (Australia, UK, Ireland) score lowest. Brand name searches more precise than generic terms.
+
+## The data source
+
+The AMI's D1 dimension is built primarily from Google Trends data collected over a four-year window (2022–2026):
+
+- **Generic term queries**: "buy essay online", "essay writing service", "do my assignment", language-specific equivalents
+- **Brand name queries**: known essay mill services (UKessays, EduBirdie, PapersOwl, EasyEssay, regional providers)
+- **Geographic resolution**: country-level
+- **Temporal resolution**: monthly aggregates
+
+The country with the highest signal scores 100; others scale relative.
+
+## Top 10 essay mill demand
+
+| Rank | Country | D1 | Language driver |
+|---|---|---|---|
+| 1 (tied) | Colombia | 100 | Spanish |
+| 1 (tied) | Argentina | 100 | Spanish |
+| 1 (tied) | Greece | 100 | Greek |
+| 1 (tied) | Pakistan | 100 | English + Urdu |
+| 5 | Saudi Arabia | 83 | Arabic |
+| 5 | India | 83 | English |
+| 5 | Italy | 83 | Italian |
+| 5 | Spain | 83 | Spanish |
+| 5 | Malaysia | 83 | English + Malay |
+| 5 | Russia | 83 | Russian |
+
+The four-way tie at the top reflects countries where Google Trends signal is at the absolute ceiling of the per-country distribution.
+
+## Bottom 10 essay mill demand
+
+| Rank | Country | D1 | Has ban? |
+|---|---|---|---|
+| 38 (tied) | Australia | 33 | Yes (2020) |
+| 38 (tied) | UK | 33 | Yes (2022) |
+| 38 (tied) | Ireland | 33 | Yes (2019) |
+| 35 (tied) | Canada | 50 | No |
+| 35 (tied) | Singapore | 50 | No |
+| 35 (tied) | Netherlands | 50 | No |
+| 35 (tied) | Norway | 50 | No |
+| 35 (tied) | Sweden | 50 | No |
+| 35 (tied) | New Zealand | 50 | No |
+| 35 (tied) | Japan | 50 | No |
+
+The three lowest D1 scores are the three countries with specific contract cheating bans. This is the clearest pattern in the dataset.
+
+## What the legislation correlation means
+
+Three countries with bans (Ireland 2019, Australia 2020, UK 2022) score D1=33 — substantially below all other countries. Causation is plausible:
+
+- **Supply effects**: bans have led to deplatforming and prosecution of essay mill operators serving these markets. Reduced supply could reduce search volume.
+- **Demand effects**: students may search less for services they know are illegal in their jurisdiction.
+- **Brand exits**: major essay mill brands have stopped advertising in or stopped serving these jurisdictions; brand name searches naturally decline.
+
+However, alternative explanations exist:
+- The three ban countries had pre-existing lower demand (selection effect)
+- The countries share Anglophone cultural and institutional characteristics independent of legislation
+
+The AMI methodology cannot definitively isolate causation from correlation, but the pattern is the most policy-relevant in the dataset.
+
+## Language market effects
+
+### Spanish-language cluster
+Colombia (100), Argentina (100), Mexico (67), Spain (83). The Spanish-language essay mill market is the largest single-language market by signal volume. Spanish-language services target the broader Hispanophone academic market — a single service can serve students from multiple countries.
+
+### Greek-language Greece
+The Greek-language market is small but search volume per capita is exceptional. The narrow language market means signal interpretation is relatively clean — little spillover from neighbours.
+
+### English-language patterns
+English-language demand splits sharply by jurisdiction:
+- Ban countries (Australia, UK, Ireland): 33
+- Non-ban Anglophone (US, Canada, NZ): 50
+- High-supply Anglophone (India, Pakistan, Kenya): 83+
+
+### Arabic-language Middle East
+Saudi Arabia (83), Egypt (67), Iran (67). Arabic-language essay mill services exist but the per-capita signal is lower than Spanish-speaking countries.
+
+## Brand name vs generic term signals
+
+The AMI distinguishes:
+
+### Brand name searches
+- UKessays, EduBirdie, PapersOwl, EasyEssay (English-language brands)
+- Spanish, Italian, French, Polish, Greek brand equivalents
+- More precise intent signal — fewer false positives from non-student searches
+
+### Generic term searches
+- "buy essay online", "essay writing service"
+- Higher volume but more polluted by non-student searches
+- Useful for cross-country comparison but require interpretation
+
+The methodology weights brand name signals more confidently in the final D1 score.
+
+## Time series — pre and post ChatGPT
+
+### Pre-November 2022 (pre-ChatGPT)
+Essay mill demand had been growing through the 2010s. Major brand searches were the largest single integrity-related search category.
+
+### November 2022 onwards
+ChatGPT launches. Two patterns:
+- Brand name searches for major essay mill services declined 15–30% [verify specific brand data] over 2023–2024
+- Generic term searches declined less or remained stable
+- AI submission tool searches grew rapidly, partially substituting
+
+### 2024–2026
+Mixed stabilisation. Some brand consolidation; some operator exits; some markets unaffected. The substitution-vs-coexistence balance remains unclear.
+
+## Limitations
+
+### Demand not incidence
+Searches measure interest, not confirmed purchase. A student searching once for curiosity is counted equally to a student searching repeatedly with intent.
+
+### Non-student contribution
+Educators, journalists, policymakers, and researchers contribute to search volume — the Norway anomaly is the most documented case.
+
+### Brand name decay
+Essay mill brands change over time. Major brands shut down (often due to legislation in ban jurisdictions); new brands emerge. Long time series require methodology adjustment.
+
+### Language market interpretation
+Searches in Spanish from Argentina, Colombia, Mexico, and Spain all contribute to the same language-market signal. Country attribution requires methodology choices about how to allocate cross-border demand.
+
+## Sources
+
+- Google Trends API (2022–2026), country-level queries
+- AMI v1.5 D1 dimension data
+- Country-specific essay mill brand documentation
+- Lancaster, T. (multiple), essay mill industry research
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "retraction-watch-69911-records",
+    title: "Retraction Watch: Analysing the 69,911-Record Database",
+    seoTitle: "Retraction Watch 69,911 Records Analysed 2026 | AMI Data",
+    metaDescription: "Retraction Watch contains 69,911 retraction records as of April 2026, with 5,390 misconduct-linked. AMI D6 dimension built from this data. Country attribution and growth patterns.",
+    date: "2026-05-20",
+    category: "data",
+    tags: ["Retraction Watch", "research misconduct", "database", "D6", "data"],
+    tldr: "Retraction Watch database analysis as used in AMI v1.5: 69,911 total records (April 2026), 5,390 misconduct-linked. China leads attribution, followed by India and the US in absolute count. Database grew 14x from 2015 to 2024 reflecting both detection improvement and Crossref partnership.",
+    excerpt: "The Retraction Watch database has grown from a few thousand records in 2010 to 69,911 in April 2026. This analysis breaks down what is in it, how the AMI uses it, and what the growth pattern indicates.",
+    faqSchema: [
+      {
+        question: "How many retraction records are in the Retraction Watch database?",
+        answer: "As of April 2026, the Retraction Watch database contains 69,911 retraction records. Of these, 5,390 are classified as misconduct-linked (fabrication, falsification, image manipulation, fraud). The remainder are honest-error retractions, duplicate publications, ethics issues, and other non-misconduct categories. The AMI's D6 dimension uses only the misconduct-linked subset."
+      },
+      {
+        question: "Which countries have the most retractions?",
+        answer: "In absolute count, China leads, followed by India and the US. After normalising by publication volume (retractions per 10,000 papers), the ranking shifts — China still leads but Russia, Iran, Egypt, and Pakistan move up the per-publication rankings. The AMI's D6 dimension uses the normalised rates, not absolute counts."
+      },
+      {
+        question: "Why has the Retraction Watch database grown so rapidly?",
+        answer: "Three factors. First, actual misconduct detection has improved through tools, peer review developments, and post-publication review platforms like PubPeer. Second, the 2023 Crossref partnership made the database substantially more accessible and complete. Third, systematic paper mill detection efforts have accelerated retraction processing — large clusters of paper mill papers being retracted in batches."
+      }
+    ],
+    content: `
+## TL;DR
+
+Retraction Watch database analysis: 69,911 total records (April 2026), 5,390 misconduct-linked. Growth from ~5,000 in 2010 to 70,000+ in 2024 reflects both detection improvement and the 2023 Crossref partnership. China leads absolute count; per-publication normalisation shifts rankings.
+
+## The database
+
+Retraction Watch maintains the world's largest systematic catalogue of scientific retractions. The database contains structured records of:
+
+- Authors and institutional affiliations
+- Country attribution (proportional for multi-country papers)
+- Journal and publisher
+- Original publication and retraction dates
+- Retraction reason codes
+- Notice text
+
+The data is publicly available via the [Crossref/GitLab partnership](https://gitlab.com/crossref/retraction-watch-data) since 2023.
+
+## Total volume — 69,911 records (April 2026)
+
+The full database includes all retractions Retraction Watch has catalogued, across all reasons:
+
+| Reason category | Approximate share |
+|---|---|
+| Misconduct (fabrication, falsification, fraud, manipulation) | ~7.7% (5,390) |
+| Plagiarism (in research context) | ~10–15% |
+| Honest errors | ~25–30% |
+| Duplicate publication | ~15–20% |
+| Ethics issues (consent, approvals) | ~5–10% |
+| Withdrawal at author request | ~5–10% |
+| Other / multiple / unclear | ~15–20% |
+
+The AMI's D6 dimension uses only the misconduct-linked subset (the first row above). The other categories are excluded.
+
+## Growth pattern
+
+The database has grown substantially:
+
+| Year | Approx. records |
+|---|---|
+| 2010 | ~5,000 |
+| 2015 | ~10,000 |
+| 2020 | ~30,000 |
+| 2022 | ~45,000 |
+| 2024 | ~65,000 |
+| April 2026 | 69,911 |
+
+### What drove the growth
+
+**Pre-2020**: gradual growth as Retraction Watch's coverage expanded and more retractions accumulated over time. Real underlying retraction events were growing too as journals improved post-publication review.
+
+**2020–2022**: paper mill detection efforts. Several journals (notably PLOS, Wiley journals, Hindawi) ran systematic retraction campaigns identifying paper mill-produced content. Each campaign added thousands of records.
+
+**2023 Crossref partnership**: the database was made openly available through Crossref. Coverage gaps were filled; record completeness improved.
+
+**2024–2025**: continued paper mill batch retractions. Wiley/Hindawi retractions added several thousand records.
+
+## Country attribution
+
+### Absolute counts
+By raw count, China leads — it produces the most papers globally, so high absolute count is partly a scale effect.
+
+| Country | Approx. absolute count |
+|---|---|
+| China | Largest |
+| India | Second |
+| US | Third |
+| Iran | Fourth |
+| Italy | Fifth |
+| Russia | Sixth |
+
+These rough rankings reflect approximate database counts; exact figures shift as the database updates.
+
+### Per-publication rate (the AMI methodology)
+
+Dividing by total publications from OpenAlex normalises for scale. The AMI's D6 dimension uses per-publication rates rescaled to 0–100:
+
+| Country | D6 | Position |
+|---|---|---|
+| China | 100 | Top |
+| Russia | 78 | High |
+| India | 70 | High |
+| Iran | 65 | High |
+| Pakistan | 65 | High |
+
+China still leads after normalisation but the gap closes. Russia and Iran are disproportionately high once you account for their smaller absolute publication volume.
+
+## What the 5,390 misconduct-linked records show
+
+### Fabrication and falsification
+The clearest cases. Identifiable through statistical inconsistency, replication failure, or whistleblower reports. Approximately half of the 5,390 misconduct records are in this category.
+
+### Image manipulation
+Particularly common in biomedical research. Specialised image forensics tools (Imagetwin, PaperWatcher) have driven a wave of image manipulation detection 2020–2024.
+
+### Plagiarism in research
+Direct copying in research papers. Less common in modern publications than in older retracted papers; detection is now stronger pre-publication.
+
+### Manipulation of peer review
+A growing category. Authors recommending fake reviewers, then those "reviewers" recommending acceptance. Several major journals have run retraction campaigns for these cases.
+
+### Paper mills
+The largest single-cause category in the 2020–2024 growth. Paper mills sell ready-made papers to authors needing publications for career progression. Batch retractions are characteristic.
+
+## Specific famous cases in the database
+
+The database includes individual records for the major cases discussed in academic integrity literature:
+
+- **Diederik Stapel** (Netherlands, 2011) — dozens of records, mostly social psychology
+- **Hwang Woo-suk** (South Korea, 2005–2006) — stem cell research retractions
+- **STAP cells / Haruko Obokata** (Japan, 2014) — Nature retractions
+- **Marc Hauser** (US, 2010) — cognitive psychology
+- **Macchiarini** (Sweden, 2014–2016) — trachea transplant research
+- **Wansink** (US, 2018–2020) — food behaviour research [verify]
+
+Each case is searchable in the Crossref/GitLab interface.
+
+## How the AMI uses the data
+
+The AMI methodology:
+
+1. Filter to misconduct-linked retractions (the 5,390 subset)
+2. Country-attribute via author affiliation (proportional for multi-country)
+3. Divide by OpenAlex publication counts for matching country and time period
+4. Calculate retractions per 10,000 publications
+5. Rescale to 0–100 across the 39-country set
+
+The result is each country's D6 dimension score.
+
+## Limitations
+
+### Detection-incidence confound
+Retractions measure what gets caught. Actual undetected fabrication is missing from the database.
+
+### Country attribution complexity
+Multi-country papers require proportional attribution; methodology choices affect specific scores.
+
+### Reason coding inconsistency
+Retraction notices use widely varying language; classification into misconduct categories requires interpretation by Retraction Watch staff.
+
+### Lag
+Retractions often happen years after publication. Recent fabrication is under-represented.
+
+## Sources
+
+- [Retraction Watch Database on GitLab](https://gitlab.com/crossref/retraction-watch-data)
+- AMI v1.5 methodology document
+- OpenAlex publication count data
+- Fang, Steen & Casadevall (2012), PNAS
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "latin-america-regional-analysis",
+    title: "Latin America Academic Misconduct: Regional Analysis 2026",
+    seoTitle: "Latin America Academic Misconduct Analysis 2026 | AMI Data",
+    metaDescription: "Latin America AMI analysis: Colombia, Argentina, Mexico, Brazil scored. Q3 Crisis zone dominates. Maxed Spanish-language essay mill demand, weak institutional response.",
+    date: "2026-05-20",
+    category: "data",
+    tags: ["Latin America", "regional analysis", "Q3", "Spanish-language", "data"],
+    tldr: "Latin America regional analysis: 4 countries scored (Colombia, Argentina, Mexico, Brazil). Three in Q3 (Colombia, Argentina, Mexico), Brazil in Q4. Common pattern: maxed Spanish-language essay mill demand, near-zero D6 fabrication, weak Response Quality (R range: 16.5–18.0).",
+    excerpt: "Four Latin American countries are in the AMI v1.5 dataset — Colombia, Argentina, Mexico, Brazil. Three are in the Crisis zone. This regional analysis compares the scores, identifies the common patterns, and discusses what would shift the region toward Q1.",
+    faqSchema: [
+      {
+        question: "How do Latin American countries score on the AMI?",
+        answer: "Latin American countries in the AMI v1.5: Colombia (P=77.4, R=16.5, Q3), Argentina (P=74.6, R=18.0, Q3), Mexico (P=51.4, R=17.5, Q3), Brazil (P=39.8, R=18.0, Q4). Three are in Q3 (Crisis zone); Brazil falls into Q4 because its Prevalence is lower. The region has uniformly weak Response Quality (R range 16.5–18.0)."
+      },
+      {
+        question: "Why does Latin America have such high essay mill demand?",
+        answer: "Spanish-language search volume for essay mill terms is exceptionally high across the region. Colombia and Argentina both score D1=100 — the top of the global distribution. Mexico (67) and Brazil (Portuguese-language, 67) are slightly lower. The pattern reflects: large Spanish-language essay mill industry, strong online infrastructure across the region, limited mandatory disclosure from universities, and no specific contract cheating legislation in any Latin American country."
+      },
+      {
+        question: "Is academic misconduct getting worse in Latin America?",
+        answer: "The four-year Google Trends data (2022–2026) shows demand signals remained elevated throughout the period, with some shift toward AI submission tools post-ChatGPT. Without a measurable change in institutional response (R-Scores stable in the 16.5–18.0 range), the prevalence picture is unlikely to have improved. The pattern is best characterised as 'stable elevated demand with persistent weak response.'"
+      }
+    ],
+    content: `
+## TL;DR
+
+Four Latin American countries in AMI v1.5: Colombia (Q3), Argentina (Q3), Mexico (Q3), Brazil (Q4). Common pattern: maxed Spanish-language essay mill demand, near-zero D6 fabrication, weak Response Quality clustered tightly between 16.5 and 18.0.
+
+## The four Latin American countries
+
+| Country | P | R | Quadrant | Region |
+|---|---|---|---|---|
+| Colombia | 77.38 | 16.5 | Q3 | Andean |
+| Argentina | 74.57 | 18.0 | Q3 | Southern Cone |
+| Mexico | 51.36 | 17.5 | Q3 | North |
+| Brazil | 39.75 | 18.0 | Q4 | South |
+
+### Dimension breakdown comparison
+
+| Dimension | Colombia | Argentina | Mexico | Brazil |
+|---|---|---|---|---|
+| D1 Contract cheating | 100 | 100 | 67 | 67 |
+| D2 AI submissions | 100 | 100 | 56 | 56 |
+| D3 Exam impersonation | 14 | 12 | 12 | 14 |
+| D4 Plagiarism | 58 | 55 | 54 | 52 |
+| D5 Collusion | 52 | 50 | 62 | 65 |
+| D6 Data fabrication | 0 | 0 | 32 | 40 |
+
+## The Spanish-language demand pattern
+
+Colombia and Argentina both score D1=100 and D2=100. The maxed signals reflect very high Spanish-language search demand for essay mill and AI submission tools.
+
+The Spanish-language essay mill market is the largest single-language market globally by search volume. A single service can target students across multiple Spanish-speaking countries — Mexican, Colombian, Argentine, Spanish, Chilean, Peruvian, and Venezuelan students all access the same broader market.
+
+Mexico's D1 (67) is moderate compared to its Andean and Southern Cone neighbours. The Mexican domestic market is sufficient that services target it specifically, but per-capita signal is below Colombian or Argentine levels.
+
+### Brazil — Portuguese-language differential
+
+Brazil's D1 (67) reflects the Portuguese-language essay mill market. The market is structurally smaller than the Spanish-language equivalent — limited spillover to Portugal or Lusophone Africa at scale. This contains Brazilian absolute search volume below the Spanish-speaking peers.
+
+## The near-zero fabrication signal
+
+Colombia and Argentina score D6=0; Mexico 32, Brazil 40. The pattern reflects:
+
+- Latin American research output is smaller in absolute terms than Asia, Europe, or North America
+- Retraction Watch coverage of Latin American journals is less complete than English-language journals
+- Detection effort by international journals concentrates on high-volume producers (China, India, US)
+
+The D6=0 for Colombia and Argentina does not mean zero misconduct — it reflects the rescaling within the 39-country set. Their absolute retraction count is small relative to publication volume.
+
+## Uniformly weak Response Quality
+
+R-Scores across the four countries cluster tightly between 16.5 and 18.0:
+
+| Country | Legislation | Detection | Disclosure | Penalties |
+|---|---|---|---|---|
+| Colombia | 10 | 28 | 10 | 18 |
+| Argentina | 12 | 30 | 10 | 20 |
+| Mexico | 12 | 28 | 10 | 20 |
+| Brazil | 10 | 32 | 12 | 18 |
+
+### Common gaps
+- **No specific contract cheating legislation** in any Latin American country
+- **Detection deployment is partial** — concentrated at elite institutions (UNAM, UBA, USP)
+- **Disclosure is minimal** — no country has mandatory institutional misconduct reporting
+- **Penalties vary** institutionally; no national enforcement framework
+
+### Slight differentiation
+- Brazil's detection (32) is highest in the region, driven by CAPES requirements for federally funded graduate programmes
+- Mexican and Argentine institutional codes are slightly clearer than Colombian — reflected in penalty scores
+
+## Why Brazil is in Q4 not Q3
+
+Brazil's Prevalence score of 39.75 is meaningfully below the Q3 threshold. The Portuguese-language differential explains much of the gap: lower demand signal contribution.
+
+Otherwise Brazil's profile (high D5=65, moderate D4=52, moderate D6=40) is similar to the regional pattern. The Q4 placement is a P-Score effect rather than an institutional response difference.
+
+## What would shift the region
+
+### Legislation
+No Latin American country has specific essay mill legislation. Chilean and Argentine legislators have discussed contract cheating bans but none has progressed to enactment.
+
+Adopting the Irish/Australian/UK model at the regional level would lift Legislation sub-scores from the current 10–12 range to 100 — a transformative shift on the Legislation component alone.
+
+### Detection deployment
+Universal detection tool deployment across the Latin American university sector is the most resource-sensitive component. Current deployment is concentrated at elite institutions; broader deployment requires substantial budget commitment.
+
+### Disclosure infrastructure
+National accreditation bodies (CONEAU in Argentina, SEP in Mexico, CAPES in Brazil) could be empowered to mandate institutional misconduct disclosure. This is the most achievable single reform.
+
+### Cross-regional cooperation
+Latin American higher education already has regional cooperation structures (RIACES, Mercosur Educacional). Coordinated regional action on integrity infrastructure would be more feasible than 39-country global coordination.
+
+## Coverage gaps in the AMI
+
+Several Latin American countries are not yet in the AMI dataset. Future versions will add coverage for:
+- Chile, Peru, Venezuela (Spanish-speaking)
+- Ecuador, Bolivia, Uruguay, Paraguay
+- Caribbean countries
+
+Adding coverage will produce a more complete regional picture and may shift the rescaling that produces the current rankings.
+
+## Sources
+
+- AMI v1.5 dataset and methodology
+- Google Trends API (2022–2026), country-specific
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Regional regulator documentation (CONEAU, SEP, CAPES, MEN)
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "asia-regional-analysis",
+    title: "Asia Academic Misconduct: Regional Analysis 2026",
+    seoTitle: "Asia Academic Misconduct Analysis 2026 | AMI Regional Data",
+    metaDescription: "Asia regional AMI analysis: 13 countries scored. China P=99.98 (highest globally). Singapore strongest R-Score in region (47.5). Wide variance across the region.",
+    date: "2026-05-20",
+    category: "data",
+    tags: ["Asia", "regional analysis", "China", "Singapore", "Japan", "data"],
+    tldr: "Asia regional analysis: 13 countries in AMI v1.5. China leads global Prevalence (P=99.98). Singapore strongest Asian R-Score (47.5). Significant variance from China's Q3 placement to Singapore's borderline-Q1. Major sub-regional patterns: Southeast Asia weak R-Scores, East Asia moderate Response.",
+    excerpt: "Asia is the most diverse region in the AMI dataset — 13 countries spanning the global maximum (China) and the strongest Asian response (Singapore). This regional analysis maps the patterns and sub-regional clusters.",
+    faqSchema: [
+      {
+        question: "Which Asian country has the highest academic misconduct score?",
+        answer: "China scores P=99.98 — the highest in the entire AMI dataset. Pakistan (P=59.08), Iran (P=57.00), Thailand (P=55.67), and Saudi Arabia (P=53.98) follow within Asia. The lowest Asian Prevalence is Singapore (P=15.34). The Asian range spans almost the full global distribution."
+      },
+      {
+        question: "How does Singapore compare to the rest of Asia?",
+        answer: "Singapore is the regional outlier on Response Quality. Its R-Score of 47.5 is the highest in Asia, well above the second-highest Asian score (South Korea at 30.2). Singapore's institutional infrastructure (NUS, NTU, SMU, SUTD) is comparable to Q1 European peers. The country sits at the borderline between Q4 and Q1 — adopting essay mill legislation on the Irish/UK model would likely shift it into Q1."
+      },
+      {
+        question: "What patterns emerge across Asia?",
+        answer: "Three sub-regional patterns: East Asia (China, Japan, South Korea) shows moderate-to-high Prevalence with moderate-to-strong Response Quality. South Asia (India, Pakistan) shows high Prevalence with weak Response. Southeast Asia (Thailand, Malaysia, Indonesia, Vietnam, Philippines, Singapore) shows wide internal variance — Singapore strong, others weaker. Common feature: no Asian country has specific essay mill legislation."
+      }
+    ],
+    content: `
+## TL;DR
+
+Asia regional analysis: 13 countries in AMI v1.5 (China, Japan, S Korea, India, Pakistan, Iran, Saudi Arabia, Thailand, Malaysia, Indonesia, Vietnam, Philippines, Singapore). Range from China (P=99.98, world max) to Singapore (P=15.34, R=47.5, borderline Q1). No Asian country has specific essay mill legislation.
+
+## The 13 Asian countries
+
+| Country | P | R | Quadrant | Sub-region |
+|---|---|---|---|---|
+| China | 99.98 | 23.8 | Q3 | East Asia |
+| Pakistan | 59.08 | 14.2 | Q3 | South Asia |
+| Iran | 57.00 | 13.2 | Q3 | Middle East |
+| Thailand | 55.67 | 19.0 | Q3 | Southeast Asia |
+| Saudi Arabia | 53.98 | 17.5 | Q3 | Middle East |
+| India | 42.62 | 18.8 | Q4 | South Asia |
+| Vietnam | 42.58 | 14.5 | Q4 | Southeast Asia |
+| Malaysia | 40.40 | 22.0 | Q4 | Southeast Asia |
+| Indonesia | 37.88 | 19.2 | Q4 | Southeast Asia |
+| South Korea | 35.42 | 30.2 | Q4 | East Asia |
+| Japan | 32.08 | 27.5 | Q4 | East Asia |
+| Philippines | 17.69 | 23.2 | Q4 | Southeast Asia |
+| Singapore | 15.34 | 47.5 | Q4 | Southeast Asia |
+
+The region spans 84.6 P-Score points (China 99.98 minus Singapore 15.34) and 34.3 R-Score points (Singapore 47.5 minus Iran 13.2).
+
+## East Asia — China, Japan, South Korea
+
+The wealthiest and largest research-output Asian economies.
+
+### China
+The global maximum Prevalence (P=99.98). Drivers: maxed data fabrication (D6=100, world maximum), elevated AI submission (D2=68), high plagiarism (D4=73). Response Quality moderate at R=23.8.
+
+### Japan
+Low contract cheating demand (D1=50, lowest in East Asia), moderate plagiarism (D4=44). Q4 placement; post-STAP reforms produced relatively strong R-Score for East Asia.
+
+### South Korea
+Elevated collusion (D5=70, fifth-highest in dataset), moderate fabrication (D6=55). Post-Hwang reforms anchor the relatively higher R-Score (30.2).
+
+### East Asia pattern
+The three East Asian economies are heterogeneous on Prevalence but cluster on moderate-to-high Response Quality (R range 23.8–30.2). The pattern reflects mature institutional integrity infrastructure built after specific high-profile cases (Hwang Woo-suk in Korea, STAP cells in Japan, the Chinese paper mill industry response).
+
+## South Asia — India and Pakistan
+
+Two of the largest higher education systems globally.
+
+### India
+Major contract cheating export hub. Domestic demand moderate (D1=83). UGC plagiarism regulations (2018) provide policy framework; enforcement varies across 1,000+ universities.
+
+### Pakistan
+Maxed contract cheating demand (D1=100). HEC framework on paper is strong; operational R-Score (14.2) remains very low. Documented essay mill export market.
+
+### South Asia pattern
+Both countries: high D1 demand combined with substantial supply-side participation in the global essay mill economy. R-Scores are very low (14.2–18.8). Reform pace is constrained by the scale of the higher education systems.
+
+## Middle East — Iran, Saudi Arabia
+
+(Egypt is also Middle East but classified differently regionally.)
+
+### Iran
+Maxed AI submission demand (D2=100). R-Score 13.2 is second-lowest globally. Sanctions limit detection infrastructure access.
+
+### Saudi Arabia
+Maxed AI submission demand (D2=100). Vision 2030 reforms in early stages.
+
+### Middle East pattern
+Maxed D2 signals, elevated other dimensions, very weak Response Quality. The region shows the most uniform Crisis zone pattern in the AMI dataset.
+
+## Southeast Asia — wide variance
+
+Singapore, Thailand, Malaysia, Indonesia, Vietnam, Philippines.
+
+### Singapore
+The regional outlier. R=47.5 is the strongest in Asia. NUS, NTU, SMU, SUTD operate mature institutional infrastructure. Q4 placement is borderline Q1.
+
+### Thailand
+P=55.67 places Thailand in Q3 — the only Southeast Asian Q3 country. Elevated contract cheating and plagiarism signals.
+
+### Malaysia, Indonesia
+Q4 with elevated collusion (D5=72 both). MQA and BAN-PT accreditation frameworks provide some integrity infrastructure but no integrity-specific mandate.
+
+### Vietnam
+Q4 with R-Score among the lowest in the region (14.5). Limited institutional integrity infrastructure outside top universities.
+
+### Philippines
+Q4 with low Prevalence (17.69). Important supply-side role in global essay mill economy not fully captured in domestic D1 signal.
+
+### Southeast Asia pattern
+Wide variance from Singapore's borderline-Q1 to Vietnam's weak R-Score. Common features: no specific contract cheating legislation, varying detection deployment, limited disclosure. Regional cooperation through ASEAN higher education frameworks has not produced common integrity standards.
+
+## Common Asian patterns
+
+### No specific essay mill legislation
+None of the 13 Asian countries has Australian/UK/Irish-style essay mill bans. This is the principal gap from Q1 status across the region.
+
+### Strong East Asian post-case reform tradition
+Hwang Woo-suk in Korea, STAP cells in Japan, Chinese paper mill response — high-profile cases have driven institutional reform in East Asia. The pattern is different from Southeast Asia where systematic reform pressure has been less.
+
+### Detection deployment correlates with wealth
+Singapore, Japan, South Korea, Malaysia have moderate-to-broad Detection deployment. India, Pakistan, Indonesia, Vietnam have limited deployment. The pattern follows university sector budgets directly.
+
+### Supply hub concentration
+Pakistan, India, and the Philippines are major essay mill export hubs. Domestic and export dynamics interact.
+
+## What would shift the region
+
+### Singapore — push to Q1
+A specific essay mill ban would lift Legislation from 30 to 100 and likely move Singapore into Q1.
+
+### China — reform pressure
+The world-maximum Prevalence (P=99.98) creates substantial reform pressure. The 2018 plagiarism guidance was a first step; comprehensive paper mill regulation and stronger institutional disclosure would shift the picture.
+
+### India — operationalise UGC
+The 2018 UGC regulations provide the framework. Operational implementation across 1,000+ universities is the remaining challenge.
+
+### ASEAN coordination
+Regional coordination on integrity standards could lift the Southeast Asian cluster collectively. The infrastructure for cooperation exists; integrity has not been a priority area.
+
+## Sources
+
+- AMI v1.5 dataset (Asian country scores)
+- Country-specific regulator documentation
+- ASEAN higher education frameworks
+- Retraction Watch Database, Crossref/GitLab (2026)
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "europe-regional-analysis",
+    title: "Europe Academic Misconduct: Regional Analysis 2026",
+    seoTitle: "Europe Academic Misconduct Analysis 2026 | AMI Regional Data",
+    metaDescription: "Europe regional AMI analysis: 16 countries scored. UK strongest R-Score (87.5), Greece highest European Prevalence (P=74.0). Wide variance Q1 to Q3.",
+    date: "2026-05-20",
+    category: "data",
+    tags: ["Europe", "regional analysis", "UK", "Greece", "EU", "data"],
+    tldr: "Europe regional analysis: 16 countries in AMI v1.5. UK (R=87.5) and Ireland (R=78.8) lead. Greece (P=74.0) is the highest European Prevalence and only European Q3 country (alongside Poland and Norway methodology anomaly). Substantial East/West and North/South gradients.",
+    excerpt: "Sixteen European countries are in the AMI v1.5 dataset — the most heavily represented region. This analysis maps the East/West, North/South, and Q1/Q3 patterns and what they tell us about European academic integrity.",
+    faqSchema: [
+      {
+        question: "Which European country has the strongest academic integrity?",
+        answer: "The UK scores R=87.5, the highest in Europe and second globally after Australia. Ireland (R=78.8) is second in Europe. Both have specific essay mill legislation. The Netherlands (R=51.2) is the strongest continental European country without essay mill legislation, anchored by the VSNU code."
+      },
+      {
+        question: "Why is Greece an outlier in Europe?",
+        answer: "Greece is the only EU country in Q3 (Crisis zone), with P=74.0 — the fourth highest globally. The combination of maxed Greek-language essay mill demand (D1=D2=100), weak Response (R=20.0), and no specific contract cheating legislation places Greece structurally different from other EU member states. The European University Association has flagged academic integrity as needing coordinated EU action."
+      },
+      {
+        question: "What is the pattern across Eastern Europe in the AMI?",
+        answer: "Eastern Europe shows three patterns: Russia (R=16.8) very weak Response, Ukraine (R=28.2) post-Maidan reform progress despite wartime disruption, and Poland (R=32.5) the highest Eastern European R-Score anchored by mandatory JSA plagiarism detection. The Eastern European range mirrors the post-Soviet political and reform trajectories."
+      }
+    ],
+    content: `
+## TL;DR
+
+Europe regional analysis: 16 countries in AMI v1.5 — the most heavily represented region. UK (R=87.5) and Ireland (R=78.8) lead globally. Greece (P=74.0) is the only EU country in Q3. Significant East/West and North/South gradients in both Prevalence and Response.
+
+## The 16 European countries
+
+### By R-Score (strongest response first)
+
+| Country | R | P | Quadrant | Sub-region |
+|---|---|---|---|---|
+| UK | 87.5 | 11.41 | Q1 | NW |
+| Ireland | 78.8 | 12.21 | Q1 | NW |
+| Netherlands | 51.2 | 44.47 | Q1 | NW |
+| Norway | 47.5 | 57.16 | Q3 | Nordic |
+| Sweden | 45.0 | 37.24 | Q4 | Nordic |
+| Germany | 38.8 | 9.14 | Q4 | Central |
+| France | 32.5 | 43.96 | Q4 | West |
+| Poland | 32.5 | 51.19 | Q3 | Central |
+| South Africa | 30.0 | 19.30 | Q4 | (Africa) |
+| Ukraine | 28.2 | 22.46 | Q4 | East |
+| Spain | 28.0 | 40.78 | Q4 | South |
+| Italy | 25.2 | 44.98 | Q4 | South |
+| Turkey | 21.2 | 43.52 | Q4 | SE |
+| Greece | 20.0 | 74.00 | Q3 | South |
+| Russia | 16.8 | 37.53 | Q4 | East |
+
+(South Africa included for reference comparison; not strictly European.)
+
+## Sub-regional patterns
+
+### Northwest Europe — Q1 anchored
+UK (R=87.5), Ireland (R=78.8), Netherlands (R=51.2). The three NW European Q1 countries. UK and Ireland have specific essay mill legislation; Netherlands anchors on the VSNU code.
+
+### Nordic — methodology caveats applied
+Norway (R=47.5) and Sweden (R=45.0) both have strong institutional infrastructure but elevated Prevalence partly driven by Google Trends signal interpretation. The Norway anomaly is the most prominent; Sweden shows a milder version.
+
+### Central — Germany pattern
+Germany (R=38.8, P=9.14, Q4) shows very low Prevalence with moderate Response. Strong DFG research integrity framework. Federal structure limits national-level mandatory disclosure.
+
+### Western — France
+France (R=32.5, P=43.96, Q4). HCERES quality framework but no integrity-specific mandate. Maxed French-language AI submission demand (D2=100) drives Prevalence.
+
+### Southern — heterogeneous
+Spain (R=28.0), Italy (R=25.2), Greece (R=20.0). All have maxed AI submission demand (D2=100). Greece is the only EU country in Q3 (Crisis zone). Italy and Spain in Q4.
+
+### Southeast — Turkey
+Turkey (R=21.2, P=43.52, Q4). YÖK framework; high D5 collusion (69) and D1 contract cheating (83). Bridge between European and Middle Eastern patterns.
+
+### Eastern — three trajectories
+Russia (R=16.8) very weak Response despite Antiplagiat deployment. Ukraine (R=28.2) post-Maidan reform with wartime context. Poland (R=32.5) strongest Eastern European response anchored by mandatory JSA system.
+
+## The legislation pattern
+
+Two European countries with specific essay mill bans:
+
+- **Ireland 2019** — first globally; QQI enforcement
+- **UK 2022** — Skills and Post-16 Education Act; OfS enforcement
+
+Both score R-Score Legislation sub-component of 100.
+
+The Netherlands (Legislation=25), France (15), Germany (20), and other European countries have research integrity provisions but no contract cheating-specific ban.
+
+### EU-level coordination
+The European University Association (EUA) has discussed coordinated EU action on essay mill legislation. No EU-wide directive has been proposed. The legislative pattern remains country-specific.
+
+## Why Greece is in Q3
+
+Greece is the only EU country in Q3 (Crisis zone):
+- P=74.00 — fourth highest globally
+- D1=D2=100 maxed Greek-language demand signals
+- R=20.0 — among the lowest European response scores
+- No specific integrity legislation; limited disclosure
+
+The Greek profile is structurally different from other Southern European countries (Italy, Spain) which sit in Q4 with similar dimension scores but moderately higher R-Scores.
+
+## The East/West gradient
+
+Eastern European R-Scores (Russia 16.8, Ukraine 28.2, Poland 32.5) are uniformly lower than Western European peers. The pattern reflects:
+
+- Post-Soviet institutional rebuilding still in progress
+- Wartime disruption (Ukraine specifically)
+- Russian regulatory framework that detects but does not sanction (Dissernet identified 10,000+ cases; almost no consequences)
+
+Poland's relatively higher R-Score reflects deliberate EU integration and JSA system mandate.
+
+## The North/South gradient
+
+Northern European countries (UK, Ireland, Netherlands, Nordic) cluster at high R-Scores (45–87.5). Southern European countries (Spain, Italy, Greece) cluster at lower R-Scores (20–28).
+
+The gradient is partly:
+- Institutional infrastructure development paths
+- Detection tool deployment investment patterns
+- Specific legislation distribution (concentrated in NW)
+
+## D6 (Data fabrication) — relatively low across Europe
+
+European countries score lower on D6 than Asian or Middle Eastern peers:
+- Western Europe: 15–25 range
+- Eastern Europe: 30–78 (Russia is the high outlier driven by Dissernet)
+- Southern Europe: 25–35
+
+Strong post-publication review culture, established research integrity frameworks (LOWI, NPOF, DFG), and concentrated research at universities with mature compliance infrastructure all contribute.
+
+## What would shift the region
+
+### EU-wide essay mill legislation
+A coordinated EU directive on contract cheating bans would lift Legislation sub-scores across all member states. The Irish, UK, and indirectly Australian models provide the template.
+
+### Mandatory institutional disclosure
+EU-level minimum standards for institutional misconduct reporting would raise the Disclosure sub-component significantly for countries currently in the 15–35 range.
+
+### Eastern European reform continuation
+The post-Maidan Ukrainian reform model demonstrates that even in difficult conditions Eastern European countries can build R-Score. Russia and other Eastern European peers face the question of whether to follow.
+
+### Norway methodology resolution
+Resolving the Norway anomaly (and to a lesser extent Sweden) would shift the Nordic block from Q3/Q4 into Q1 — the cluster that the actual institutional infrastructure suggests.
+
+## Coverage gaps
+
+Several European countries are not yet in the AMI dataset. Future versions will add:
+- Belgium, Austria, Denmark, Finland (Western)
+- Czech Republic, Slovakia, Hungary, Romania (Central)
+- Portugal, Croatia, Serbia, Bulgaria (Southern)
+- Baltic states
+
+Adding coverage will produce a more complete regional picture.
+
+## Sources
+
+- AMI v1.5 dataset (European country scores)
+- Country-specific regulator documentation (QQI, OfS, TEQSA, ANECA, HCERES, etc.)
+- VSNU code, NPOF, NESH, DFG research integrity frameworks
+- Retraction Watch Database, Crossref/GitLab (2026)
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "africa-middle-east-regional-analysis",
+    title: "Africa and Middle East Academic Misconduct: Regional Analysis 2026",
+    seoTitle: "Africa & Middle East Academic Misconduct 2026 | AMI Analysis",
+    metaDescription: "Africa and Middle East AMI regional analysis. Africa: Kenya R=11.5 (lowest globally), Nigeria 12.5, South Africa 30.0. Middle East: Egypt, Iran, Saudi Arabia all Q3.",
+    date: "2026-05-20",
+    category: "data",
+    tags: ["Africa", "Middle East", "regional analysis", "Kenya", "Egypt", "data"],
+    tldr: "Africa + Middle East regional analysis. Africa: Kenya (R=11.5, lowest globally), Nigeria (12.5, third lowest), South Africa (30.0, regional best). Middle East: Egypt (12.0, second lowest globally), Iran (13.2), Saudi Arabia (17.5), Turkey (21.2). The lowest-Response cluster in the AMI dataset.",
+    excerpt: "Africa and Middle East represent the lowest-Response cluster in the AMI dataset. Three African and four Middle Eastern countries scored. This analysis maps the structural challenges and the South African and Saudi positive exceptions.",
+    faqSchema: [
+      {
+        question: "Which African country has the strongest academic integrity infrastructure?",
+        answer: "South Africa scores R=30.0, the highest in Africa among the three African countries scored. Kenya (R=11.5) and Nigeria (R=12.5) sit in the bottom three globally. South Africa benefits from the CHE quality framework and established institutional integrity at leading universities (UCT, Wits, Stellenbosch). The gap demonstrates that the African pattern is not inevitable."
+      },
+      {
+        question: "Why is Egypt the lowest R-Score in the dataset?",
+        answer: "Egypt scores R=12.0 — the second lowest R-Score globally (Kenya at 11.5 is lowest). The score reflects: no specific integrity legislation, minimal detection tool deployment (R_det=18), very low public disclosure (R_dis=8), and weak penalty enforcement. The Supreme Council of Universities oversees Egyptian higher education but does not mandate integrity-specific reporting. Resource constraints in the large public university system compound the issue."
+      },
+      {
+        question: "What patterns emerge across Africa and the Middle East?",
+        answer: "Both regions cluster at the bottom of the R-Score distribution. Common features: very limited specific legislation, partial detection deployment concentrated at elite institutions, minimal mandatory disclosure, large public university systems with limited compliance capacity. The Middle East additionally shows maxed AI submission demand (D2=100) across multiple countries. African countries show particularly low Detection sub-scores due to resource constraints."
+      }
+    ],
+    content: `
+## TL;DR
+
+Africa + Middle East regional analysis. The lowest-Response cluster in the AMI dataset. Africa (3 countries): Kenya R=11.5 lowest globally, Nigeria 12.5 third lowest, South Africa 30.0 regional best. Middle East (4 countries): Egypt 12.0 second lowest, Iran 13.2, Saudi Arabia 17.5, Turkey 21.2.
+
+## The seven countries
+
+### Africa
+| Country | P | R | Quadrant |
+|---|---|---|---|
+| Kenya | 38.16 | 11.5 | Q4 |
+| Nigeria | 43.46 | 12.5 | Q4 |
+| South Africa | 19.30 | 30.0 | Q4 |
+
+### Middle East
+| Country | P | R | Quadrant |
+|---|---|---|---|
+| Egypt | 64.60 | 12.0 | Q3 |
+| Iran | 57.00 | 13.2 | Q3 |
+| Saudi Arabia | 53.98 | 17.5 | Q3 |
+| Turkey | 43.52 | 21.2 | Q4 |
+
+The seven countries account for 5 of the 10 lowest R-Scores globally (Kenya, Egypt, Nigeria, Iran, Saudi Arabia all in bottom 10).
+
+## The R-Score crisis
+
+### Bottom 5 globally — 3 of 5 are in this region
+
+| Rank | Country | R | Region |
+|---|---|---|---|
+| 1 (lowest) | Kenya | 11.5 | Africa |
+| 2 | Egypt | 12.0 | Middle East |
+| 3 | Nigeria | 12.5 | Africa |
+| 4 | Iran | 13.2 | Middle East |
+| 5 | Pakistan | 14.2 | South Asia |
+
+### What the sub-components show
+
+| Country | Legislation | Detection | Disclosure | Penalties |
+|---|---|---|---|---|
+| Kenya | 8 | 18 | 8 | 12 |
+| Egypt | 10 | 18 | 8 | 12 |
+| Nigeria | 10 | 15 | 10 | 15 |
+| Iran | 10 | 20 | 8 | 15 |
+| Pakistan | 10 | 22 | 10 | 15 |
+
+The bottom 5 share:
+- Legislation sub-scores of 8–10 (general fraud only)
+- Detection sub-scores of 15–22 (limited deployment)
+- Disclosure sub-scores of 8–10 (minimal public reporting)
+- Penalty sub-scores of 12–15 (codes exist; enforcement varies)
+
+## Africa — three trajectories
+
+### Kenya (R=11.5)
+The lowest R-Score globally. Structural challenge: large higher education sector with resource constraints, no integrity-specific legislation, and the country's role as essay mill export hub (Nairobi-based writers serving Anglophone markets).
+
+### Nigeria (R=12.5)
+Highest D3 (exam impersonation) and D5 (collusion) scores in the dataset. JAMB has invested in biometric verification for entrance examinations — a substantial integrity investment in one specific area. The broader R-Score gap reflects systemic capacity issues.
+
+### South Africa (R=30.0)
+The regional outlier. R-Score 2.5x Kenya's. Drivers: CHE quality framework, established institutional integrity at leading universities (UCT, Wits, Stellenbosch, UKZN, Pretoria), Tri-Sector Codes of Conduct on research, and active national integrity discussion. South Africa demonstrates that African R-Score above 30 is achievable.
+
+## Middle East — Q3 cluster
+
+### Egypt (R=12.0)
+Second lowest R-Score globally. Maxed AI submission demand (D2=100). The Supreme Council of Universities sets some standards; public university system resource constraints limit operational integrity infrastructure.
+
+### Iran (R=13.2)
+Second-lowest in Middle East after Egypt. Sanctions limit access to commercial detection tools (Turnitin, iThenticate). Maxed D2 demand combined with high D4 (65), D5 (69), D6 (65) signals.
+
+### Saudi Arabia (R=17.5)
+Vision 2030 reforms in early stages. NCAAA accreditation framework. Maxed D2 demand. The wealthier Saudi system has the resources for reform but the integrity infrastructure transition is not yet complete.
+
+### Turkey (R=21.2)
+Bridge country between European and Middle Eastern patterns. YÖK framework; 2016 dissertation reforms after high-profile cases. Third highest D5 (collusion) score in the dataset.
+
+## Maxed D2 across the Middle East
+
+Egypt (100), Iran (100), Saudi Arabia (100). The Middle East shows the most consistent maxed AI submission demand of any region:
+
+- High smartphone and broadband penetration
+- Substantial English-medium higher education populations
+- Arabic-language and Persian-language AI tools serve large markets
+- Limited institutional detection deployment means actual incidence is likely well above detected rates
+
+## Africa — detection deployment is the binding constraint
+
+Across the three African countries, Detection sub-scores (R_det) are very low:
+- Kenya 18
+- Nigeria 15 (lowest in dataset)
+- South Africa 42
+
+The pattern reflects:
+- Limited university budgets for commercial detection platform licensing
+- Open-source alternatives (PlagScan, COBALT) have limited coverage and quality
+- Large public university systems where universal deployment is expensive
+
+South Africa's relatively higher Detection (42) reflects more developed Turnitin deployment at the leading universities and the Tri-Sector Codes of Conduct framework on research.
+
+## The Egypt parallel to Kenya
+
+Egypt and Kenya occupy similar bottom-five positions despite very different cultural and educational systems. The common features:
+
+- Large public university sectors (Egypt has the largest in the Arab world; Kenya in East Africa)
+- Limited integrity-specific statutory frameworks
+- Minimal mandatory disclosure
+- Resource constraints affecting detection deployment
+
+The parallel suggests that the bottom-five R-Score cluster is a structural pattern of "large public university system + limited integrity infrastructure investment" rather than a specifically regional phenomenon.
+
+## What would shift the region
+
+### Resource-side reforms
+- Regional consortium licensing for detection tools (lower per-institution cost)
+- Open-source detection alternatives developed regionally
+- Donor coordination on academic integrity infrastructure
+
+### Policy-side reforms
+- Specific essay mill legislation (no country in the region has one)
+- Mandatory institutional misconduct disclosure
+- Regional integrity coordination through African Union or Arab League education frameworks
+- Sanctions consideration for academic integrity in Iran-specific context
+
+### South Africa as model
+South Africa demonstrates that African R-Score above 30 is achievable. The CHE/HEQC framework, mature institutional integrity offices, and active national discussion provide a template. Regional knowledge sharing through Pan-African higher education networks could lift the pattern.
+
+### Saudi Vision 2030
+Saudi Arabia has the resources and political will for substantive integrity reform. The current Vision 2030 framework provides infrastructure; the transition from policy to outcomes will be measurable over 5–10 years.
+
+## Coverage gaps
+
+Many African and Middle Eastern countries are not yet in the AMI dataset. Future versions will add:
+- Morocco, Algeria, Tunisia, Lebanon (North Africa, Levant)
+- Ghana, Ethiopia, Tanzania (Africa)
+- UAE, Qatar, Kuwait (Gulf)
+- Israel (Middle East — methodology category to be determined)
+
+## Sources
+
+- AMI v1.5 dataset and methodology
+- Country-specific regulator documentation
+- African Union and Arab League education frameworks
+- Retraction Watch Database, Crossref/GitLab (2026)
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "best-countries-academic-integrity-2026",
+    title: "Best Countries for Academic Integrity 2026: AMI Rankings",
+    seoTitle: "Best Countries for Academic Integrity 2026 | AMI Top 10",
+    metaDescription: "Top 10 lowest Prevalence countries on the AMI 2026. Canada P=4.90 (lowest globally), Australia 7.43, Germany 9.14, UK 11.41, Ireland 12.21. Q1 leaders.",
+    date: "2026-05-20",
+    category: "data",
+    tags: ["best countries", "Prevalence", "Q1", "rankings 2026", "data"],
+    tldr: "Top 10 lowest Prevalence countries in AMI v1.5: Canada 4.90 (lowest globally), Australia 7.43, Germany 9.14, UK 11.41, Ireland 12.21, Singapore 15.34, Philippines 17.69, South Africa 19.30, New Zealand 21.29, Ukraine 22.46. Six of ten are in Q1 (Best in class).",
+    excerpt: "The 10 countries with the lowest estimated academic misconduct prevalence on the AMI 2026. Canada and Australia anchor the bottom (best); six of the ten are Q1 Best-in-class countries. Here are the data and what they share.",
+    faqSchema: [
+      {
+        question: "Which country has the lowest academic misconduct rate?",
+        answer: "Canada scores P=4.90 on the Academic Misconduct Index 2026 — the lowest Prevalence score of 39 countries. Canada is followed by Australia (P=7.43) and Germany (P=9.14). The lowest five also includes UK (11.41) and Ireland (12.21). All five share mature institutional infrastructure though only three (Australia, UK, Ireland) have specific contract cheating bans."
+      },
+      {
+        question: "What do the lowest-Prevalence countries have in common?",
+        answer: "Most share mature institutional integrity infrastructure — clear codes, broad detection tool deployment, established penalty frameworks. The three Anglophone leaders (Australia, UK, Ireland) additionally have specific essay mill legislation. Canada, Germany, and the Netherlands rely on strong institutional rather than statutory frameworks. Singapore, Philippines, and Ukraine in the top 10 demonstrate that low Prevalence is achievable without Q1 status — the institutional Response Quality determines Q1 placement."
+      },
+      {
+        question: "Why is Philippines in the top 10 best despite being an essay mill supply hub?",
+        answer: "The Philippines' D1 score of 67 reflects moderate domestic demand. The country's role as an essay mill supply hub (Filipino writers serving US/UK/Australian markets) does not directly drive the country's own Prevalence score. The supply-side activity is structurally significant globally but affects the *destination* markets more than the supply country's own AMI scores."
+      }
+    ],
+    content: `
+## TL;DR
+
+Top 10 lowest Prevalence scores in AMI v1.5: Canada 4.90, Australia 7.43, Germany 9.14, UK 11.41, Ireland 12.21, Singapore 15.34, Philippines 17.69, South Africa 19.30, New Zealand 21.29, Ukraine 22.46. Six are Q1; four are Q4 with low Prevalence but R-Score below Q1 threshold.
+
+## The top 10 (lowest Prevalence)
+
+| Rank | Country | P-Score | R-Score | Quadrant |
+|---|---|---|---|---|
+| 1 | Canada | 4.90 | 60.0 | Q1 |
+| 2 | Australia | 7.43 | 88.8 | Q1 |
+| 3 | Germany | 9.14 | 38.8 | Q4 |
+| 4 | UK | 11.41 | 87.5 | Q1 |
+| 5 | Ireland | 12.21 | 78.8 | Q1 |
+| 6 | Singapore | 15.34 | 47.5 | Q4 |
+| 7 | Philippines | 17.69 | 23.2 | Q4 |
+| 8 | South Africa | 19.30 | 30.0 | Q4 |
+| 9 | New Zealand | 21.29 | 58.8 | Q1 |
+| 10 | Ukraine | 22.46 | 28.2 | Q4 |
+
+Six of the ten are in Q1 (Best in class). The four Q4 entries are countries with low Prevalence but R-Score below the Q1 threshold.
+
+## What the top 5 share
+
+### Mature institutional integrity infrastructure
+
+Canada, Australia, Germany, UK, and Ireland all have:
+- Clear institutional academic integrity codes
+- Broad detection tool deployment
+- Established penalty frameworks
+- Active disciplinary culture
+
+### Anglophone legislative leadership
+
+Three of the top five (Australia, UK, Ireland) have specific contract cheating bans:
+- Ireland 2019
+- Australia 2020
+- UK 2022
+
+These are the only three countries globally with such legislation. The bans drove Legislation sub-component scores to 100 in all three.
+
+### Strong research integrity frameworks
+
+Canada (Tri-Council Policy), Germany (DFG Rules of Good Scientific Practice), UK (UKRIO), Ireland (NAIN coordination), Australia (NHMRC, ARC integrity frameworks). All five have mature research-side integrity infrastructure that complements the student misconduct framework.
+
+## Why Canada leads on Prevalence
+
+Canada's P=4.90 is the lowest Prevalence in the entire AMI dataset. The drivers:
+
+- **D1 = 50** — moderate contract cheating demand, no maxed signals
+- **D2 = 44** — moderate AI submission demand
+- **D3 = 9** — among the lowest exam impersonation
+- **D4 = 40** — moderate plagiarism
+- **D6 = 22** — low Retraction Watch signal
+
+Canada has no single extreme dimension score. The aggregate is the lowest in the dataset because all dimensions are consistently moderate-low.
+
+## The Q4 entries in the top 10
+
+Four countries have low Prevalence but Q4 placement:
+
+### Germany (P=9.14, R=38.8)
+The clearest case of "low Prevalence + sub-Q1 R-Score". German integrity infrastructure is strong (DFG framework, VroniPlag, broad detection) but the R-Score of 38.8 is below the Q1 threshold. The federal structure and absence of specific essay mill ban explain the gap.
+
+### Singapore (P=15.34, R=47.5)
+Borderline Q1. NUS/NTU institutional infrastructure is mature. A specific essay mill ban would likely move Singapore into Q1.
+
+### Philippines (P=17.69, R=23.2)
+Lower Prevalence reflects moderate domestic demand. The country's essay mill supply role affects destination markets more than its own scores. The R-Score is well below Q1 thresholds — substantial gap from Q1 status.
+
+### South Africa (P=19.30, R=30.0)
+Strong African integrity infrastructure (CHE/HEQC framework). The R-Score is the strongest in Africa but still below Q1 thresholds. The gap is on Legislation and Disclosure sub-components.
+
+## The Ukraine entry
+
+Ukraine (P=22.46, R=28.2, Q4) is in the top 10 lowest Prevalence — the lowest Eastern European Prevalence. The post-Maidan reform agenda and NAQA integrity framework drive the position. The wartime context affects ongoing measurement but the data shows substantial reform progress relative to other post-Soviet states.
+
+## What the bottom 10 (highest Prevalence) is missing
+
+By comparison, the top 10 highest Prevalence countries (China 99.98, Colombia 77.38, etc.) lack:
+
+- Specific contract cheating legislation
+- Universal detection tool deployment
+- Mandatory institutional disclosure
+- Mature penalty frameworks applied consistently
+- Established post-publication review culture
+
+The gap between the best-10 and worst-10 R-Scores tells the policy story:
+- Best 10 average R-Score: ~46
+- Worst 10 average R-Score: ~17
+
+That's roughly 3x difference in institutional response strength.
+
+## Sub-components in the top 10
+
+### Detection deployment in the top 10
+
+| Country | R_det |
+|---|---|
+| UK | 90 |
+| Australia | 85 |
+| US (also low P) | 80 |
+| Canada | 75 |
+| Ireland | 75 |
+| New Zealand | 70 |
+| Netherlands | 65 |
+| Singapore | 65 |
+| Germany | 55 |
+
+Top-10 lowest-Prevalence countries cluster at high Detection sub-scores. Universal detection tool deployment is one of the more reliable correlates of low Prevalence.
+
+### Disclosure in the top 10
+
+| Country | R_dis |
+|---|---|
+| Australia | 90 |
+| UK | 85 |
+| Ireland | 70 |
+| Canada | 70 |
+| New Zealand | 65 |
+| Netherlands | 55 |
+| Germany | 30 |
+
+Strong Disclosure correlates with Q1 status. Countries in the top 10 that score below 30 on Disclosure (Philippines, Ukraine) are in Q4 not Q1.
+
+## What this means for policymakers
+
+Low Prevalence does not require all R-Score components to be strong. The top 10 includes:
+- Specific ban countries (Australia, UK, Ireland) — highest R
+- Strong institutional framework countries (Canada, Netherlands, Germany)
+- Strong regional infrastructure (NZ, Singapore)
+- Reform-oriented countries (Ukraine, South Africa)
+
+The path to low Prevalence runs through multiple plausible policy combinations. The common thread is sustained investment in some combination of Legislation, Detection, Disclosure, and Penalties.
+
+## Sources
+
+- AMI v1.5 dataset and methodology
+- Country-specific regulator documentation
+- National integrity legislation (Australia 2020, Ireland 2019, UK 2022)
+- Retraction Watch Database, Crossref/GitLab (2026)
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "v14-russia-ukraine-iran-added",
+    title: "AMI v1.4: Russia, Ukraine, and Iran Added to Index",
+    seoTitle: "AMI v1.4 Update: Russia, Ukraine, Iran Added | News 2026",
+    metaDescription: "AMI version 1.4 added Russia (P=37.5, R=16.8), Ukraine (P=22.5, R=28.2), and Iran (P=57.0, R=13.2). Coverage expanded to 31 countries; methodology updates.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["v1.4", "Russia", "Ukraine", "Iran", "update", "news"],
+    tldr: "AMI v1.4 added Russia, Ukraine, and Iran to the coverage set. Russia scored P=37.5, R=16.8 (Q4). Ukraine P=22.5, R=28.2 (Q4). Iran P=57.0, R=13.2 (Q3). The additions expanded geographic coverage and included methodology updates for sanctions-context measurement.",
+    excerpt: "Version 1.4 of the Academic Misconduct Index added three countries with significant academic integrity stories: Russia (Dissernet documentation), Ukraine (post-Maidan reform), and Iran (sanctions-affected infrastructure). Here is what each score showed.",
+    faqSchema: [
+      {
+        question: "What changed in AMI v1.4?",
+        answer: "AMI v1.4 added three countries to coverage: Russia, Ukraine, and Iran. Coverage expanded from 28 to 31 countries. The update included methodology refinements for measuring integrity in sanctions-affected jurisdictions (relevant to Iran) and for post-conflict reform contexts (relevant to Ukraine). The Russia inclusion specifically benefited from improved Retraction Watch coverage of Russian-language journals."
+      },
+      {
+        question: "Why was Russia added to the AMI?",
+        answer: "Russia's inclusion reflects three factors: the Dissernet project's extensive documentation of plagiarised Russian doctoral dissertations, improved Retraction Watch coverage of Russian-language journals, and the policy importance of including a major post-Soviet higher education system. Russia scored P=37.5, R=16.8, Q4 (Probably not looking) — moderate Prevalence with very weak Response Quality."
+      },
+      {
+        question: "How does Ukraine's wartime context affect the AMI score?",
+        answer: "Ukraine's score (P=22.5, R=28.2) was measured during the full-scale Russian invasion period. The country's higher education sector has been disrupted — institutions relocating, online operation, faculty and student displacement. The v1.4 methodology notes flagged this context explicitly. Ukraine's relatively strong R-Score for Eastern Europe reflects post-Maidan reforms (NAQA quality framework) that persisted through the wartime period."
+      }
+    ],
+    content: `
+## TL;DR
+
+AMI v1.4 added Russia, Ukraine, and Iran. Expanded coverage from 28 to 31 countries. Russia: P=37.5, R=16.8, Q4. Ukraine: P=22.5, R=28.2, Q4. Iran: P=57.0, R=13.2, Q3. Methodology updates for sanctions context and post-conflict measurement.
+
+## What v1.4 changed
+
+Version 1.4 of the AMI represented the first major coverage expansion. Three countries with significant academic integrity stories were added:
+
+- **Russia** — the Dissernet documentation, Antiplagiat detection deployment, and post-Soviet integrity context
+- **Ukraine** — post-Maidan reform agenda, NAQA framework, wartime disruption
+- **Iran** — sanctions-affected detection infrastructure, maxed AI submission demand
+
+The update accompanied methodology refinements addressing the specific measurement challenges these countries posed.
+
+## Russia (P=37.5, R=16.8, Q4)
+
+### Why Russia was added
+
+Russia presented a distinctive integrity story justifying inclusion:
+
+- **Dissernet** — the volunteer initiative identifying 10,000+ plagiarised Russian doctoral dissertations
+- **Antiplagiat** — widely deployed detection system for theses
+- **Documented dissertation mill industry** — companies advertising thesis writing services for years
+- **Post-Soviet institutional rebuilding** — relevant comparative case
+
+### What the scores showed
+
+Russia's P=37.5 placed it mid-range globally. The dimension breakdown:
+
+| Dimension | Russia score |
+|---|---|
+| D1 | 83 (high) |
+| D2 | 56 |
+| D3 | 18 |
+| D4 | 72 |
+| D5 | 62 |
+| D6 | 78 |
+
+High contract cheating demand, high plagiarism, high data fabrication. The R-Score of 16.8 reflects the gap between detection (Antiplagiat exists) and consequences (Dissernet-identified plagiarists faced minimal action).
+
+### Key finding
+
+The Russia case demonstrates that detection without enforcement produces limited effect. The country's R-Score is the third lowest in the Eastern European/post-Soviet cluster despite the most extensive Antiplagiat deployment.
+
+## Ukraine (P=22.5, R=28.2, Q4)
+
+### Why Ukraine was added
+
+Ukraine's post-Maidan reform agenda provides an important counterpoint to the Russian case:
+
+- **NAQA** — the National Agency for Higher Education Quality Assurance (2015), with explicit integrity remit
+- **Strikha Law** — 2014 Higher Education Act reforms
+- **External thesis evaluation** — required for accredited programmes
+- **Wartime context** — measuring integrity under exceptional conditions
+
+### What the scores showed
+
+Ukraine's P=22.5 was the lowest in Eastern Europe — well below Russia's 37.5 and Poland's 51.2.
+
+| Dimension | Ukraine score |
+|---|---|
+| D1 | 67 |
+| D2 | 50 |
+| D3 | 14 |
+| D4 | 55 |
+| D5 | 62 |
+| D6 | 35 |
+
+Lower D4 and D6 than Russia despite shared historical context. Moderate D1 and D2.
+
+### Wartime methodology
+
+The v1.4 methodology added a wartime context note for Ukraine. Key adjustments:
+
+- Detection data quality reflects current institutional state, not pre-war
+- Some Ukrainian institutions relocated abroad; affiliation matching adjusted
+- Wartime disruption to research output affected D6 calculation slightly
+- Methodology committed to noting context explicitly in published scores
+
+### Key finding
+
+Ukraine's R-Score (28.2) is meaningfully higher than Russia's (16.8) despite shared historical context — institutional choice produces different outcomes even from similar starting points.
+
+## Iran (P=57.0, R=13.2, Q3)
+
+### Why Iran was added
+
+Iran presented the most methodologically challenging addition:
+
+- **Sanctions context** — limited access to commercial detection tools
+- **Maxed AI submission demand** — Persian-language search volume
+- **Substantial research output** — growing Iranian research base
+- **Documented plagiarism and fabrication** — peer-reviewed literature evidence
+
+### What the scores showed
+
+Iran's P=57.0 placed it eighth globally — Q3 Crisis zone placement.
+
+| Dimension | Iran score |
+|---|---|
+| D1 | 67 |
+| D2 | 100 |
+| D3 | 16 |
+| D4 | 65 |
+| D5 | 69 |
+| D6 | 65 |
+
+Maxed AI submission demand, high plagiarism, high collusion, elevated fabrication.
+
+R=13.2 was the second-lowest globally (only Egypt at 12.0 was lower).
+
+### Sanctions methodology
+
+The v1.4 methodology added notes on sanctions-affected detection infrastructure. Iranian universities have:
+
+- Limited access to Turnitin and iThenticate licensing
+- Some domestic detection alternatives (varying coverage)
+- Limited international integrity training partnerships
+
+The R-Score reflects these constraints rather than pure policy choice. Future versions will continue to develop sanctions-context measurement.
+
+### Key finding
+
+Iran sits at the most acute Crisis zone position globally — high Prevalence (P=57) combined with second-lowest Response (R=13.2). The structural constraints from sanctions interact with the policy environment.
+
+## Methodology updates in v1.4
+
+### Sanctions-context note
+For countries where sanctions limit commercial detection infrastructure access (Iran specifically), the Detection sub-component scoring was annotated. Sanctions-affected countries can have strong domestic policy intent and still score low on Detection due to access constraints.
+
+### Post-conflict measurement
+For Ukraine, the wartime disruption produced measurement challenges. The methodology established conventions for:
+- Affiliation matching during institutional relocation
+- Research output measurement during wartime disruption
+- Annotation of scores affected by exceptional context
+
+### Russian-language journal coverage
+The Russia addition benefited from Retraction Watch's improved coverage of Russian-language journals through 2023–2024. The Russian D6 score reflects this improved coverage.
+
+## What v1.4 set up for v1.5
+
+The v1.4 release demonstrated:
+- Coverage expansion is feasible without major methodology re-engineering
+- Context-specific notes (sanctions, wartime) can be added without compromising cross-country comparability
+- The methodology handles diverse institutional contexts
+
+These results enabled the v1.5 expansion to 39 countries (adding Argentina, Colombia, and others) and set the foundation for further expansion in future versions.
+
+## Sources
+
+- AMI v1.4 release notes
+- Dissernet project documentation
+- NAQA framework documentation (Ukraine)
+- Retraction Watch Database, Crossref/GitLab
+- Iranian higher education integrity literature
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "v15-argentina-colombia-added",
+    title: "AMI v1.5: Argentina and Colombia Added; 39-Country Coverage",
+    seoTitle: "AMI v1.5 Update: Argentina, Colombia Added | News 2026",
+    metaDescription: "AMI version 1.5 (May 2026) added Argentina (P=74.6, R=18.0) and Colombia (P=77.4, R=16.5) to reach 39 countries. Both Q3 Crisis zone — maxed Spanish demand signals.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["v1.5", "Argentina", "Colombia", "update", "news"],
+    tldr: "AMI v1.5 (May 2026) expanded coverage to 39 countries by adding Argentina (P=74.6, R=18.0) and Colombia (P=77.4, R=16.5). Both placed in Q3 (Crisis zone). The additions confirmed the Spanish-language essay mill demand pattern as a regional structural feature.",
+    excerpt: "Version 1.5 of the Academic Misconduct Index added Argentina and Colombia, bringing coverage to 39 countries. Both countries entered Q3, anchoring the Latin American Crisis zone cluster. Here is what the new data showed.",
+    faqSchema: [
+      {
+        question: "What is new in AMI v1.5?",
+        answer: "AMI v1.5 (May 2026) added Argentina and Colombia, bringing coverage to 39 countries. Both placed in Q3 (Crisis zone) with the second and third highest Prevalence scores after China. The release also included refinements to the Google Trends signal interpretation methodology and updated Retraction Watch data (69,911 records as of April 2026)."
+      },
+      {
+        question: "Why did Colombia score so high in AMI v1.5?",
+        answer: "Colombia scored P=77.4 — the second highest Prevalence globally after China. The score is driven by maxed Google Trends signals on D1 (contract cheating, score 100) and D2 (AI submissions, 100). The Spanish-language essay mill market shows very high per-capita search volume in Colombia. Combined with weak Response Quality (R=16.5), Colombia entered the Crisis zone directly."
+      },
+      {
+        question: "Are Argentina and Colombia similar in their AMI profiles?",
+        answer: "Yes — the two countries have structurally similar profiles. Both score D1=100 and D2=100 (maxed Spanish-language demand), both score D6=0 (near-zero Retraction Watch signal), and both have R-Scores in the 16.5–18.0 range. The similarity reflects shared regional dynamics: Spanish-language essay mill market, weak institutional response infrastructure, no specific contract cheating legislation, limited mandatory disclosure."
+      }
+    ],
+    content: `
+## TL;DR
+
+AMI v1.5 (May 2026) added Argentina (P=74.57, R=18.0, Q3) and Colombia (P=77.38, R=16.5, Q3). Coverage expanded to 39 countries. Both additions placed in Crisis zone with maxed Spanish-language essay mill and AI submission demand signals.
+
+## What v1.5 changed
+
+Version 1.5 was released in May 2026 with three significant updates:
+
+1. **Coverage expansion** — Argentina and Colombia added (39 countries total)
+2. **Updated Retraction Watch data** — 69,911 records as of April 2026
+3. **Methodology refinements** — improvements to Google Trends signal interpretation for Spanish-language and other Romance-language markets
+
+## Why these two countries
+
+### Both anchor the Spanish-language pattern
+
+The v1.4 release covered Mexico as a Latin American Spanish-speaking country but did not include the two countries with the most extreme regional demand signals:
+
+- **Colombia** — anchors the Andean Spanish-language market
+- **Argentina** — anchors the Southern Cone Spanish-language market
+
+Both consistently appeared in academic integrity literature as countries with elevated demand. Including them was a coverage priority for v1.5.
+
+### Both demonstrate the Spanish-language structural pattern
+
+Pre-v1.5 hypothesis: the Spanish-language essay mill market is structurally different from other regional markets. Adding Colombia and Argentina would either confirm or challenge this.
+
+The data confirmed the hypothesis decisively — both countries showed D1=100 and D2=100, the same pattern as other high-Prevalence Spanish-speaking countries.
+
+## Colombia (P=77.4, R=16.5)
+
+### The scores
+
+| Dimension | Colombia |
+|---|---|
+| D1 Contract cheating | 100 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 14 |
+| D4 Plagiarism | 58 |
+| D5 Collusion | 52 |
+| D6 Data fabrication | 0 |
+
+Colombia immediately entered the top three Prevalence positions, behind only China and (in v1.5 itself) Argentina.
+
+### Why so high
+
+The maxed D1 and D2 signals dominate. Colombia's Google Trends data shows essay mill keyword search volume and AI submission tool search volume both at the top of the Latin American distribution.
+
+D6=0 reflects near-zero Retraction Watch presence — Colombian research output is moderate and the misconduct-linked retraction rate per publication is low.
+
+The combination produces the second-highest Prevalence in the dataset.
+
+### R=16.5 — among lowest globally
+
+Colombia's R-Score is in the bottom 10 globally. No specific contract cheating legislation, partial detection deployment, minimal disclosure, inconsistent penalties.
+
+The combination of high Prevalence and weak Response places Colombia firmly in Q3 (Crisis zone) — the AMI's primary intervention target.
+
+## Argentina (P=74.6, R=18.0)
+
+### The scores
+
+| Dimension | Argentina |
+|---|---|
+| D1 Contract cheating | 100 |
+| D2 AI submissions | 100 |
+| D3 Exam impersonation | 12 |
+| D4 Plagiarism | 55 |
+| D5 Collusion | 50 |
+| D6 Data fabrication | 0 |
+
+Argentina's profile is nearly identical to Colombia's — both score maxed on D1 and D2, both near-zero on D6, similar middle-range scores on D3, D4, D5.
+
+### Structurally similar to Colombia
+
+The Argentine and Colombian profiles are the most structurally similar pair in the AMI dataset. Differences:
+
+- Argentina D5 (50) vs Colombia D5 (52) — minimal
+- Argentina D3 (12) vs Colombia D3 (14) — minimal
+- R-Score: Argentina 18.0 vs Colombia 16.5 — small difference
+
+The two countries share the Spanish-language market dynamic and similar institutional response infrastructure.
+
+### Slight R-Score edge
+
+Argentina's R=18.0 is marginally higher than Colombia's R=16.5. The difference reflects:
+
+- Slightly stronger Argentine institutional codes
+- CONEAU accreditation framework
+- More developed private university integrity infrastructure (ITBA, Universidad de San Andrés, others)
+
+The difference is too small to be policy-significant.
+
+## What the additions tell us
+
+### The Spanish-language pattern is robust
+
+Colombia and Argentina entering the dataset with the same D1=D2=100 pattern as the existing high-Prevalence Spanish countries (Spain D1=83, D2=100) confirms a structural regional dynamic. Other Latin American countries not yet in the dataset (Chile, Peru, Ecuador, etc.) likely show similar patterns.
+
+### Q3 (Crisis zone) is expanding
+
+With v1.5, Q3 now contains 12 countries — the largest single quadrant addition in any single version. The Crisis zone profile is more prevalent than the Best in Class profile in the current 39-country set.
+
+### Coverage expansion is feasible
+
+Adding two countries did not require major methodology re-engineering. Google Trends data was available, Retraction Watch data was available, regional integrity literature provided D4/D5 context. The expansion pattern can continue.
+
+## Methodology refinements in v1.5
+
+### Romance-language signal interpretation
+
+Spanish-speaking countries share a language market that extends beyond country borders. v1.5 refined how Spanish-language Google Trends signals are attributed to specific countries:
+
+- IP-based geographic attribution prioritised
+- Search volume thresholds calibrated for Spanish-language markets
+- Brand name signal weighting adjusted
+
+The refinements affected Argentina, Colombia, Mexico, and Spain scores slightly relative to v1.4 baseline projections.
+
+### Updated Retraction Watch baseline
+
+v1.5 used Retraction Watch data as of April 2026 (69,911 records, 5,390 misconduct-linked). Several countries' D6 scores shifted slightly relative to v1.4 baseline data.
+
+### Detection-incidence correction tightened
+
+The correction factor for the detection-prevalence confound (countries with stronger detection report more cases) was tightened in v1.5 using updated Scarfe et al. (2024) detection-rate data.
+
+## What comes next
+
+The 39-country v1.5 represents a coverage milestone — the AMI is now positioned to provide cross-country analysis for substantial fraction of global higher education enrolment.
+
+Future versions will:
+- Expand to 50+ countries (Chile, Peru, additional Asian, African, European)
+- Add expert perception surveys (modelled on CPI Phase 2)
+- Address Google Trends signal interpretation more comprehensively (Norway anomaly resolution)
+- Improve detection-incidence correction methodology
+
+## Sources
+
+- AMI v1.5 release documentation
+- Google Trends API (2022–2026)
+- Retraction Watch Database, Crossref/GitLab (April 2026)
+- Scarfe et al. (2024), University of Reading detection study
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "guardian-foi-investigation",
+    title: "Guardian FOI Investigation: 7,000 UK Students Caught Using AI",
+    seoTitle: "Guardian FOI Investigation: UK AI Misconduct 2026 | News",
+    metaDescription: "The Guardian FOI investigation (June 2025) showed nearly 7,000 UK students formally caught using AI in 2023–24 — 5.1 per 1,000 students. Used in the AMI D2 dimension.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["Guardian", "FOI", "UK", "AI submissions", "news"],
+    tldr: "The Guardian Freedom of Information investigation (June 2025) showed nearly 7,000 UK university students were formally caught using AI tools in 2023–24 — a rate of 5.1 per 1,000 students. The data is the largest single confirmed-case dataset for AI misconduct globally and is incorporated into the AMI's D2 dimension methodology.",
+    excerpt: "The Guardian's 2025 FOI investigation produced the largest single confirmed-case dataset on AI academic misconduct globally. Nearly 7,000 UK students caught in one academic year. Here is what the data showed and how the AMI uses it.",
+    faqSchema: [
+      {
+        question: "What did the Guardian FOI investigation find?",
+        answer: "The Guardian (June 2025) submitted Freedom of Information requests to UK universities asking for formal academic misconduct case statistics involving AI tools for 2023–24. The combined data showed nearly 7,000 confirmed cases — a rate of 5.1 per 1,000 UK higher education students. The data was the largest single confirmed-case dataset on AI misconduct globally."
+      },
+      {
+        question: "How does the AMI use the Guardian FOI data?",
+        answer: "The Guardian data provides one of the few confirmed-case (rather than demand-signal) data sources for the AMI's D2 dimension. The UK score is partially anchored on this confirmed-case rate. The 5.1/1000 rate, combined with the Scarfe et al. (2024) finding that 94% of AI submissions go undetected, suggests true rates above 8%. Both data points contribute to the methodology."
+      },
+      {
+        question: "Have other countries done similar FOI investigations?",
+        answer: "Times Higher Education has published similar FOI data specifically for Russell Group universities in the UK. Other Anglophone countries have had similar journalism — Australian, New Zealand, and US investigations of varying scale — but the Guardian's 2025 investigation remains the largest single dataset covering most institutions in a national higher education system."
+      }
+    ],
+    content: `
+## TL;DR
+
+The Guardian Freedom of Information investigation (June 2025) showed nearly 7,000 UK university students were formally caught using AI tools in 2023–24 — 5.1 per 1,000 students. The data is the largest single confirmed-case dataset on AI misconduct globally and contributes to the AMI's D2 dimension methodology.
+
+## What the Guardian did
+
+In early 2025, The Guardian submitted Freedom of Information requests to UK universities asking for statistics on formal academic misconduct cases involving AI tools for the 2023–24 academic year. The investigation:
+
+- **Scope**: most UK universities responded
+- **Output**: nearly 7,000 confirmed cases across the responding institutions
+- **Rate**: 5.1 per 1,000 students (formally caught and processed)
+- **Categories**: ChatGPT, Bard, Claude, Gemini, and other AI tool use treated as academic misconduct
+
+The investigation was published in June 2025 as a long-form piece with institution-level breakdowns and editorial analysis.
+
+## Why the data matters
+
+### First systematic national-level confirmed-case dataset
+
+Before the Guardian investigation, AI misconduct data was fragmented — individual institutions reported numbers, anecdotal evidence circulated, but no systematic national picture existed.
+
+The Guardian data provided:
+- A national-level confirmed-case rate for the first time
+- Institution-level breakdowns enabling cross-institutional comparison
+- A baseline for measuring whether incidence is growing or falling
+
+### Detection-incidence reasoning
+
+The 5.1/1000 confirmed rate combined with the Scarfe et al. (2024) detection finding (94% of AI submissions undetected) suggests:
+
+- 5.1/1000 detected × (1/0.06) detection factor = 85/1000 true rate estimate
+- This implies an ~8.5% true incidence rate
+
+The AMI methodology applies similar detection corrections in calculating D2 scores from observed signals.
+
+### Institution-level variation
+
+The Guardian data showed substantial variation across UK universities:
+- Some institutions reported very high rates (e.g. above 10/1000)
+- Others reported very low rates (below 1/1000)
+
+The variation likely reflects differences in:
+- Detection investment and deployment
+- Institutional reporting practices
+- Specific course types and assessment design
+- Student population composition
+
+The variation is itself informative — it suggests detection capability is the principal determinant of reported rates, with actual incidence relatively more uniform across institutions.
+
+## Russell Group FOI follow-up
+
+Times Higher Education published a parallel investigation focused specifically on UK Russell Group universities. The Russell Group data:
+
+- Showed lower per-student rates than the broader UK pattern [verify specific Russell Group rate]
+- Reflected stronger detection infrastructure at research-intensive institutions
+- Provided cross-institutional comparison among peer institutions
+
+The Russell Group pattern is consistent with the broader hypothesis: stronger detection capability produces more reported cases (in jurisdictions where detection drives reporting), while actual incidence varies less.
+
+## How the AMI uses the data
+
+### Direct UK D2 contribution
+
+The AMI's D2 dimension for the UK is partially anchored on the Guardian confirmed-case rate. The UK D2 score of 44 reflects:
+
+- Moderate Google Trends signal
+- Confirmed-case rate from FOI
+- Detection capability adjustment
+
+The UK D2 is lower than the maxed-D2 countries (Colombia, Argentina, etc.) partly because of the confirmed-case data providing actual rates rather than relying on demand signals alone.
+
+### Cross-country calibration
+
+The Guardian data provides a calibration point for D2 across the dataset. Countries without confirmed-case data are scored on demand signals (Google Trends), but the Guardian baseline lets the methodology estimate the demand-to-incidence translation more confidently.
+
+### Methodology improvement
+
+Future AMI versions will incorporate similar FOI data as it becomes available in other jurisdictions:
+- Australia (FOI submissions reportedly in progress)
+- US (state-level FOI variability)
+- Other Anglophone systems
+
+The Guardian investigation effectively demonstrated FOI as a viable data source for AI misconduct measurement.
+
+## Why the UK could produce this data
+
+The UK FOI Act applies to universities (most are public-funded). Combined with:
+- Active investigative journalism (the Guardian's higher education team)
+- Substantial UK university sector size enabling meaningful statistical analysis
+- Standardised institutional misconduct reporting categories
+
+The UK is structurally well-positioned to produce this kind of national dataset. Other countries with weaker FOI laws, less centralised university systems, or less active education journalism cannot easily replicate.
+
+## What the data does not show
+
+### Undetected misconduct
+
+The 5.1/1000 rate is *confirmed-case* — students formally identified and processed for misconduct. The Scarfe correction (94% undetected) suggests the actual rate is substantially higher.
+
+### Severity gradient
+
+Confirmed cases include a wide range of misconduct severity — from minor undisclosed AI assistance through wholesale AI-generated work submitted as original. The Guardian data does not differentiate.
+
+### Course type variation
+
+Different subject areas likely have very different AI misconduct rates. Essay-based humanities and social science courses are likely more affected than mathematics or laboratory-based STEM courses. The Guardian data aggregates across course types.
+
+### Trend data
+
+The Guardian data covers 2023–24. The 2024–25 data (still being collected) will be more informative for trend analysis.
+
+## Broader significance
+
+The Guardian investigation established that:
+
+- FOI is a viable data source for AI misconduct measurement
+- Institutional variation in reporting reflects detection capability
+- Confirmed-case rates substantially understate true incidence (Scarfe correction)
+- AI misconduct is a measurable population-level phenomenon, not an anecdotal one
+
+The reporting accelerated UK policy discussion of AI in education and contributed to detection tool investment decisions at institutions across the sector.
+
+## Sources
+
+- The Guardian (June 2025), FOI investigation [verify specific article reference]
+- Times Higher Education Russell Group FOI reporting [verify]
+- Scarfe, P., et al. (2024), University of Reading detection study
+- AMI v1.5 D2 dimension methodology
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "dissernet-russian-dissertations",
+    title: "Dissernet: 10,000+ Plagiarised Russian Dissertations Exposed",
+    seoTitle: "Dissernet: 10,000 Russian Plagiarised Dissertations Exposed 2026",
+    metaDescription: "Dissernet has identified over 10,000 plagiarised Russian doctoral dissertations using automated comparison. Senior politicians and officials among those exposed.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["Dissernet", "Russia", "plagiarism", "dissertations", "news"],
+    tldr: "Dissernet is a Russian volunteer organisation that has used automated plagiarism detection to identify over 10,000 plagiarised doctoral dissertations since 2013. Senior politicians, governors, and officials have been exposed. The detection work contributes to Russia's elevated AMI D4 score; the lack of consequences contributes to its very low R-Score.",
+    excerpt: "Dissernet has systematically catalogued plagiarised Russian doctoral dissertations since 2013, exposing senior politicians and academics. The project demonstrates that detection without enforcement produces limited integrity outcomes. Here is what Dissernet has done and what the AMI data shows.",
+    faqSchema: [
+      {
+        question: "What is Dissernet?",
+        answer: "Dissernet is a Russian volunteer organisation founded in 2013 that systematically analyses Russian doctoral dissertations for plagiarism using automated comparison tools. The project has identified over 10,000 plagiarised dissertations as of 2024, including theses by senior politicians, regional governors, members of parliament, and academics. The organisation publishes its findings publicly."
+      },
+      {
+        question: "Have Dissernet's exposed plagiarists faced consequences?",
+        answer: "Very few. Despite identifying over 10,000 plagiarised dissertations, the rate of formal doctoral degree revocations is extremely low. Russia's higher education system has not systematically acted on Dissernet's findings. This pattern contributes directly to Russia's very low AMI Response Quality score (R=16.8) — detection capability exists but consequences do not follow."
+      },
+      {
+        question: "What does Dissernet's work say about Russian academic integrity?",
+        answer: "The scale of the problem documented by Dissernet is exceptional. Abalkina (2024) analysed 2,405 Russian doctoral dissertations from 2007–2015 and found plagiarism incidence exceeding 19%. In some disciplines, the majority of dissertations contained significant copied content. Russia's AMI D4 (plagiarism) score of 72 partly reflects the Dissernet documentation."
+      }
+    ],
+    content: `
+## TL;DR
+
+Dissernet is a Russian volunteer organisation that has identified over 10,000 plagiarised doctoral dissertations since 2013 using automated comparison tools. Senior politicians and academics have been exposed. Very few face consequences. The pattern contributes to Russia's AMI R-Score of 16.8.
+
+## What Dissernet is
+
+Founded in 2013, Dissernet (Диссернет — "Dissernet" in Latin transliteration) is a volunteer Russian academic and journalist initiative dedicated to identifying plagiarism in Russian doctoral dissertations.
+
+The project:
+- **Methodology** — automated comparison of Russian doctoral dissertations against each other and against published sources
+- **Coverage** — systematic processing of dissertations from major Russian universities
+- **Output** — publicly published findings with detailed comparison visualisations
+- **Membership** — academic researchers, journalists, and volunteers across Russia and the diaspora
+
+## What Dissernet has found
+
+### Scale
+
+As of 2024, Dissernet has identified plagiarism in:
+- Over 10,000 doctoral dissertations
+- Senior politicians (multiple Duma members and ministers)
+- Regional governors
+- High-profile academics
+- Heads of major Russian institutions
+
+### Specific patterns
+
+Dissernet's findings include:
+- **Direct copying** — verbatim text from earlier dissertations or published sources
+- **Patchwriting** — combining text from multiple sources without attribution
+- **Dissertation factories** — clusters of dissertations sharing common copied content suggesting industrial-scale production
+- **Cross-discipline copying** — text from one field used in dissertations in unrelated fields
+
+### Academic research using Dissernet methods
+
+Abalkina (2024) [Springer's Science and Engineering Ethics or similar — verify exact citation] analysed 2,405 Russian doctoral dissertations from 2007–2015 using Dissernet-style methodology. Findings:
+
+- Plagiarism incidence exceeded 19% across the sample
+- In some disciplines (particularly social sciences and humanities), the majority of dissertations contained significant copied content
+- Patterns suggest systematic rather than isolated misconduct
+
+## The consequences gap
+
+Despite Dissernet's extensive documentation, very few exposed plagiarists have faced consequences:
+
+### Formal doctoral degree revocations
+The rate of revocation is extremely low. Most Russian universities have not systematically acted on Dissernet's findings. The Higher Attestation Commission (VAK) — the Russian body responsible for doctoral degree validation — has revoked degrees in some cases but not at scale.
+
+### Career consequences
+Most identified plagiarists continue in their academic, political, or administrative positions. The reputational consequence is real but does not translate into formal action.
+
+### Institutional response
+Some universities have introduced stricter thesis-checking requirements following Dissernet exposure of their alumni. Antiplagiat detection is now mandatory for new theses, but historical cases largely remain unaddressed.
+
+## Why this matters for the AMI
+
+### Russia's D4 (plagiarism) = 72
+
+Russia's plagiarism dimension score is the second highest in the dataset (tied with Pakistan at 72, after no country scores higher). Dissernet documentation is one of several inputs contributing to this score.
+
+### Russia's R-Score = 16.8
+
+Russia's Response Quality is in the bottom 10 globally. The R-Score breakdown:
+- Legislation: 12 — general framework, no specific provisions
+- Detection: 35 — Antiplagiat is deployed (one of the higher Detection sub-scores in the bottom 10)
+- Disclosure: 8 — minimal public reporting
+- Penalties: 12 — Dissernet finds the cases; consequences rarely follow
+
+The pattern is unusual: Detection capability exists (Russia has Antiplagiat plus the Dissernet volunteer infrastructure), but Disclosure and Penalties remain very weak. This is the prototype of "strong detection, weak enforcement" — finding misconduct without acting on it.
+
+### The diagnostic value
+
+Russia's case demonstrates that Detection alone is insufficient for an effective integrity system. Without Disclosure (making findings public) and Penalties (acting on findings), identified misconduct produces limited deterrent effect.
+
+The implication for the AMI Response Quality methodology: weighting Disclosure and Penalties alongside Detection is essential — measuring Detection alone would substantially overstate Russia's integrity infrastructure.
+
+## Dissernet's institutional context
+
+### Volunteer organisation, not government body
+Dissernet operates independently of Russian state institutions. This independence enables it to identify and publish cases involving state officials but limits its formal enforcement power.
+
+### Political pressure
+The Russian state has not formally suppressed Dissernet but has not supported it either. Some Dissernet members have faced professional consequences. The project's continued operation reflects sustained volunteer commitment.
+
+### Diaspora support
+Following 2022, some Dissernet members have continued the work from outside Russia. The project's diaspora component contributes to ongoing analysis and publication.
+
+## What other countries can learn from the Dissernet case
+
+### Detection requires enforcement to matter
+
+The most direct lesson. Even highly accurate identification of misconduct produces limited integrity outcomes without follow-through. Other countries with Dissernet-equivalent volunteer detection efforts (VroniPlag in Germany, similar projects elsewhere) have seen better follow-through partly because of stronger institutional and political will to act.
+
+### Volunteer infrastructure can supplement institutional capacity
+
+Russia lacks well-resourced institutional integrity infrastructure for doctoral dissertation oversight. Dissernet partially fills this gap as a volunteer effort. Other countries with similar institutional limitations could consider supporting volunteer detection initiatives.
+
+### Public disclosure matters independently
+
+Dissernet's contribution is partly informational — making findings public even when formal action does not follow. The Russian R-Score reflects this: Disclosure sub-score of 8 (minimal regulatory disclosure) despite Dissernet's substantial public documentation. The AMI methodology distinguishes between volunteer and institutional disclosure.
+
+## Comparable initiatives
+
+### VroniPlag Wiki (Germany)
+Volunteer plagiarism detection in German doctoral dissertations. Identified plagiarism in high-profile cases including former Defence Minister zu Guttenberg (2011 doctoral revocation). Better follow-through than Dissernet — multiple revocations have followed VroniPlag identifications.
+
+### Doctoral integrity volunteer projects elsewhere
+Smaller-scale initiatives exist in Hungary, Bulgaria, and other Eastern European countries. None reach Dissernet's scale or VroniPlag's institutional integration.
+
+## Sources
+
+- Dissernet project findings (2013–2024)
+- Abalkina, A. (2024). Second Handbook of Academic Integrity, Springer [verify exact citation]
+- Russia AMI country profile (P=37.5, R=16.8, Q4)
+- VAK (Higher Attestation Commission) decisions
+- AMI v1.5 methodology document
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "australia-essay-mill-ban",
+    title: "Australia's 2020 Essay Mill Ban: How TEQSA Enforces It",
+    seoTitle: "Australia 2020 Essay Mill Ban Explained | TEQSA Enforcement 2026",
+    metaDescription: "Australia's Tertiary Education Quality and Standards Agency Amendment Act 2020 banned essay mills. TEQSA maintains a 2,300+ provider list. Fines up to AUD 100,000.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["Australia", "TEQSA", "essay mill ban", "legislation", "news"],
+    tldr: "Australia's Tertiary Education Quality and Standards Agency Amendment (Prohibiting Academic Cheating Services) Act 2020 made contract cheating services illegal. TEQSA enforces the framework, maintains a public list of 2,300+ known providers, and has obtained website blocking orders. Fines up to AUD 100,000.",
+    excerpt: "Australia was the second country to legislate against essay mills (after Ireland 2019). The 2020 Act extended TEQSA's existing regulatory framework to cover contract cheating. Here is how the legislation works and what it has produced.",
+    faqSchema: [
+      {
+        question: "Is contract cheating illegal in Australia?",
+        answer: "Yes. The Tertiary Education Quality and Standards Agency Amendment (Prohibiting Academic Cheating Services) Act 2020 made it illegal to provide, advertise, arrange, or use academic cheating services. Maximum penalties: AUD 100,000 for corporate offenders and AUD 20,000 for individual offenders. The Act came into force in 2020."
+      },
+      {
+        question: "What does TEQSA do about essay mills?",
+        answer: "TEQSA (the Tertiary Education Quality and Standards Agency) enforces the 2020 Act. Activities include: maintaining a public list of 2,300+ known contract cheating providers, issuing website blocking orders, pursuing enforcement actions against providers, coordinating with international regulators (QQI in Ireland, OfS in the UK), and publishing institutional integrity standards."
+      },
+      {
+        question: "Has Australia's essay mill ban been effective?",
+        answer: "The legislative R-Score impact is clear — Australia's Legislation sub-component is 100 (maximum). The Prevalence impact is harder to isolate. Australia's P-Score (7.43, second lowest globally) is consistent with effective demand reduction, but causation cannot be definitively isolated from other factors (detection deployment, mandatory disclosure, institutional codes). The legislation is reasonably credited as one major contributor."
+      }
+    ],
+    content: `
+## TL;DR
+
+Australia's Tertiary Education Quality and Standards Agency Amendment (Prohibiting Academic Cheating Services) Act 2020 made essay mill services illegal. TEQSA enforces — public 2,300+ provider list, website blocking orders, enforcement actions. Fines AUD 100,000 (corporate), AUD 20,000 (individual). One of three globally-comparable specific bans (alongside Ireland 2019, UK 2022).
+
+## The Act
+
+The 2020 amendment extended Australia's Tertiary Education Quality and Standards Agency framework to cover contract cheating. Key provisions:
+
+### Offences created
+
+The Act makes it an offence to:
+- Provide academic cheating services
+- Advertise academic cheating services
+- Arrange for academic cheating services to be provided
+
+The offences apply to providers and intermediaries. Individual students using such services are not criminalised — institutional misconduct frameworks continue to handle individual cases.
+
+### Penalties
+
+- **Corporate offenders**: up to AUD 100,000 per offence
+- **Individual offenders**: up to AUD 20,000 per offence
+- **Repeat or aggravated offences**: higher tier penalties
+
+### TEQSA powers
+
+The Act gave TEQSA:
+- Investigation and enforcement authority
+- Website blocking order powers
+- Cooperation arrangements with telecoms and ISPs for technical enforcement
+- Authority to publish information about known contract cheating providers
+
+## TEQSA enforcement activities
+
+### The public provider list
+
+TEQSA maintains a public list of known contract cheating services — 2,300+ providers as of 2025–2026. The list:
+- Is published openly online
+- Is updated as new providers are identified
+- Serves as evidence for institutional blocking decisions
+- Is shared with international regulators
+
+The public list is the most distinctive feature of Australia's enforcement framework. No other regulator globally maintains an equivalent public resource.
+
+### Website blocking orders
+
+TEQSA has obtained court orders requiring Australian ISPs to block access to identified essay mill websites. The orders affect dozens of major essay mill services.
+
+### Enforcement actions
+
+TEQSA has pursued enforcement actions against providers found to be operating in Australia or targeting Australian students. Specific case counts and outcomes are documented in TEQSA's annual reports.
+
+### International coordination
+
+TEQSA coordinates with:
+- **QQI** (Ireland) — Irish equivalent regulator
+- **OfS** (UK) — UK equivalent regulator
+- **Other Anglophone regulators** considering similar legislation
+
+The coordination enables cross-border response to providers operating in multiple jurisdictions.
+
+## What Australia did right
+
+### Building on existing infrastructure
+
+The 2020 Act extended TEQSA's existing regulatory framework rather than creating a new body. This:
+- Reduced implementation cost
+- Leveraged existing institutional relationships
+- Enabled rapid operational deployment after the Act came into force
+
+### The public list
+
+The decision to maintain a publicly accessible list of known providers was strategically important:
+- Enables institutional-level blocking
+- Signals to students that authorities are actively monitoring
+- Provides evidence for enforcement actions
+- Demonstrates accountability for the regulator
+
+Other regulators (QQI in Ireland, OfS in the UK) operate similar lists internally but do not publish them comprehensively.
+
+### Coordination with detection
+
+The Act provides legal basis for TEQSA cooperation with detection tool vendors (Turnitin etc.) on identifying and pursuing essay mill providers. The cooperation flows include evidence gathering, intelligence sharing, and joint enforcement.
+
+## Impact on AMI scores
+
+### R-Score Legislation sub-component: 100
+
+Australia's Legislation sub-score of 100 is the maximum. The 2020 Act is the principal driver. Alongside Ireland (also 100) and the UK (100), these three countries share the top of the Legislation distribution.
+
+### R-Score overall: 88.8
+
+Australia's overall R-Score of 88.8 is the highest in the AMI dataset. The legislation is one of four contributing components (alongside Detection 85, Disclosure 90, Penalties 80). The combined package produces the global maximum.
+
+### P-Score: 7.43
+
+Australia's Prevalence score of 7.43 is the second lowest globally (after Canada at 4.90). The dimension scores are consistently moderate-low across D1, D2, D3, D4, D5, D6. The contract cheating dimension (D1=33) is tied for the lowest in the dataset (with UK and Ireland).
+
+## Implementation lessons
+
+### Statutory backing matters
+
+Before the 2020 Act, TEQSA had limited authority to pursue essay mill providers — only able to act against accredited institutions. The statutory backing transformed enforcement capacity.
+
+### Cross-jurisdictional cooperation is essential
+
+Essay mill providers frequently operate outside the regulator's home jurisdiction. The Irish, UK, and Australian regulators have built cooperation structures that no single regulator could replicate alone.
+
+### Provider deplatforming is a major lever
+
+Most essay mill providers depend on:
+- Search engine visibility
+- Online advertising
+- Payment processor relationships
+- Web hosting services
+
+Coordinated action across these intermediaries (rather than just direct provider prosecution) has been a significant enforcement tool.
+
+### Student behaviour shifts slowly
+
+Even with effective supply-side action, demand persists. Students still seek services from providers based in non-ban jurisdictions. The expected outcome is reduced — not eliminated — incidence.
+
+## Comparison with Ireland and UK
+
+| Feature | Ireland 2019 | Australia 2020 | UK 2022 |
+|---|---|---|---|
+| Year | 2019 | 2020 | 2022 |
+| Regulator | QQI | TEQSA | OfS / QAA |
+| Max fine (corporate) | Significant [verify] | AUD 100,000 | Unlimited on conviction |
+| Public provider list | Internal | Public 2,300+ | Internal |
+| Website blocking | Court orders | Court orders | OfS framework |
+| Cross-border coord | Yes | Yes | Yes |
+
+Australia's distinctive features: the public provider list and the relatively early enforcement infrastructure development.
+
+## What other countries can adapt
+
+### The TEQSA model
+Specific elements that other regulators could replicate:
+1. **Statutory framework with regulator enforcement powers**
+2. **Public list of known providers**
+3. **Website blocking authority**
+4. **International cooperation arrangements**
+5. **Annual reporting on enforcement activity**
+
+### What requires statutory backing
+- Specific offences and penalty framework
+- Regulator enforcement authority
+- Website blocking court order powers
+
+### What can be done administratively
+- Public information lists (no statute required)
+- Institutional cooperation arrangements
+- Detection tool partnerships
+
+The Australian model demonstrates that comprehensive supply-side action against essay mills is operationally feasible at scale.
+
+## Sources
+
+- Tertiary Education Quality and Standards Agency Amendment (Prohibiting Academic Cheating Services) Act 2020
+- TEQSA annual reports
+- TEQSA public list of contract cheating providers
+- AMI v1.5 Australia country profile
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "uk-higher-education-act",
+    title: "UK Skills and Post-16 Education Act 2022: Essay Mill Ban Explained",
+    seoTitle: "UK Skills and Post-16 Education Act 2022 | Essay Mill Ban 2026",
+    metaDescription: "Section 80 of the UK Skills and Post-16 Education Act 2022 banned essay mills in England. OfS and QAA enforce. Unlimited fines on conviction. AMI Legislation sub-score 100.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["UK", "Skills Act 2022", "essay mill ban", "OfS", "legislation", "news"],
+    tldr: "Section 80 of the UK Skills and Post-16 Education Act 2022 made essay mill services illegal in England. The Office for Students (OfS) and the Quality Assurance Agency (QAA) enforce. Unlimited fines on conviction. The third specific essay mill ban globally (after Ireland 2019 and Australia 2020). AMI Legislation sub-score 100.",
+    excerpt: "The UK became the third country with a specific essay mill ban when the Skills and Post-16 Education Act came into force in 2022. The legislation followed substantial UK university sector lobbying. Here is how it works and what it has produced.",
+    faqSchema: [
+      {
+        question: "Are essay mills illegal in the UK?",
+        answer: "Yes. Section 80 of the Skills and Post-16 Education Act 2022 made it a criminal offence to provide, advertise, or arrange essay mill services in England. The Act came into force in 2022. Conviction can result in unlimited fines. The Office for Students (OfS) and the Quality Assurance Agency (QAA) jointly enforce the framework in England."
+      },
+      {
+        question: "Who enforces the UK essay mill ban?",
+        answer: "The Office for Students (OfS) is the principal enforcement body in England. The Quality Assurance Agency for Higher Education (QAA) coordinates institutional integrity standards. Welsh, Scottish, and Northern Irish frameworks have either parallel provisions or are under development. OfS has cooperation arrangements with TEQSA (Australia) and QQI (Ireland)."
+      },
+      {
+        question: "Why did the UK pass essay mill legislation in 2022?",
+        answer: "Substantial UK university sector lobbying preceded the 2022 Act. Key drivers: rising concern about contract cheating impact on UK degree credibility, growing evidence base on essay mill industry scale, the precedent set by Ireland (2019) and Australia (2020), and Guardian FOI revelations about UK contract cheating incidents. The Act followed several years of policy discussion."
+      }
+    ],
+    content: `
+## TL;DR
+
+Section 80 of the UK Skills and Post-16 Education Act 2022 banned essay mill services in England. OfS and QAA enforce. Unlimited fines on conviction. Third specific essay mill ban globally (after Ireland 2019, Australia 2020). AMI Legislation sub-score 100.
+
+## The Act
+
+The Skills and Post-16 Education Act 2022 is a broader UK education law. Section 80 specifically addresses contract cheating:
+
+### What is criminalised
+
+Section 80 makes it an offence to:
+- Provide academic cheating services for value
+- Advertise academic cheating services
+- Arrange for academic cheating services to be provided
+
+The offences apply to providers and intermediaries. Individual student use is handled by institutional misconduct frameworks, not criminal law.
+
+### Penalties
+
+- **On summary conviction**: fines at the statutory maximum
+- **On conviction on indictment**: unlimited fines
+
+The unlimited fine provision (on indictment) is the highest penalty framework among the three jurisdictions with specific bans.
+
+### Geographic scope
+
+The Act applies to England. Wales, Scotland, and Northern Ireland have either parallel provisions, are passing similar legislation, or are under discussion. The devolved education systems mean separate processes for each constituent country [verify current status across devolved administrations].
+
+## Enforcement framework
+
+### Office for Students (OfS)
+
+OfS is the principal regulator. Activities include:
+- Investigation and prosecution authority under the Act
+- Cooperation with police and prosecution services
+- Industry intelligence gathering
+- International coordination with TEQSA and QQI
+
+### Quality Assurance Agency (QAA)
+
+QAA contributes through:
+- Sector-wide integrity standards
+- Institutional accreditation processes
+- Quality framework integration with integrity requirements
+- Research and policy support
+
+### Joint operation
+
+OfS and QAA work jointly. The OfS provides regulatory authority; QAA provides sector knowledge and institutional relationships. The joint model differs from Australia (single TEQSA agency) and Ireland (single QQI agency).
+
+## What the Act does and does not cover
+
+### Covered
+
+- Commercial essay mill operations
+- Individual writers operating as professional ghostwriters
+- Intermediary platforms connecting students with writers
+- Advertising of essay mill services in England
+
+### Not specifically covered (but addressed elsewhere)
+
+- Individual student use of essay mill services (institutional misconduct)
+- AI tool use that constitutes misconduct (institutional policy)
+- Research misconduct in academic publications (UKRIO framework)
+- Plagiarism more broadly (institutional misconduct)
+
+The Act focuses narrowly on the commercial supply side. Broader integrity infrastructure is provided by:
+- UKRIO (UK Research Integrity Office) for research
+- Institutional codes for students
+- QAA framework for institutional accreditation
+
+## Why the UK legislated when it did
+
+### Sector advocacy
+
+UK universities and the QAA had advocated for essay mill legislation for several years before the 2022 Act. Key advocacy points:
+- Contract cheating affects UK degree credibility internationally
+- Detection alone is insufficient to address supply-side dynamics
+- Ireland (2019) and Australia (2020) precedents demonstrated feasibility
+- The growing essay mill industry had visible advertising and operations in the UK
+
+### Evidence base
+
+The advocacy was supported by:
+- Guardian FOI data (June 2025 — actually post-Act but the underlying data collection began earlier)
+- Academic research on contract cheating prevalence
+- Industry analysis estimating UK essay mill market size
+- Cross-country comparative data
+
+### Cross-party support
+
+The legislation passed with cross-party support — academic integrity is one of relatively few education policy areas with bipartisan consensus.
+
+## Implementation and impact
+
+### R-Score Legislation sub-component: 100
+
+The UK Legislation sub-score of 100 reflects the comprehensive statutory framework. Combined with Australia and Ireland, the UK is one of three countries at the maximum.
+
+### R-Score overall: 87.5
+
+The UK overall R-Score of 87.5 is the second highest globally (after Australia 88.8). The legislation contributes alongside very strong Detection (90 — highest in dataset), strong Disclosure (85), and mature Penalties (75).
+
+### P-Score: 11.41
+
+The UK Prevalence score of 11.41 is the fourth lowest globally. Dimension scores are consistently moderate-low. D1 (contract cheating) at 33 is tied with Australia and Ireland for the lowest in the dataset.
+
+## What other countries can learn
+
+### Build the evidence base first
+
+The UK legislation came after several years of evidence accumulation. Other countries considering similar laws benefit from establishing:
+- Confirmed-case data (FOI investigations, institutional reporting)
+- Industry analysis (essay mill market scale and operations)
+- Cross-country comparative data (does the legislation work elsewhere?)
+
+### Cross-party consensus is achievable
+
+UK passage with cross-party support demonstrates that academic integrity is a viable area for bipartisan policymaking. The case for action is non-partisan: degree credibility is a public good.
+
+### Devolved structures need attention
+
+The UK's devolved education systems required separate processes for England, Wales, Scotland, and Northern Ireland. Federated countries (US, Canada, Germany, Australia) face similar challenges. The Australian and UK experiences provide templates.
+
+### Coordinate with existing regulators
+
+OfS and QAA both contributed to the UK framework. Other countries can use their existing quality regulators as the enforcement infrastructure rather than creating new agencies.
+
+## Comparison with prior legislation
+
+### Differences from Ireland 2019
+
+Ireland was the first jurisdiction with a specific ban (3 years before the UK). The Irish framework is simpler — QQI as single regulator. The UK framework involves OfS, QAA, and devolved variants.
+
+### Differences from Australia 2020
+
+Australia maintains the most distinctive feature: the public list of 2,300+ known providers. The UK has internal regulator-level lists but does not publish comprehensively. This is a deliberate policy choice — TEQSA's public list serves institutional blocking and public signalling; the UK approach is less open.
+
+### Common features
+
+All three jurisdictions:
+- Target the supply side rather than students
+- Use existing quality regulators as enforcement bodies
+- Provide for cross-border cooperation
+- Maintain unlimited or substantial financial penalties
+- Coordinate with detection tool providers
+
+## What comes next
+
+### Welsh, Scottish, Northern Irish frameworks
+
+The devolved UK administrations are at various stages of implementing parallel frameworks. The Welsh framework has progressed [verify current status]; Scotland and Northern Ireland are at earlier stages.
+
+### AI tool integration
+
+The Act predates the comprehensive AI tool concerns. Future amendments may address whether AI service providers fall within scope of the "academic cheating services" definition. The current interpretation excludes general-purpose AI tools but includes purpose-built AI submission services.
+
+### Enforcement maturity
+
+The Act is relatively new. Enforcement infrastructure continues to develop:
+- OfS staffing for the integrity function
+- Prosecutorial cooperation arrangements
+- International intelligence sharing
+- Detection-evidence integration
+
+## Sources
+
+- Skills and Post-16 Education Act 2022, section 80
+- Office for Students (OfS) integrity framework documentation
+- Quality Assurance Agency (QAA) for Higher Education guidance
+- AMI v1.5 UK country profile
+- TEQSA and QQI cooperation documentation
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "chatgpt-classroom-universities",
+    title: "ChatGPT in the Classroom: How Universities Have Responded",
+    seoTitle: "ChatGPT in University Classrooms 2026 | Response Analysis",
+    metaDescription: "Universities globally have responded to ChatGPT and AI tools with varying policies — permitted with disclosure, prohibited, attribution-required. Analysis of approaches.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["ChatGPT", "AI policy", "universities", "classroom", "news"],
+    tldr: "Universities globally have adopted four broad approaches to ChatGPT and other AI tools: permitted with disclosure (most common), prohibited entirely, permitted with attribution, and permitted without restriction. Policy adoption varies sharply by institution type and country. Scarfe 2024 (94% AI miss rate) shapes detection-vs-policy debate.",
+    excerpt: "Three years after ChatGPT's launch, universities globally have developed widely varying policies on AI use in academic work. This analysis maps the approaches, the patterns, and what AMI data shows about effectiveness.",
+    faqSchema: [
+      {
+        question: "How have universities responded to ChatGPT?",
+        answer: "Universities have adopted four broad approaches: (1) permitted with disclosure — most common, allowing limited AI use with explicit disclosure of specific uses; (2) prohibited entirely — applied in fundamental skills courses; (3) permitted with attribution — substantial AI use allowed with proper crediting; (4) permitted without restriction — rare, paired with assessment design that demonstrates understanding beyond text generation."
+      },
+      {
+        question: "Can universities actually detect ChatGPT use?",
+        answer: "Detection capability is limited. Scarfe et al. (2024) found 94% of AI-generated submissions went undetected at the University of Reading in a controlled study. Turnitin's AI detection (added 2023), GPTZero, Originality.ai, and Copyleaks all attempt automated detection but produce both false positives and false negatives. Detection capability is improving slowly; assessment redesign is increasingly seen as more important than detection technology."
+      },
+      {
+        question: "Do AI policies actually work?",
+        answer: "Mixed evidence. Universities with clear policies and strong disclosure cultures report higher confidence that policies are followed. Universities with prohibitive policies but weak detection report high suspected non-compliance. The most effective single intervention appears to be assessment redesign — moving toward demonstrable understanding (oral examinations, applied problems, project work) rather than text-generation-vulnerable formats."
+      }
+    ],
+    content: `
+## TL;DR
+
+Universities globally have adopted four broad approaches to AI in academic work: permitted with disclosure (most common), prohibited entirely (specific courses), permitted with attribution, permitted without restriction (paired with assessment redesign). Scarfe 2024 detection finding (94% AI miss rate) shapes the policy debate. Assessment redesign increasingly seen as more important than detection.
+
+## The four approaches
+
+### 1. Permitted with disclosure
+
+The most common university approach globally. Key features:
+
+- AI use permitted for limited purposes (brainstorming, grammar checking, idea generation)
+- Students must disclose specific uses
+- Original drafting and analytical content must be the student's own
+- Sanctions apply for undisclosed use even when the use itself would have been permitted
+
+Adopted by: most North American universities, most UK universities, most European universities. The default position in higher education.
+
+### 2. Prohibited entirely
+
+Adopted in specific course contexts where the assessment specifically targets capabilities AI can perform:
+
+- Foundation-skills writing courses
+- Mathematical reasoning courses with show-your-work assessment
+- Language acquisition courses
+- Some examination contexts
+
+Sometimes applied institutionally as a baseline ("AI not permitted unless instructor explicitly authorises") with instructor discretion to relax.
+
+### 3. Permitted with attribution
+
+A minority approach. Allows substantial AI use provided the student properly attributes the AI contribution:
+
+- "This paragraph drafted with ChatGPT, then revised"
+- "Code generated with Claude, then tested and debugged"
+- "Analysis structure proposed by AI, content original"
+
+Less common; raises questions about what is being assessed. Tends to appear in advanced coursework where AI tools are part of the discipline's professional practice (some computer science, some research methods courses).
+
+### 4. Permitted without restriction
+
+Rare. Some institutions and instructors permit AI use without restriction, paired with assessment design that demonstrates understanding beyond text generation:
+
+- Oral examinations
+- Live problem-solving
+- Project-based assessment with viva
+- Applied work where the AI-generated component is part of the deliverable
+
+This approach is increasingly discussed as the "assessment redesign" response to AI — make AI use largely irrelevant to grading by assessing what AI cannot do.
+
+## Country patterns
+
+### Anglophone Q1 — clear policies, broad detection deployment
+
+UK, Australia, Canada, Ireland, New Zealand. Most universities have explicit AI policies (typically "permitted with disclosure"). Detection tools widely deployed including Turnitin AI detection.
+
+The Guardian FOI investigation (June 2025) showed 5.1/1000 UK students caught using AI in 2023–24 — confirming that AI misconduct is being identified and processed at scale in jurisdictions with strong detection.
+
+### US — institutional variation
+
+The fragmented US higher education system shows wide policy variation:
+- Elite private institutions: typically "permitted with disclosure"
+- State universities: varied, often "permitted with disclosure" with significant instructor discretion
+- Community colleges: less developed policies
+- For-profit institutions: variable
+
+The US scores R_det=80 (second highest in dataset) reflecting near-universal Turnitin deployment. Disclosure requirements are institutional rather than federal.
+
+### Continental Europe — institutional infrastructure, evolving policies
+
+Netherlands, Germany, France, Italy, Spain. Most universities have developed AI policies post-2023. Detection tool deployment is partial — Compilatio (French), PlagScan (German), Antiplagiat (Russian), JSA (Polish) provide language-specific alternatives to Turnitin.
+
+The maxed D2 scores in Italy, France, Spain (D2=100 each) suggest the policy implementation has not yet brought demand signals down to Anglophone Q1 levels.
+
+### Asia — wide variation
+
+Singapore: strong institutional infrastructure, clear policies. Japan: post-STAP institutional integrity culture extends to AI. South Korea: post-Hwang reform context with KRI integration. China, India, Pakistan: weaker institutional implementation.
+
+### Latin America, Middle East, Africa — policy lag
+
+Most universities in these regions are still developing AI policies. The maxed D2 signals in Colombia, Argentina, Egypt, Iran, Saudi Arabia, etc. reflect substantial demand combined with limited institutional response.
+
+## The detection-assessment-redesign debate
+
+### The detection position
+
+Some institutions invest heavily in detection tools (Turnitin AI detection, Originality.ai, GPTZero, Copyleaks). The bet is that detection capability will improve over time, deterring AI misuse.
+
+Limitations:
+- Scarfe 2024 shows current detection misses 94%
+- Iterative AI improvement may outpace detection improvement
+- False positives can produce unjust accusations (particularly affecting non-native English speakers)
+
+### The assessment redesign position
+
+Other institutions emphasise redesigning assessment to make AI use largely irrelevant:
+- Oral examinations
+- Live problem-solving
+- Project work with iterative review
+- Demonstration of understanding through Q&A
+- Work that requires specific context AI cannot provide
+
+Limitations:
+- Higher staff time per assessment (oral exams are expensive)
+- Some disciplines harder to redesign than others
+- Existing assessment frameworks slow to change
+
+### The integrated position
+
+Most institutions are moving toward a combination:
+- Detection as one tool, not the primary defence
+- Disclosure as primary expectation
+- Assessment redesign as ongoing strategy
+- Clear penalties for undisclosed use
+
+## What AMI data shows about effectiveness
+
+### D2 scores cluster by R-Score
+
+Countries with strong institutional response (Q1) have moderate D2 scores (UK 44, Australia 44, Canada 44, Ireland 31). Countries with weak response have maxed D2 (Egypt 100, Iran 100, Italy 100, France 100, etc.).
+
+The correlation suggests institutional infrastructure does affect AI submission patterns — though the direction of causation is complex (do strong-response countries have lower demand, or does lower demand enable stronger response?).
+
+### Detection capability sub-component
+
+The R_det sub-component (Detection tools) shows the strongest cross-country correlation with reported AI misconduct rates. Countries with high R_det (UK 90, Australia 85) report more confirmed cases per student than countries with low R_det.
+
+This is partly the detection-incidence confound: strong detection produces more reported cases. But it also reflects that without detection, misconduct goes unmeasured.
+
+## What the next two years will show
+
+### Detection improvement
+
+Detection capability is improving but slowly. The 94% Scarfe miss rate is a 2024 measurement; iterative AI tool improvement and detection tool improvement will both continue.
+
+### Assessment redesign adoption
+
+The assessment redesign approach is increasingly discussed. Adoption rates will be measurable over 2026–2028. Whether the approach scales beyond specific high-resource institutions is the open question.
+
+### Policy maturation
+
+Most universities have first-generation AI policies in place. Second-generation policies — more nuanced, more discipline-specific, more aligned with assessment redesign — are emerging.
+
+### Cross-country comparison
+
+The AMI's D2 dimension will continue to track AI submission demand. Whether countries with strong institutional response can drive D2 down toward the Q1 Anglophone range (D2=31–44) will be visible over the next few versions.
+
+## Sources
+
+- Scarfe, P., et al. (2024), University of Reading detection study
+- The Guardian (June 2025), FOI investigation on UK AI misconduct
+- Institutional AI policy documentation (various universities)
+- AMI v1.5 D2 dimension methodology
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "retraction-watch-gitlab-move",
+    title: "Retraction Watch on GitLab: The 2023 Crossref Partnership",
+    seoTitle: "Retraction Watch on GitLab Crossref Partnership 2023 | News 2026",
+    metaDescription: "The 2023 Crossref partnership made the Retraction Watch database publicly available on GitLab. Coverage of 69,911 records as of April 2026. Enabled AMI D6 measurement.",
+    date: "2026-05-20",
+    category: "news",
+    tags: ["Retraction Watch", "Crossref", "GitLab", "open data", "news"],
+    tldr: "In 2023, Crossref entered a partnership with the Center for Scientific Integrity to make the Retraction Watch database openly available on GitLab. The 69,911-record database (April 2026) is now public. The partnership was a precondition for the AMI's D6 dimension being measurable from live data.",
+    excerpt: "For most of its history, the Retraction Watch database was a paid resource. The 2023 Crossref partnership changed that — making 69,911 records publicly available on GitLab. Here is what changed and why it matters.",
+    faqSchema: [
+      {
+        question: "When did Retraction Watch become publicly available?",
+        answer: "In 2023, Crossref entered a partnership with the Center for Scientific Integrity to make the Retraction Watch database openly available. The data is hosted on GitLab and updated periodically. Before 2023, the database was accessible to academic institutions through subscription but not freely available to the public."
+      },
+      {
+        question: "Why is the Retraction Watch / Crossref partnership important?",
+        answer: "The partnership transformed accessibility of research misconduct data. Before 2023, systematic analysis of retraction patterns required institutional access. After the partnership, any researcher, journalist, or policy analyst can access the full dataset. The Academic Misconduct Index's D6 dimension would not have been measurable from current data without this partnership."
+      },
+      {
+        question: "How big is the Retraction Watch database now?",
+        answer: "As of April 2026, the database contains 69,911 retraction records, with 5,390 classified as misconduct-related (fabrication, falsification, image manipulation, fraud). The database has grown from approximately 5,000 records in 2010 to its current size — partly through ongoing detection, partly through historical record cataloguing, and partly through systematic paper mill detection efforts."
+      }
+    ],
+    content: `
+## TL;DR
+
+In 2023, Crossref entered a partnership with the Center for Scientific Integrity to make the Retraction Watch database openly available on [GitLab](https://gitlab.com/crossref/retraction-watch-data). 69,911 records as of April 2026, with 5,390 misconduct-linked. The partnership was a precondition for the AMI's D6 dimension being measurable from live data.
+
+## What changed in 2023
+
+### Before the partnership
+
+The Retraction Watch database was operated by the Center for Scientific Integrity (the non-profit behind the Retraction Watch blog). The database was:
+- Accessible to academic institutions through subscription
+- Not freely available to the public or to independent researchers
+- A paid resource that limited broader analytical use
+
+### After the partnership
+
+Crossref — the not-for-profit organisation that manages DOIs and bibliographic metadata for the scholarly publishing industry — entered a partnership to host the database openly. The data is now:
+- Hosted on GitLab (open access)
+- Updated periodically
+- Freely available for any research or analytical use
+- Integrated with Crossref's broader scholarly metadata infrastructure
+
+## Why this partnership matters
+
+### Accessibility transformation
+
+The single biggest change: any researcher, journalist, or policy analyst can now access the full dataset. Previous coverage was institutional and partial; current coverage is universal and comprehensive.
+
+### Integration with metadata infrastructure
+
+Crossref provides the underlying DOI infrastructure for most scholarly publications. Integrating Retraction Watch with Crossref creates linking between:
+- Original publication records
+- Retraction notices
+- Author affiliations and credentials
+- Citation networks
+
+The integration enables analysis that was previously difficult.
+
+### Research enablement
+
+Several systematic analyses became feasible after 2023:
+- Cross-country retraction rate calculations (the AMI's D6 approach)
+- Paper mill cluster identification
+- Co-authorship network analysis on retracted papers
+- Time-series analysis of retraction reasons
+
+## Why the AMI needed this
+
+### The D6 dimension requires comprehensive coverage
+
+The AMI's D6 (data fabrication) dimension is built from Retraction Watch data:
+1. Filter to misconduct-linked retractions
+2. Country-attribute via author affiliations
+3. Normalise by publication volume from OpenAlex
+4. Calculate per-publication rates
+5. Rescale across the 39-country set
+
+Each step requires comprehensive coverage. Subscription-only access meant the AMI methodology could not be operationalised with current data.
+
+### Open data enables open methodology
+
+The AMI is published under CC BY 4.0. Open methodology requires open inputs. The Crossref partnership made it possible to build D6 from a fully open data source — supporting the AMI's licensing and reproducibility commitments.
+
+### Verification by third parties
+
+Any third party can verify the AMI's D6 calculations by:
+1. Downloading the Retraction Watch data from GitLab
+2. Applying the AMI methodology's filter and normalisation steps
+3. Computing comparable results
+
+Subscription-only data would have prevented this verification.
+
+## Growth pattern of the database
+
+| Year | Approx. records |
+|---|---|
+| 2010 | ~5,000 |
+| 2015 | ~10,000 |
+| 2020 | ~30,000 |
+| 2022 | ~45,000 |
+| 2024 | ~65,000 |
+| April 2026 | 69,911 |
+
+### Pre-2020 growth
+
+Gradual accumulation as Retraction Watch covered ongoing retractions and back-catalogued historical cases. Annual growth in the low thousands.
+
+### 2020–2022 acceleration
+
+Two factors:
+1. Several major publishers (PLOS, Wiley, Hindawi) ran systematic retraction campaigns identifying paper mill content. Each campaign added thousands of records.
+2. Image forensics tools (Imagetwin, PaperWatcher) drove a wave of image manipulation detection.
+
+### 2023 partnership and ongoing growth
+
+The Crossref partnership accelerated growth in two ways:
+1. Improved record completeness (previously fragmented coverage filled)
+2. Better integration of recent retractions through Crossref's DOI infrastructure
+
+## Database structure
+
+### What each record contains
+
+- Article identifiers (DOI, PubMed ID, etc.)
+- Authors and country attribution
+- Journal and publisher
+- Original publication date
+- Retraction date
+- Retraction reason (multiple categories)
+- Notice text where available
+
+### Reason categorisation
+
+The AMI methodology filters to misconduct-linked retractions:
+- Fabrication
+- Falsification
+- Image manipulation
+- Plagiarism (in research context)
+- Fraud
+- Manipulation of peer review
+
+Excluded: honest errors, duplicate publication, ethics issues, author requests, other non-misconduct categories.
+
+The misconduct-linked subset is approximately 5,390 of 69,911 records (~7.7%).
+
+## What other instruments depend on the partnership
+
+### The AMI's D6 dimension
+
+The most directly dependent. Without the partnership, D6 measurement would not have been feasible from current data.
+
+### Academic research on retraction patterns
+
+Numerous research projects rely on the Retraction Watch data:
+- Fang, Steen & Casadevall (2012, PNAS) — established the misconduct-share of retractions
+- Liang et al. (2024) — AI content in Chinese academic papers
+- Various country and discipline-specific analyses
+
+### Policy analysis
+
+Government and intergovernmental bodies (OECD, UNESCO, individual national research councils) increasingly cite Retraction Watch data in research integrity policy documents.
+
+### Journalism
+
+Investigative journalism on research misconduct depends on the database. Major recent investigations (the Wansink case, the Hwang Woo-suk reanalysis, paper mill exposés) used Retraction Watch as the principal source.
+
+## Operational implications
+
+### For Retraction Watch
+
+The partnership shifted Retraction Watch's funding model. Previously subscription revenue supported operations; now grant and foundation funding plays a larger role. The Center for Scientific Integrity continues to operate the database with Crossref as hosting partner.
+
+### For Crossref
+
+The partnership expanded Crossref's scope beyond DOI management and standard metadata. The integration with research integrity data is a meaningful expansion of Crossref's mission.
+
+### For institutional subscribers
+
+Pre-existing subscribers retained access plus benefited from the broader integration. The partnership did not strand earlier institutional investment.
+
+## What this enables next
+
+### Real-time integration
+
+The Crossref infrastructure enables retraction notices to flow more rapidly through to publication databases, citation tools, and research analytics platforms.
+
+### Cross-database joins
+
+Joining Retraction Watch with other Crossref-managed datasets (publication corpora, ORCID profiles, funding records) enables analyses that were previously much harder.
+
+### Future AMI versions
+
+The partnership ensures AMI D6 measurement can continue. Future AMI versions (v2.0 with expanded country coverage, planned methodological improvements) will continue to rely on the open Retraction Watch data.
+
+## Sources
+
+- [Crossref / Retraction Watch partnership announcement (2023)](https://www.crossref.org/blog/news-crossref-and-retraction-watch/) [verify exact URL]
+- [Retraction Watch Database on GitLab](https://gitlab.com/crossref/retraction-watch-data)
+- Retraction Watch blog and Center for Scientific Integrity
+- AMI v1.5 methodology document
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
 ];
