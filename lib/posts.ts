@@ -3932,4 +3932,1835 @@ For employers and admissions offices, South African credentials show meaningful 
     `.trim(),
   },
 
+  {
+    slug: "philippines-academic-misconduct-profile",
+    title: "Philippines: Academic Misconduct Index Country Profile",
+    seoTitle: "Philippines Academic Misconduct Profile 2026 | AMI P=17.7",
+    metaDescription: "The Philippines scores P=17.69, R=23.2 on the AMI. Low Prevalence but limited institutional response. CHED accreditation, English-language essay mill export market. Q4 profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Philippines", "Asia", "CHED", "essay mills", "country profile"],
+    tldr: "The Philippines scores P=17.69, R=23.2, Q4 (Probably not looking). Low Prevalence but limited Response Quality. CHED accreditation framework with weak integrity mandate. Documented essay mill export market serving English-language Anglophone destinations.",
+    excerpt: "The Philippines scores P=17.7 on the Academic Misconduct Index — among the lower Prevalence scores globally — but R=23.2 keeps it in Q4. The country is also a documented essay mill export hub. Here is what the data shows.",
+    faqSchema: [
+      {
+        question: "What is the Philippines' academic misconduct score?",
+        answer: "The Philippines scores P=17.69 (Prevalence) and R=23.2 (Response Quality) on the Academic Misconduct Index 2026, placing it in Q4 (Probably not looking). The low Prevalence combined with weak Response is interpreted as likely under-detection rather than genuinely low misconduct."
+      },
+      {
+        question: "Is the Philippines a hub for contract cheating?",
+        answer: "The Philippines is one of the principal essay mill export markets globally, alongside Kenya, India, and Pakistan. Filipino writers serve US, UK, and Australian student markets through online platforms. The English-language proficiency, time-zone arbitrage, and lower labour costs have made the Philippines a major supply hub in the global contract cheating economy."
+      },
+      {
+        question: "What is CHED?",
+        answer: "The Commission on Higher Education (CHED) regulates higher education in the Philippines. CHED accredits institutions and programmes and sets quality standards. CHED's framework includes some integrity-relevant components but does not mandate universal detection tool deployment or integrity-specific disclosure."
+      }
+    ],
+    content: `
+## TL;DR
+
+Philippines: P=17.69, R=23.2, Q4 (Probably not looking). Low Prevalence but weak Response — likely under-detection. Documented essay mill export hub serving Anglophone destinations. CHED accreditation framework without integrity-specific mandate.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 17.69 — 33rd of 39 countries
+- **Response Quality (R):** 23.2
+- **Quadrant:** Q4 — Probably not looking
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Asia (Southeast)
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 67 |
+| D2 AI submissions | 56 |
+| D3 Exam impersonation | 14 |
+| D4 Plagiarism | 52 |
+| D5 Collusion | 65 |
+| D6 Data fabrication | 30 |
+
+## What drives the Philippines' score
+
+### Low Prevalence with high D1 export signal
+
+The Philippines' overall P-Score is low (17.69), but the D1 score of 67 reflects significant essay mill activity. The pattern is structural: the domestic demand for contract cheating services among Filipino students is moderate, but the country is one of the principal *suppliers* in the global contract cheating economy.
+
+### Essay mill export market
+
+Filipino writers serve US, UK, and Australian student markets through online platforms. The English-language proficiency of the Filipino workforce, time-zone arbitrage for Anglophone deadlines, and lower labour costs have made the Philippines a major supply hub. Lancaster (multiple) [verify specific citations] has documented Filipino participation alongside Kenyan and Indian writers as the principal supply-side concentration.
+
+### Collusion (D5 = 65)
+
+The Philippines' D5 score is elevated, consistent with regional Southeast Asian patterns. Large class sizes at major institutions and group-study cultures contribute.
+
+### Low data fabrication (D6 = 30)
+
+Filipino research output is concentrated at a smaller set of institutions (UP system, Ateneo, De La Salle); misconduct-linked retractions per publication are moderate.
+
+## R-Score breakdown
+
+- **Legislation: 18** — Higher Education Act framework; no contract cheating ban
+- **Detection tools: 35** — partial Turnitin deployment
+- **Disclosure: 15** — limited public reporting
+- **Penalties: 25** — institutional codes vary
+
+### CHED
+
+The Commission on Higher Education regulates Filipino higher education and accredits institutions. CHED's framework provides quality oversight but does not mandate integrity-specific disclosure. The agency's accreditation processes contribute modestly to the Disclosure sub-component.
+
+## Why the Philippines is in Q4
+
+The combination of low Prevalence (17.69) and low Response (23.2) places the Philippines in Q4. The AMI methodology's "Probably not looking" diagnosis applies — the low apparent prevalence likely reflects under-detection rather than genuinely low misconduct, particularly given the country's significant supply-side role in the global contract cheating market.
+
+## Implications
+
+The Philippines is one of the cases where the country-level Prevalence score most likely underestimates actual incidence. The supply-side role in essay mill exports is structurally significant; international cooperation between Filipino authorities and Anglophone destination-market regulators would be required for substantive intervention.
+
+For employers and admissions offices, Filipino credentials show meaningful institutional variance. The UP system, Ateneo, De La Salle, and a small set of leading institutions have stronger institutional integrity infrastructure than the broader sector.
+
+## Sources
+
+- Lancaster (multiple), International Journal for Educational Integrity [verify specific citations]
+- CHED accreditation framework documentation
+- Google Trends (2022–2026), Philippines country-level
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "singapore-academic-misconduct-profile",
+    title: "Singapore: Academic Misconduct Index Country Profile",
+    seoTitle: "Singapore Academic Misconduct Profile 2026 | AMI P=15.3",
+    metaDescription: "Singapore scores P=15.34, R=47.5 on the AMI. Low Prevalence and strong R-Score for Asia. MOE framework, NUS and NTU institutional infrastructure. Q4 profile bordering Q1.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Singapore", "Asia", "MOE", "NUS", "NTU", "country profile"],
+    tldr: "Singapore scores P=15.34, R=47.5, Q4 (Probably not looking). Low Prevalence and the strongest Response Quality in Asia. MOE quality framework, NUS and NTU institutional infrastructure. Q4 placement is borderline Q1.",
+    excerpt: "Singapore scores P=15.3 on the Academic Misconduct Index — among the lowest Prevalence globally — combined with R=47.5, the highest Asian Response Quality score. The Q4 placement is borderline Q1. Here is the profile.",
+    faqSchema: [
+      {
+        question: "What is Singapore's academic misconduct score?",
+        answer: "Singapore scores P=15.34 (Prevalence) and R=47.5 (Response Quality) on the Academic Misconduct Index 2026, placing it in Q4 (Probably not looking). Singapore has the lowest Prevalence in Asia and the highest Asian Response Quality score."
+      },
+      {
+        question: "Why is Singapore in Q4 not Q1?",
+        answer: "Singapore's R-Score of 47.5 is below the Q1 threshold despite being the highest in Asia. The gap from Q1 European peers (Netherlands: 51.2) and Q1 Anglophone leaders (Canada: 60.0, NZ: 58.8) reflects the absence of specific contract cheating legislation and slightly weaker mandatory disclosure infrastructure. A small Response increase would shift Singapore into Q1."
+      },
+      {
+        question: "How is academic integrity managed in Singapore?",
+        answer: "The Ministry of Education (MOE) sets standards for Singapore universities. NUS, NTU, SMU, and SUTD operate strong institutional academic integrity offices with mandatory detection tool deployment, clear penalty frameworks, and active disclosure of integrity matters. The institutional infrastructure is among the strongest in Asia."
+      }
+    ],
+    content: `
+## TL;DR
+
+Singapore: P=15.34, R=47.5, Q4 (Probably not looking). Borderline Q1 — lowest Asian Prevalence, highest Asian R-Score. MOE framework, strong NUS/NTU/SMU institutional infrastructure. No specific contract cheating legislation is the main gap from Q1.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 15.34 — 34th of 39 countries
+- **Response Quality (R):** 47.5 — highest in Asia
+- **Quadrant:** Q4 — Probably not looking (borderline Q1)
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Asia
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 50 |
+| D2 AI submissions | 44 |
+| D3 Exam impersonation | 8 |
+| D4 Plagiarism | 48 |
+| D5 Collusion | 50 |
+| D6 Data fabrication | 20 |
+
+## What drives Singapore's score
+
+### Consistently low dimension scores
+
+Singapore's dimension scores are consistently moderate-low across the board:
+- D1=50, D2=44 — lower than most Asian peers
+- D3=8 — among the lowest in the dataset
+- D5=50 — well below regional peers (India, Malaysia, Indonesia at 72)
+- D6=20 — low
+
+The pattern reflects mature institutional integrity culture combined with relatively small higher education sector (six autonomous universities plus polytechnics). High institutional standards apply uniformly across the major institutions.
+
+### Low data fabrication (D6 = 20)
+
+Singapore's Retraction Watch signal is low. NUS, NTU, and the other autonomous universities produce substantial research output, particularly in engineering, biomedical, and computing fields, with misconduct-linked retraction rates among the lowest in Asia.
+
+## What Singapore does well (R = 47.5)
+
+The R-Score of 47.5 is the highest in Asia. The breakdown:
+- **Legislation: 30** — research integrity framework; no specific essay mill ban
+- **Detection tools: 65** — broad Turnitin deployment
+- **Disclosure: 40** — institutional reporting
+- **Penalties: 55** — clear, applied frameworks
+
+### Singapore institutions
+
+NUS, NTU, SMU, SUTD, SIT, and SUSS operate strong institutional academic integrity offices. The Singapore university system is small (six autonomous universities) but coherently regulated through MOE oversight. Detection tool deployment is universal across the autonomous universities; institutional integrity offices are well-resourced.
+
+### MOE
+
+The Ministry of Education oversees Singapore higher education. MOE's quality assurance framework includes integrity-relevant components. The Committee for Private Education (CPE) regulates the broader private higher education sector with somewhat lower integrity standards than the autonomous universities.
+
+## Why Singapore is borderline Q1
+
+Singapore's R-Score of 47.5 is below the Q1 threshold but the gap is small. The gap from Q1 Anglophone leaders reflects:
+- No specific contract cheating ban (Australia, UK, Ireland all have one)
+- Disclosure infrastructure is institutional rather than statutory
+- The autonomous universities operate strong frameworks but national-level mandates are limited
+
+Adopting essay mill legislation on the Irish/UK model would lift the Legislation sub-score and likely shift Singapore into Q1.
+
+## Implications
+
+For Singapore policymakers, the gap from Q1 is achievable with a modest legislative change. The institutional infrastructure already supports Q1-level integrity practice.
+
+For employers and admissions offices, Singapore credentials carry strong integrity infrastructure signals. The autonomous universities (NUS, NTU, SMU, SUTD) have integrity profiles comparable to Q1 European peers.
+
+## Sources
+
+- MOE framework documentation
+- NUS, NTU institutional integrity policies
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Google Trends (2022–2026), Singapore country-level
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "ireland-academic-misconduct-profile",
+    title: "Ireland: Academic Misconduct Index Country Profile",
+    seoTitle: "Ireland Academic Misconduct Profile 2026 | AMI R=78.8 Q1",
+    metaDescription: "Ireland scores P=12.21, R=78.8 on the AMI — Q1 (Best in class). 2019 QQI essay mill ban anchors the highest Legislation sub-score in Europe. Full profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Ireland", "Europe", "QQI", "essay mill ban", "country profile"],
+    tldr: "Ireland scores P=12.21, R=78.8, Q1 (Best in class). Third highest R-Score in dataset. Anchored by the 2019 QQI Act essay mill ban — first such legislation globally. Strong institutional infrastructure across the IUA universities.",
+    excerpt: "Ireland scores P=12.2 and R=78.8 on the Academic Misconduct Index — the third highest Response Quality score globally. Ireland was the first country to legislate against essay mill services, in 2019. Here is what drives the score.",
+    faqSchema: [
+      {
+        question: "What is Ireland's academic misconduct score?",
+        answer: "Ireland scores P=12.21 (Prevalence) and R=78.8 (Response Quality) on the Academic Misconduct Index 2026, placing it in Q1 (Best in class). Ireland has the third highest Response Quality score in the AMI dataset, behind only Australia (88.8) and the UK (87.5)."
+      },
+      {
+        question: "When did Ireland ban essay mills?",
+        answer: "Ireland was the first country in the world to specifically legislate against contract cheating services, through the Qualifications and Quality Assurance (Education and Training) (Amendment) Act 2019. The Act gives QQI (Quality and Qualifications Ireland) statutory powers to prosecute essay mill operators and providers."
+      },
+      {
+        question: "How effective has Ireland's essay mill ban been?",
+        answer: "Ireland's R-Score of 78.8 reflects the strong legislative framework. QQI has obtained court orders against essay mill websites and pursued enforcement actions against providers. The Legislation sub-score of 100 — the maximum — reflects the comprehensive statutory framework. Whether this has translated into measurable Prevalence reduction is harder to isolate given Ireland's small sample sizes."
+      }
+    ],
+    content: `
+## TL;DR
+
+Ireland: P=12.21, R=78.8, Q1 (Best in class). Third highest R-Score globally. Anchored by the 2019 QQI essay mill ban — first such legislation globally. Strong institutional infrastructure across the Irish university sector.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 12.21 — 35th of 39 countries
+- **Response Quality (R):** 78.8 — 3rd highest in dataset
+- **Quadrant:** Q1 — Best in class
+- **Data quality:** A (3/6 dimensions from live data)
+- **Region:** Europe
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 33 |
+| D2 AI submissions | 31 |
+| D3 Exam impersonation | 8 |
+| D4 Plagiarism | 44 |
+| D5 Collusion | 56 |
+| D6 Data fabrication | 15 |
+
+## What drives Ireland's score
+
+### Low dimension scores
+
+Ireland's dimension scores are consistently moderate-low. The D1 score of 33 is tied for the lowest contract cheating signal in the dataset (with Australia and the UK) — all three are countries with specific essay mill legislation.
+
+### Low data fabrication (D6 = 15)
+
+Ireland's Retraction Watch signal is low. Irish research output is concentrated at TCD, UCD, NUI Galway, UCC, Maynooth, DCU, and the IT sector institutions; misconduct-linked retractions per publication are among the lowest in Europe.
+
+## What Ireland did — the 2019 legislation
+
+Ireland was the first country in the world to legislate specifically against contract cheating services. The Qualifications and Quality Assurance (Education and Training) (Amendment) Act 2019 (QQI Act 2019):
+- Made it an offence to provide, advertise, or operate essay mill services
+- Gave QQI statutory powers to prosecute and obtain injunctions
+- Set fines and penalties for non-compliance
+- Created the statutory framework subsequently adopted by Australia (2020) and the UK (2022)
+
+### QQI enforcement
+
+Quality and Qualifications Ireland has used the 2019 Act to:
+- Obtain court orders against essay mill websites operating in Irish jurisdiction
+- Pursue enforcement actions against providers
+- Publish guidance for institutions on identifying and reporting contract cheating
+- Coordinate with TEQSA (Australia) and OfS (UK) on supply-side action
+
+The Legislation sub-score of 100 — the maximum — reflects the comprehensive statutory framework.
+
+## R-Score breakdown
+
+- **Legislation: 100** — comprehensive essay mill ban via QQI Act 2019
+- **Detection tools: 75** — broad Turnitin deployment across the IUA universities
+- **Disclosure: 70** — QQI reports, institutional disclosure
+- **Penalties: 70** — clear, applied frameworks
+
+### IUA and the Irish university sector
+
+The Irish Universities Association coordinates the seven Irish universities. The IUA's National Academic Integrity Network (NAIN) coordinates institutional integrity practice including shared use of detection tools, joint position statements, and cross-institutional information sharing on contract cheating providers.
+
+## Why Ireland is solidly in Q1
+
+The combination of low Prevalence (12.21) and very strong Response (78.8) places Ireland firmly in Q1. Ireland's small country size and concentrated university sector (seven universities plus the institutes of technology) enable coordinated policy implementation that larger systems struggle to match.
+
+The Irish model — comprehensive legislation, statutory regulator with enforcement powers, coordinated institutional practice — has been adopted by Australia (2020) and the UK (2022) as the template for essay mill regulation.
+
+## Implications
+
+For other policymakers, Ireland is the model case. The 2019 Act provides the statutory template, QQI demonstrates that enforcement is operationally feasible, and the NAIN coordination model shows how to implement consistently across institutions.
+
+For employers and admissions offices, Irish credentials carry strong integrity infrastructure signals. The IUA universities (TCD, UCD, NUI Galway, UCC, Maynooth, DCU, UL) share consistent integrity practices.
+
+## Sources
+
+- Qualifications and Quality Assurance (Education and Training) (Amendment) Act 2019
+- QQI enforcement reports
+- IUA National Academic Integrity Network (NAIN)
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "germany-academic-misconduct-profile",
+    title: "Germany: Academic Misconduct Index Country Profile",
+    seoTitle: "Germany Academic Misconduct Profile 2026 | AMI P=9.1",
+    metaDescription: "Germany scores P=9.14, R=38.8 on the AMI. Third lowest Prevalence globally. DFG integrity framework, broad detection deployment. Q4 placement reflects R-Score below Q1 threshold.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Germany", "Europe", "DFG", "VroniPlag", "country profile"],
+    tldr: "Germany scores P=9.14, R=38.8, Q4 (Probably not looking). Third lowest Prevalence globally — but Q4 placement reflects R-Score below Q1 threshold. DFG integrity framework, VroniPlag plagiarism documentation, no specific essay mill ban.",
+    excerpt: "Germany scores P=9.1 on the Academic Misconduct Index — the third lowest Prevalence globally — but lands in Q4 because R=38.8 is below Q1 thresholds. The German integrity framework is strong but lacks the statutory contract cheating ban that defines Q1 Anglophone peers. Here is what drives the profile.",
+    faqSchema: [
+      {
+        question: "What is Germany's academic misconduct score?",
+        answer: "Germany scores P=9.14 (Prevalence) and R=38.8 (Response Quality) on the Academic Misconduct Index 2026. The Prevalence is the third lowest globally; the country is in Q4 (Probably not looking) because the Response Quality is below the Q1 threshold."
+      },
+      {
+        question: "Why is Germany in Q4 with such a low Prevalence?",
+        answer: "Germany's R-Score of 38.8 is meaningfully below Q1 thresholds. The gap reflects: no specific contract cheating ban (Australia, UK, Ireland all have one), limited mandatory federal disclosure, and the federal structure where integrity policy varies between Länder. The DFG framework is strong but covers research rather than student misconduct comprehensively."
+      },
+      {
+        question: "What is VroniPlag?",
+        answer: "VroniPlag Wiki is a German volunteer initiative that systematically analyses doctoral dissertations for plagiarism. The project has identified plagiarism in dissertations by senior politicians and academics, leading to revocation of doctoral degrees in multiple high-profile cases. The work has contributed to broader German policy debate on doctoral oversight and detection requirements."
+      }
+    ],
+    content: `
+## TL;DR
+
+Germany: P=9.14, R=38.8, Q4 (Probably not looking). Third lowest Prevalence globally. Q4 placement reflects R-Score below Q1 threshold despite very low apparent prevalence. DFG framework, VroniPlag documentation, no specific essay mill ban.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 9.14 — 37th of 39 countries (3rd lowest)
+- **Response Quality (R):** 38.8
+- **Quadrant:** Q4 — Probably not looking
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** Europe
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 50 |
+| D2 AI submissions | 44 |
+| D3 Exam impersonation | 10 |
+| D4 Plagiarism | 48 |
+| D5 Collusion | 52 |
+| D6 Data fabrication | 20 |
+
+## What drives Germany's score
+
+### Low dimension scores
+
+Germany's dimension scores are consistently low — characteristic of countries with mature institutional integrity infrastructure:
+- D1=50 — moderate, no maxed signals
+- D2=44 — moderate AI submission signal
+- D6=20 — low Retraction Watch signal
+
+The pattern matches Q1 countries on the Prevalence axis. The Q4 placement is driven entirely by R-Score, not Prevalence.
+
+### VroniPlag and doctoral oversight
+
+The VroniPlag Wiki volunteer initiative has systematically analysed German doctoral dissertations for plagiarism, identifying significant copying in dissertations by senior politicians and academics. High-profile cases include former Defence Minister zu Guttenberg (2011 doctoral revocation) and others [verify other specific names]. The cases led to broader German policy debate on doctoral oversight, with several universities subsequently introducing mandatory thesis-checking requirements.
+
+## R-Score breakdown
+
+- **Legislation: 20** — research integrity provisions; no contract cheating ban
+- **Detection tools: 55** — broad Turnitin deployment across the university sector
+- **Disclosure: 30** — institutional reporting; varies by Land
+- **Penalties: 50** — clear, applied institutional frameworks
+
+### DFG
+
+The Deutsche Forschungsgemeinschaft (German Research Foundation) operates a comprehensive research integrity framework. The "Rules of Good Scientific Practice" (Regeln zur Sicherung guter wissenschaftlicher Praxis) define integrity standards for funded research and require participating institutions to maintain integrity infrastructure. The framework is strong but focused on research misconduct rather than student academic misconduct.
+
+### The federal structure
+
+German higher education is regulated at the Länder level, with significant variation in integrity practice between states. Bavaria, Baden-Württemberg, and Berlin have stronger integrity infrastructure than some other Länder. The federal structure limits the scope for national-level mandatory disclosure or universal detection requirements.
+
+## Why Germany is in Q4
+
+Germany's Q4 placement is a methodology pattern: very low Prevalence combined with R-Score below the Q1 threshold. The "Probably not looking" diagnosis applies in a specific way — Germany has strong research integrity infrastructure but the student academic misconduct response is less systematic than Q1 Anglophone peers.
+
+The gap from Q1 status is achievable. The Netherlands sits at P=44.47, R=51.2 (Q1) — meaningfully higher on both axes — but the Netherlands' R-Score advantage over Germany is achievable through institutional and statutory reform.
+
+## Implications
+
+For German policymakers, the Q4 placement is an artefact of the R/P threshold relationship. Statutory contract cheating legislation on the Irish model, plus mandatory federal disclosure requirements through DFG, would lift the R-Score above Q1 thresholds. Germany's institutional foundation supports this.
+
+For employers and admissions offices, German credentials carry strong integrity infrastructure signals despite the Q4 placement. The Excellence Initiative universities (TU München, LMU, Heidelberg, etc.) have integrity profiles comparable to Q1 European peers.
+
+## Sources
+
+- DFG "Rules of Good Scientific Practice" framework
+- VroniPlag Wiki documentation and revocation cases
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Google Trends (2022–2026), Germany country-level
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "canada-academic-misconduct-profile",
+    title: "Canada: Academic Misconduct Index Country Profile",
+    seoTitle: "Canada Academic Misconduct Profile 2026 | AMI P=4.9 Lowest",
+    metaDescription: "Canada scores P=4.90, R=60.0 on the AMI — the lowest Prevalence score in the dataset. Strong institutional infrastructure across the U15 universities. Q1 Best in class profile.",
+    date: "2026-05-20",
+    category: "country_profile",
+    tags: ["Canada", "North America", "U15", "academic integrity", "country profile"],
+    tldr: "Canada scores P=4.90, R=60.0, Q1 (Best in class). The lowest Prevalence score in the entire AMI dataset. Strong U15 university infrastructure, broad detection deployment, mature disclosure practice. No federal essay mill ban — the principal gap from Australia/UK/Ireland.",
+    excerpt: "Canada scores P=4.9 on the Academic Misconduct Index — the lowest Prevalence score of any country in the 39-country dataset — combined with R=60.0 placing it firmly in Q1. Here is what drives Canada's position and what the data shows.",
+    faqSchema: [
+      {
+        question: "What is Canada's academic misconduct score?",
+        answer: "Canada scores P=4.90 (Prevalence) and R=60.0 (Response Quality) on the Academic Misconduct Index 2026. Canada has the lowest Prevalence score of any country in the dataset, placing it firmly in Q1 (Best in class)."
+      },
+      {
+        question: "Why does Canada have the lowest Prevalence score?",
+        answer: "Canada's P-Score of 4.90 reflects consistently low dimension scores: low contract cheating demand (D1=50), low AI submission demand (D2=44), low data fabrication signal (D6=22). The combination of mature institutional infrastructure, strong U15 research universities, and provincial-level integrity standards produces the lowest aggregate score in the dataset."
+      },
+      {
+        question: "Does Canada have specific essay mill legislation?",
+        answer: "Canada has no specific federal essay mill ban equivalent to Australia's, the UK's, or Ireland's. Some provinces have considered contract cheating legislation but none has been enacted federally. The R-Score of 60.0 reflects strong institutional infrastructure that partially compensates for the absence of statutory provisions."
+      }
+    ],
+    content: `
+## TL;DR
+
+Canada: P=4.90, R=60.0, Q1 (Best in class). Lowest Prevalence score in the entire AMI dataset. Strong U15 university infrastructure, broad detection deployment, mature disclosure practice. No federal essay mill ban is the principal gap from Australia/UK/Ireland.
+
+## AMI scores at a glance
+
+- **Prevalence Score (P):** 4.90 — lowest of 39 countries
+- **Response Quality (R):** 60.0 — 4th highest in dataset
+- **Quadrant:** Q1 — Best in class
+- **Data quality:** A (5/6 dimensions from live data)
+- **Region:** North America
+
+### Dimension breakdown
+
+| Dimension | Score |
+|---|---|
+| D1 Contract cheating | 50 |
+| D2 AI submissions | 44 |
+| D3 Exam impersonation | 9 |
+| D4 Plagiarism | 40 |
+| D5 Collusion | 60 |
+| D6 Data fabrication | 22 |
+
+## What drives Canada's score
+
+### Consistently low dimensions
+
+Canada's dimension scores are consistently moderate-low across the board. No dimension shows the peaks seen in the high-Prevalence countries. The Retraction Watch signal is low (D6=22), the contract cheating signal is moderate (D1=50), and the plagiarism signal is among the lower in the dataset (D4=40).
+
+### Collusion (D5 = 60)
+
+Canada's D5 score is elevated relative to other Q1 countries. McCabe survey data and follow-up Canadian-specific research [verify] document unauthorised collaboration rates similar to US patterns — large STEM programmes with group-problem-set cultures contribute. The D5 score is the principal area where Canada exceeds Q1 European peers.
+
+### Low data fabrication (D6 = 22)
+
+Canada's Retraction Watch signal is low. Canadian research output is substantial — particularly at U15 institutions (UofT, McGill, UBC, Alberta, Waterloo, McMaster, etc.) — with misconduct-linked retractions per publication among the lowest in the dataset.
+
+## What Canada does well (R = 60.0)
+
+The R-Score of 60.0 is the fourth highest in the AMI dataset (after Australia 88.8, UK 87.5, Ireland 78.8). The breakdown:
+- **Legislation: 35** — research integrity provisions; no federal essay mill ban
+- **Detection tools: 75** — broad Turnitin deployment across the university sector
+- **Disclosure: 70** — institutional reporting; provincial frameworks
+- **Penalties: 60** — clear, applied institutional frameworks
+
+### U15 and the Canadian university sector
+
+The U15 Group of Canadian Research Universities coordinates the leading Canadian research institutions on integrity matters including shared use of detection tools and joint position statements. Outside the U15, the broader Canadian university sector also operates strong institutional integrity infrastructure.
+
+### Provincial frameworks
+
+Canadian higher education is provincial. Ontario, BC, Alberta, and Quebec all have ministerial-level quality assurance frameworks that include integrity components. The provincial structure produces less uniform statutory provisions than Anglophone peers with national-level frameworks.
+
+### Tri-Council Policy
+
+The Tri-Council Policy Statement (TCPS) on research ethics and integrity covers federally-funded research across Canadian institutions. The framework contributes to the Disclosure sub-component through required institutional compliance reporting.
+
+## Why Canada is solidly in Q1
+
+The combination of very low Prevalence (4.90 — lowest in dataset) and strong Response (60.0) places Canada firmly in Q1. Canada's profile is the strongest in the dataset on the Prevalence axis and fourth strongest on the Response axis.
+
+### Gap from Australia and UK
+
+Australia (P=7.43, R=88.8) and UK (P=11.41, R=87.5) have higher R-Scores than Canada despite similar Prevalence. The gap reflects:
+- Australia and UK have specific contract cheating legislation; Canada does not
+- Australia's TEQSA list of known providers; no Canadian equivalent
+- Canadian disclosure is institutional rather than federally mandated
+
+Adopting essay mill legislation on the Irish/UK model would close most of the remaining gap.
+
+## Implications
+
+For Canadian policymakers, the path to top-tier Q1 status is primarily legislative. Provincial or federal contract cheating legislation, mandatory federal disclosure requirements through the Tri-Council framework, and a TEQSA-equivalent public list would lift the R-Score above Australian levels.
+
+For employers and admissions offices, Canadian credentials carry very strong integrity infrastructure signals. The U15 universities have integrity profiles comparable to the strongest international peers.
+
+## Sources
+
+- Tri-Council Policy Statement (TCPS) on research ethics
+- U15 Group integrity coordination
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Google Trends (2022–2026), Canada country-level
+- Academic Misconduct Index v1.5 methodology
+
+[View full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "what-is-ami-complete-guide",
+    title: "What Is the Academic Misconduct Index? A Complete Guide",
+    seoTitle: "What Is the Academic Misconduct Index (AMI)? Complete Guide 2026",
+    metaDescription: "The AMI is a country-level index measuring academic cheating prevalence and institutional response across 39 countries. Full guide to scope, methodology, and use.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["AMI", "academic integrity", "methodology", "guide", "introduction"],
+    tldr: "The Academic Misconduct Index (AMI) is a country-level index measuring academic cheating across 39 countries on two axes: Prevalence Score (P) and Response Quality Score (R). Countries fall into four quadrants. Published annually under CC BY 4.0.",
+    excerpt: "The Academic Misconduct Index (AMI) measures academic cheating across countries on two axes — Prevalence and Response Quality — placing 39 countries into four quadrants. This guide explains what it is, what it measures, and how to use it.",
+    faqSchema: [
+      {
+        question: "What is the Academic Misconduct Index?",
+        answer: "The Academic Misconduct Index (AMI) is an independent country-level index measuring academic cheating prevalence and institutional response across 39 countries. It scores each country on two axes — Prevalence (P) and Response Quality (R) — and assigns them to one of four quadrants. The index draws on Retraction Watch data, Google Trends, FOI disclosures, and the ICAI McCabe surveys."
+      },
+      {
+        question: "Who maintains the AMI?",
+        answer: "The Academic Misconduct Index is an independent project. The methodology, dataset, and source code are published openly under CC BY 4.0. The principal aim is to provide policy-grade evidence on cross-country variation in academic integrity, modelled on Transparency International's Corruption Perceptions Index."
+      },
+      {
+        question: "How is the AMI used?",
+        answer: "Researchers use the AMI for cross-country comparative analysis. Policymakers reference it to benchmark national integrity infrastructure. Employers and admissions offices use the quadrant placements as one input among many when assessing credentials. Journalists cite it for cross-country reporting. The dataset is downloadable for any of these uses."
+      }
+    ],
+    content: `
+## TL;DR
+
+The Academic Misconduct Index (AMI) is a country-level index covering 39 countries. It scores each country on two axes — Prevalence (P) and Response Quality (R) — and places them in four quadrants. Published openly under CC BY 4.0. Version 1.5 launched May 2026.
+
+## What the AMI measures
+
+The index measures two things at the country level:
+
+### Prevalence Score (P)
+
+An estimated rate of academic misconduct, built from six dimensions:
+
+1. **D1 Contract cheating** — paying someone to complete academic work
+2. **D2 AI-generated submissions** — passing AI-generated content off as one's own
+3. **D3 Exam impersonation** — having someone else sit an examination
+4. **D4 Plagiarism** — submitting copied work without attribution
+5. **D5 Collusion** — unauthorised collaboration on individual assessments
+6. **D6 Data fabrication** — fabricating or falsifying research data
+
+Each dimension is scored on a 0–100 scale within the current country set, then weighted and combined.
+
+### Response Quality Score (R)
+
+How robustly institutions detect, investigate, and deter misconduct, built from four components:
+
+1. **Legislation** — statutory frameworks targeting academic misconduct (essay mill bans, research integrity laws)
+2. **Detection tools** — deployment of plagiarism detection and AI detection systems
+3. **Disclosure** — mandatory institutional or governmental reporting of misconduct
+4. **Penalties** — formal frameworks for institutional sanctions
+
+## The four quadrants
+
+| Quadrant | Pattern | Diagnosis |
+|---|---|---|
+| Q1 — Best in class | Low P, strong R | Low estimated prevalence and mature institutional response |
+| Q2 — Aware and fighting it | High P, strong R | High prevalence acknowledged and actively tackled |
+| Q3 — Crisis zone | High P, weak R | Primary target for intervention |
+| Q4 — Probably not looking | Low P, weak R | Low apparent prevalence likely reflects under-detection |
+
+Q2 is currently empty in v1.5 — no country combines high prevalence with strong response. This is itself a significant finding.
+
+## What the AMI is not
+
+The AMI is not a measure of individual student behaviour or capability. Country-level scores reflect institutional infrastructure and aggregate measurement, not the integrity of any individual student or graduate.
+
+The AMI is not a definitive count of misconduct cases — it is an estimate based on the best available indicators. Some dimensions rely on demand signals (Google Trends) rather than confirmed incidence; the methodology documents this explicitly.
+
+The AMI does not rank universities. Country-level scores aggregate across diverse institutions; substantial within-country variance is expected.
+
+## How to use the AMI
+
+### As a researcher
+Cite the dataset for cross-country comparative analysis. The CSV is downloadable. The methodology document specifies how to interpret scores and quadrant placements.
+
+### As a policymaker
+Benchmark national integrity infrastructure against peers. The R-Score breakdown identifies specific institutional levers (legislation, detection, disclosure, penalties).
+
+### As an employer or admissions officer
+Use country-level signals as one input among many. Quadrant placement carries more information than precise score values. Institution-level signals — particularly for countries with high within-country variance — remain important.
+
+### As a journalist
+Quote scores, quadrant placements, and dimension breakdowns. The dataset is openly licensed.
+
+## Versions and updates
+
+The AMI is updated periodically:
+
+- **v1.0–1.2 (2026 early)** — initial 28-country index
+- **v1.3 (April 2026)** — methodology consolidation
+- **v1.4** — Russia, Ukraine, Iran added
+- **v1.5 (May 2026)** — current version, 39 countries
+
+Future versions will add expert perception surveys, expand country coverage, and improve data quality for dimensions currently using regional extrapolation.
+
+## Licence and citation
+
+The AMI methodology, dataset, and source code are published under CC BY 4.0. Cite as:
+
+> Booth, F. (2026). Academic Misconduct Index, Version 1.5. academicmisconductindex.com
+
+## Further reading
+
+- [Full methodology](/methodology) — detailed explanation of data sources and calculations
+- [The four quadrants explained](/blog/four-quadrants-explained)
+- [How the P-Score is calculated](/blog/how-p-score-calculated)
+- [How the R-Score is calculated](/blog/how-r-score-calculated)
+    `.trim(),
+  },
+
+  {
+    slug: "how-p-score-calculated",
+    title: "How the AMI Prevalence Score (P) Is Calculated",
+    seoTitle: "How the AMI P-Score Is Calculated | Methodology Guide 2026",
+    metaDescription: "The AMI Prevalence Score (P) is built from six dimensions of academic misconduct, weighted, normalised, and rescaled across 39 countries. Full methodology walkthrough.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["P-Score", "Prevalence", "methodology", "AMI", "guide"],
+    tldr: "The Prevalence Score is built from six dimensions (D1–D6), each scored on a 0–100 scale from live data or literature estimates, then weighted and combined into a country aggregate. Final scores are rescaled across the 39-country set so the lowest receives 5 and the highest receives 95.",
+    excerpt: "The AMI Prevalence Score (P) is the estimated rate of academic misconduct in each country. This guide walks through how it is built — the six dimensions, the data sources, the weighting, and the rescaling.",
+    faqSchema: [
+      {
+        question: "What is the AMI Prevalence Score?",
+        answer: "The Prevalence Score (P) is the AMI's estimate of how widespread academic misconduct is in a given country. It is built from six dimensions — contract cheating, AI submissions, exam impersonation, plagiarism, collusion, and data fabrication — weighted and combined into a country aggregate score on a 0–100 scale."
+      },
+      {
+        question: "How are the six dimensions weighted?",
+        answer: "Dimension weighting is documented in the methodology document. The weights reflect both the prevalence-level importance of each dimension (severity per unit of incidence) and the data quality available for each dimension. Higher-confidence dimensions with stronger live data sources receive slightly higher weight in the v1.5 weighting scheme."
+      },
+      {
+        question: "Why is the P-Score rescaled to 5–95?",
+        answer: "The rescaling places the lowest-scoring country in the current set at 5 and the highest at 95. This makes scores comparable across countries within the set but means scores are not absolute — adding or removing countries from coverage will shift the scale. A score near 5 indicates the lowest estimated prevalence among the countries scored, not zero misconduct."
+      }
+    ],
+    content: `
+## TL;DR
+
+The Prevalence Score is built in four steps: (1) score each of six dimensions per country from live data or literature; (2) normalise to 0–100; (3) apply dimension weights and aggregate; (4) rescale across the 39-country set so the lowest scores 5 and the highest scores 95.
+
+## The six dimensions
+
+The P-Score is built from six dimensions of academic misconduct:
+
+### D1 Contract cheating
+Pays-someone-else demand and incidence. Primary data source: Google Trends queries for contract cheating keywords plus essay mill brand names. Secondary: McCabe / ICAI survey data where available.
+
+### D2 AI-generated submissions
+Demand for and incidence of AI-generated work submitted as one's own. Primary data source: Google Trends queries for AI submission tools. Secondary: Guardian FOI data, Scarfe et al. (2024), institutional disclosures.
+
+### D3 Exam impersonation
+Having someone else sit an examination. Data sources: published prosecution data, examination-authority statistics, peer-reviewed literature.
+
+### D4 Plagiarism
+Submitting copied work without attribution. Primary data source: ICAI McCabe surveys (where country-specific data exists). Secondary: regional extrapolations and country-specific peer-reviewed studies.
+
+### D5 Collusion
+Unauthorised collaboration on individual assessments. Primary data source: ICAI McCabe surveys. Secondary: regional patterns.
+
+### D6 Data fabrication
+Fabricating or falsifying research data. Primary data source: Retraction Watch database, filtered to misconduct-linked retractions, normalised by publication volume from OpenAlex.
+
+## Step 1 — Score each dimension
+
+Each dimension is scored on a 0–100 scale where 100 represents the highest signal in the country set:
+
+- **Live-data dimensions** (Retraction Watch, Google Trends, FOI) — scored directly from the data after normalisation by population or publication volume
+- **Survey dimensions** (McCabe, ICAI) — scored from reported rates, with regional fallback for countries not in the survey
+- **Literature dimensions** — country-specific peer-reviewed studies plus regional priors
+
+## Step 2 — Normalise
+
+Dimension scores are normalised to 0–100 within the country set. Top-scoring country on each dimension gets 100; lowest gets 0.
+
+## Step 3 — Aggregate
+
+Dimension scores are combined into a country P-Score using dimension weights. The weights are documented in the methodology document — they reflect both the prevalence-level importance of each dimension and the data quality available.
+
+The aggregation is:
+
+> P_raw = Σ (w_i × D_i)
+
+where w_i is the weight for dimension i and D_i is the normalised dimension score.
+
+## Step 4 — Rescale
+
+The raw aggregate scores are rescaled across the 39-country set so:
+- Lowest-scoring country: P = 5
+- Highest-scoring country: P = 95
+
+This produces the published P-Score. The rescaling makes scores comparable across countries within the set.
+
+## What the rescaling means
+
+A P-Score of 5 does not mean zero academic misconduct. It means the lowest estimated prevalence among the 39 countries currently scored. Canada's 4.90 is the floor of the current dataset.
+
+A P-Score of 95 does not mean every student cheats. It means the highest estimated prevalence among the 39 countries scored. China's 99.98 is the ceiling, technically slightly above 95 due to the specific rescaling formula.
+
+Adding or removing countries from the index will shift the scale. Future versions with expanded coverage will produce different raw-to-published mappings.
+
+## Data quality notes
+
+Each country's P-Score carries a data quality flag (A, B, C) reflecting how much of the dimension data is from live, country-specific sources versus regional extrapolation or literature priors. Countries with 5 of 6 dimensions from live data receive the A flag.
+
+See [data quality flags explained](/blog/data-quality-flags-explained) for details.
+
+## Limitations and known issues
+
+- **Norway anomaly**: Google Trends signals interpret academic and policy discussion as student demand. Documented in the methodology caveat section.
+- **Rescaling sensitivity**: scores shift with country coverage changes.
+- **Survey age**: McCabe data is from 2002–2015; AI-era dynamics not captured in D4/D5 surveys.
+- **Detection-prevalence confounding**: countries with stronger detection report more cases; this is addressed by the enforcement-detection correction documented in the methodology.
+
+## Sources
+
+- AMI v1.5 methodology document
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Google Trends API (2022–2026)
+- ICAI / McCabe survey data
+- OpenAlex publication counts
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "how-r-score-calculated",
+    title: "How the AMI Response Quality Score (R) Is Calculated",
+    seoTitle: "How the AMI R-Score Is Calculated | Methodology Guide 2026",
+    metaDescription: "The AMI Response Quality Score (R) measures institutional response to academic misconduct across four sub-components: legislation, detection, disclosure, penalties. Full guide.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["R-Score", "Response Quality", "methodology", "AMI", "guide"],
+    tldr: "The Response Quality Score is built from four sub-components: Legislation, Detection tools, Disclosure, and Penalties. Each scored on 0–100 from policy documentation, regulator activity, and institutional infrastructure. Combined into a country R-Score on the same 0–100 scale.",
+    excerpt: "The AMI Response Quality Score (R) is the institutional response side of the index — how robustly each country detects, investigates, and deters misconduct. This guide walks through the four sub-components and how they combine.",
+    faqSchema: [
+      {
+        question: "What is the AMI Response Quality Score?",
+        answer: "The Response Quality Score (R) measures how robustly a country's institutions detect, investigate, and deter academic misconduct. It is built from four sub-components: Legislation, Detection tools, Disclosure, and Penalties. The combined score runs from 0–100, with the highest scoring country (Australia, R=88.8) anchoring the top of the scale."
+      },
+      {
+        question: "What counts as integrity legislation?",
+        answer: "The Legislation sub-component scores statutory frameworks that specifically target academic misconduct. The maximum score (100) is awarded to countries with comprehensive contract cheating bans (Australia 2020, UK 2022, Ireland 2019). Partial scores apply for research integrity legislation, mandatory thesis-checking requirements, and similar provisions. General fraud law alone scores low."
+      },
+      {
+        question: "How are Disclosure scores assigned?",
+        answer: "Disclosure measures whether institutions publish misconduct statistics, whether national regulators publish findings, and whether independent bodies (Retraction Watch, Dissernet, VroniPlag) operate effectively. High Disclosure scores require some combination of institutional reporting and regulator transparency."
+      }
+    ],
+    content: `
+## TL;DR
+
+The Response Quality Score is built from four sub-components — Legislation (statutory frameworks), Detection tools (Turnitin/equivalent deployment), Disclosure (mandatory reporting and transparency), and Penalties (clear, applied sanctions). Each is scored 0–100; the four are combined into a country R-Score on the same scale.
+
+## The four sub-components
+
+### Legislation (L)
+
+Statutory frameworks specifically targeting academic misconduct. Scoring criteria:
+
+- **100** — comprehensive contract cheating ban with regulator enforcement powers (Australia 2020, UK 2022, Ireland 2019)
+- **30–60** — strong research integrity legislation but no contract cheating ban
+- **10–25** — general fraud provisions only
+- **5–10** — minimal statutory framework
+
+The highest scoring countries on Legislation: Australia, UK, Ireland (all 100). Lowest: Kenya (8), Egypt (10), Iran (10), Nigeria (10).
+
+### Detection tools (D)
+
+Deployment of plagiarism detection and AI detection systems. Scoring criteria:
+
+- **80–100** — near-universal Turnitin/equivalent deployment across the university sector, including AI detection
+- **50–75** — broad deployment, mostly at major institutions
+- **25–45** — partial deployment, concentrated at elite institutions
+- **10–25** — very limited deployment
+
+The highest scoring countries: UK (90), Australia (85), US (80). Lowest: Nigeria (15), Egypt (18), Kenya (18).
+
+### Disclosure (Di)
+
+Whether institutions and national regulators publish misconduct statistics and findings. Scoring criteria:
+
+- **65–100** — mandatory institutional reporting, active national regulator disclosure, independent watchdog activity
+- **30–60** — some institutional reporting, regulator disclosure on accreditation outcomes
+- **10–25** — limited public reporting
+- **5–10** — minimal disclosure
+
+The highest scoring countries: Australia (90), UK (85), Ireland (70), Canada (70), New Zealand (65).
+
+### Penalties (P)
+
+Whether formal sanctions exist and whether they are applied. Scoring criteria:
+
+- **70–100** — clear, mature, consistently applied frameworks
+- **40–65** — frameworks exist with reasonable application
+- **20–35** — codes exist; enforcement varies
+- **10–20** — codes exist but rarely enforced
+
+## Aggregation
+
+Sub-component scores are combined into a country R-Score using sub-component weights:
+
+> R = Σ (w_i × C_i)
+
+where w_i is the weight for sub-component i and C_i is the sub-component score.
+
+The current v1.5 weights are documented in the methodology document. They are calibrated to make the Legislation sub-component meaningfully important without overwhelming the other three.
+
+## Why this structure
+
+The four-sub-component structure mirrors the policy reform pathway available to a country wanting to improve integrity:
+
+1. **Legislation**: statutory frameworks (slow, requires political will but durable)
+2. **Detection**: technology deployment (fast, requires resources)
+3. **Disclosure**: reporting requirements (medium, requires regulator capacity)
+4. **Penalties**: enforcement (medium, requires institutional commitment)
+
+Countries can improve any sub-component independently. The R-Score is a sum of policy choices rather than a single statistic.
+
+## Patterns in the R-Score data
+
+### Q1 Anglophone leaders share legislative structure
+
+Australia, UK, and Ireland all have specific contract cheating bans (L=100). This is the principal differentiator between the Q1 leaders and other Q1 countries (Netherlands, Canada, NZ).
+
+### Detection deployment is the most resource-sensitive sub-component
+
+The D sub-component shows the strongest correlation with country wealth and university sector resources. Countries with strong intent but limited budgets (Kenya, Nigeria, Egypt) score lowest on D.
+
+### Disclosure is the slowest to develop
+
+The Di sub-component is where most Q4 countries fall furthest behind. Mandatory disclosure requires regulator capacity and institutional culture change; it is slow to build.
+
+### Penalties typically follow Detection
+
+Countries with strong Detection usually have functioning Penalties — finding cases creates demand for sanctioning frameworks. Countries can have weak Penalties despite strong Detection if institutional tolerance is high (Russia's Antiplagiat + low enforcement is the prototype).
+
+## Limitations
+
+- **Coverage variability**: Detection deployment is measurable; institutional culture (which affects whether detection produces consequences) is harder to score
+- **Statutory ≠ enforced**: a country with strong law on paper may have weak enforcement; the AMI weights statutory frameworks heavily but cross-checks against regulator activity
+- **Regulator quality**: TEQSA's public list of providers is unusually transparent; not all regulators publish equivalent data
+
+## Sources
+
+- AMI v1.5 methodology document
+- National regulator publications (TEQSA, OfS, QQI, etc.)
+- Institutional integrity office documentation
+- Detection tool vendor deployment data
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "what-is-exam-impersonation",
+    title: "What Is Exam Impersonation? Definition, Examples, and Global Data",
+    seoTitle: "What Is Exam Impersonation? Definition & Global Data 2026",
+    metaDescription: "Exam impersonation is when someone other than the registered candidate sits an examination. Definition, examples, detection methods, and which countries score highest on AMI D3.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["exam impersonation", "academic integrity", "D3", "guide", "definition"],
+    tldr: "Exam impersonation — having someone else sit an examination — is the AMI's D3 dimension. Nigeria scores highest (D3=28), followed by Pakistan (25), India (22), and Japan (20). The phenomenon is most documented around high-stakes entrance examinations.",
+    excerpt: "Exam impersonation — having someone else sit an examination for you — is one of the harder forms of academic misconduct to measure and one of the easier to detect. This guide explains what it is, how it works, and what the AMI data shows.",
+    faqSchema: [
+      {
+        question: "What is exam impersonation?",
+        answer: "Exam impersonation is when someone other than the registered candidate sits an examination — either physically attending an exam venue using the candidate's identity, or sitting an online examination using the candidate's login. It is considered a serious form of academic misconduct because the grade obtained does not reflect the candidate's knowledge or ability."
+      },
+      {
+        question: "Is exam impersonation illegal?",
+        answer: "In many jurisdictions, exam impersonation is treated as fraud or forgery and can be prosecuted under general criminal law even without specific academic misconduct legislation. Pakistan, Nigeria, and India have all prosecuted exam impersonation cases. The penalties vary widely — from institutional disciplinary action to criminal charges with imprisonment."
+      },
+      {
+        question: "Which countries have the highest exam impersonation rates?",
+        answer: "On the AMI's D3 dimension, Nigeria scores highest (28), followed by Pakistan (25), India (22), and Japan (20). The phenomenon is most documented around high-stakes entrance examinations (JAMB in Nigeria, civil service examinations in Pakistan, IIT-JEE in India, university entrance examinations in Japan)."
+      }
+    ],
+    content: `
+## TL;DR
+
+Exam impersonation is the AMI's D3 dimension — having someone else sit an examination as the registered candidate. Nigeria scores highest (D3=28), followed by Pakistan (25), India (22), and Japan (20). Most documented around high-stakes entrance examinations. Biometric verification systems are the principal countermeasure.
+
+## What exam impersonation is
+
+Exam impersonation occurs when someone other than the registered candidate sits an examination. The substitute may be:
+
+- A paid impersonator (a "mercenary" exam-taker)
+- A peer doing the candidate a favour
+- A family member
+- A professional service provider in jurisdictions where impersonation networks operate
+
+The candidate receives a grade or qualification they did not earn through their own performance.
+
+## How impersonation works
+
+### Physical examinations
+
+The impersonator attends the exam venue presenting identification (real, forged, or photographed) that matches the registered candidate. Some impersonation networks specialise in producing convincing fake identification; others exploit weak verification at exam venues.
+
+### Online examinations
+
+The candidate provides their login credentials to the impersonator. The impersonator sits the exam remotely. Online proctoring software has attempted to address this through identity verification (photo, ID check) at session start, but circumvention techniques are documented.
+
+### Entrance examinations
+
+The most documented context for systematic exam impersonation is national entrance examinations. JAMB (Nigeria), WAEC, the Civil Service Public Service Commission (Pakistan), and IIT-JEE preparation (India) have all had documented impersonation networks.
+
+## What the AMI data shows
+
+The D3 dimension scores on a 0–100 scale across the 39-country set. Top scores:
+
+| Country | D3 Score |
+|---|---|
+| Nigeria | 28 |
+| Pakistan | 25 |
+| India | 22 |
+| Japan | 20 |
+| China | 20 |
+| Egypt | 20 |
+
+The highest D3 scores cluster in countries with large student populations, high-stakes entrance examinations, and limited biometric verification infrastructure. The Japan score is notable — Japanese university entrance exams have had documented impersonation cases despite the country's otherwise low overall Prevalence score.
+
+The lowest D3 scores: New Zealand (8), Australia (8), Ireland (8), Singapore (8). All have strong identification verification and smaller exam-taking populations.
+
+## Detection methods
+
+### Biometric verification
+
+The most effective detection method. Fingerprint, facial recognition, and iris-scanning systems are increasingly deployed for high-stakes examinations. JAMB introduced biometric verification in Nigeria; the system has substantially reduced impersonation attempts.
+
+### Photo verification
+
+A weaker but more deployable measure. Candidate photos are taken at registration and matched at the exam venue. Effective against casual impersonation but vulnerable to professional impersonation networks with high-quality forged identification.
+
+### Handwriting analysis
+
+Some exam authorities compare answer-script handwriting against registered samples. This is post-hoc detection — finds cases after the fact rather than preventing them.
+
+### Online proctoring
+
+Camera-based monitoring of online exam takers. Identity verification at session start plus continuous monitoring. Effective against casual impersonation but defeats remain possible.
+
+## Why exam impersonation matters
+
+Compared to plagiarism or contract cheating, exam impersonation is a more direct fraud — the candidate is not simply receiving help with their own work but is having someone else perform the assessment entirely. The qualification obtained reflects the impersonator's knowledge, not the candidate's.
+
+For high-stakes entrance examinations or professional certification examinations, the consequences extend beyond the individual case. Medical school entrance examinations passed by impersonators produce doctors who lack the foundational ability tested by the examination.
+
+## Country patterns
+
+### Nigeria
+
+The most extensively documented exam impersonation environment. JAMB and WAEC examinations have had documented impersonation networks. JAMB's biometric verification system was introduced specifically to address the problem.
+
+### Pakistan
+
+Federal Public Service Commission examinations and civil service entrance examinations have had documented impersonation cases. Prosecutions have occurred but the scale has historically been substantial.
+
+### India
+
+IIT-JEE preparation includes documented cases of impersonation by professional test-takers. The 2023 NEET examination irregularities included impersonation allegations [verify].
+
+### Japan
+
+University entrance examination impersonation has been documented despite Japan's otherwise low overall Prevalence score. The high-stakes nature of the kyousei tesuto creates incentives that drive elevated D3 scoring.
+
+## Sources
+
+- JAMB and WAEC integrity reports [verify specific sources]
+- Pakistan FPSC examination integrity documentation
+- Academic literature on biometric verification in examinations
+- Academic Misconduct Index v1.5 methodology
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "what-is-ai-generated-submission",
+    title: "What Is an AI-Generated Submission? Definition, Detection, and Data",
+    seoTitle: "What Is an AI-Generated Submission? Definition & Detection 2026",
+    metaDescription: "AI-generated submission is when a student submits work produced by AI (ChatGPT, Claude, Gemini) as their own. Definition, detection methods, and AMI data on global incidence.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["AI submissions", "ChatGPT", "academic integrity", "D2", "guide"],
+    tldr: "An AI-generated submission is when a student submits work produced by an AI system (ChatGPT, Claude, Gemini, etc.) as their own. The AMI's D2 dimension measures this — China (68), Egypt, Iran, Saudi Arabia, Italy, France, Spain, Greece, Colombia, Argentina, Poland (all 100) lead globally.",
+    excerpt: "AI-generated submission is the academic misconduct category that did not exist before late 2022. The AMI's D2 dimension tracks it. This guide explains what counts, how it is measured, and what the data shows.",
+    faqSchema: [
+      {
+        question: "What is an AI-generated submission?",
+        answer: "An AI-generated submission is when a student submits work produced by an AI system — including ChatGPT, Claude, Gemini, or other large language models — and presents it as their own original work without authorisation or acknowledgement. Most universities now require explicit disclosure of any AI assistance; submitting AI work as your own is typically a misconduct offence."
+      },
+      {
+        question: "How is AI-generated content detected?",
+        answer: "Detection uses a combination of automated tools (Turnitin AI detection, GPTZero, Originality.ai, Copyleaks) and human review (stylistic inconsistency, conceptual errors typical of LLMs, response to follow-up questions). Scarfe et al. (2024) found that 94% of AI-generated submissions went undetected at the University of Reading in a controlled study, suggesting current detection is limited."
+      },
+      {
+        question: "Is using ChatGPT for essays always cheating?",
+        answer: "It depends on institutional policy. Most universities permit limited AI use (brainstorming, grammar checking) with disclosure but prohibit submitting AI-generated content as original work. Some institutions ban AI use entirely; others permit it with proper attribution. The misconduct is in the misrepresentation of authorship, not necessarily in the use itself."
+      }
+    ],
+    content: `
+## TL;DR
+
+AI-generated submission is the AMI's D2 dimension — student work produced by AI systems and submitted as the student's own. The category did not exist before ChatGPT's late-2022 launch. Top D2 scores: China (68 — slightly below top due to D6 dominance), with several countries at 100 including Egypt, Iran, Saudi Arabia, Italy, France, Spain, Greece, Colombia, Argentina, Poland. Detection remains limited (Scarfe et al. 2024).
+
+## What counts as AI-generated submission
+
+An AI-generated submission is academic work produced by an AI system and submitted as the student's original work without authorisation or proper attribution. Common forms:
+
+- **Direct submission** — copying ChatGPT/Claude/Gemini output into a document and submitting
+- **Lightly edited submission** — making cosmetic changes to AI output and submitting
+- **AI-assisted drafting beyond institutional policy** — using AI for substantive content generation when institutional policy permits only limited use
+- **AI use in proctored examinations** — using AI tools during exams that prohibit them
+
+The misconduct is in the *misrepresentation of authorship*, not necessarily in AI use itself.
+
+## How institutional policies vary
+
+Universities have responded to AI tools with widely varying policies:
+
+### Permitted with disclosure
+Most common model. Students can use AI for brainstorming, grammar checking, and similar support tasks with disclosure of the specific use. Original drafting and analytical work must be the student's own.
+
+### Prohibited entirely
+Some courses and institutions ban AI use entirely. Common in fundamental skills courses (writing, mathematics) where the assessment specifically targets capabilities AI can perform.
+
+### Permitted with attribution
+Some courses permit substantial AI use provided the student properly attributes the AI contribution. Less common; raises questions about what is being assessed.
+
+### Permitted without restriction
+Rare; some institutions and instructors permit AI use without restriction, treating it as a writing tool. Often combined with assessment design that requires demonstrable understanding beyond text generation.
+
+## What the AMI data shows
+
+D2 scores on a 0–100 scale across the 39-country set. Top D2 scores (multiple countries at 100):
+
+- Colombia, Argentina, Greece, Egypt, Iran, Saudi Arabia, Italy, France, Spain, Poland — all D2=100
+
+Lowest D2 scores: Sweden (31), New Zealand (31), Japan (31), Norway (31). The lowest D2 scores cluster in Nordic and Pacific countries with smaller language markets.
+
+Top scores reflect demand-side search-volume signals. Many of the maxed-D2 countries have Spanish, Arabic, Italian, French, or Polish language markets where AI submission tool search volume is at the top of the European or regional distribution.
+
+## Detection methods
+
+### Automated detection
+
+Turnitin, GPTZero, Originality.ai, Copyleaks, and others provide AI-generated content detection. Capabilities have improved since 2023 but reliability remains limited:
+
+- False positives are common — human-written text can register as AI
+- False negatives are common — AI text can pass detection, particularly if lightly edited
+- Reliability degrades for shorter text, paraphrased text, and non-English text
+
+### Human review
+
+- Stylistic inconsistency between the submission and the student's known writing
+- Conceptual errors typical of LLMs (incorrect citations, factual hallucinations)
+- Response to follow-up questions — students who didn't write the work struggle to discuss it substantively
+
+### Scarfe et al. (2024)
+
+The most cited study on AI submission detection. The University of Reading study submitted AI-generated work through normal coursework channels; 94% went undetected. The study established that current human + automated detection misses the majority of AI submissions.
+
+## The AMI's D2 methodology
+
+D2 is primarily measured through Google Trends signals for AI submission tool keywords. The signal captures demand for tools rather than confirmed incidence. The methodology applies a detection-ratio correction (Scarfe 94% undetection) to estimate true incidence from detected case rates where institutional data is available.
+
+The reliance on demand signals is a methodology limitation. The Norway case illustrates the issue — high D2 search volume in Norway partly reflects academic and policy discussion rather than student demand. Future AMI versions will improve language-disambiguated signal interpretation.
+
+## Why AI submissions matter for the AMI
+
+AI submissions are the newest misconduct category. Before late 2022, the category did not meaningfully exist. The rapid adoption of ChatGPT (over 100 million users within two months of launch) created a structural shift in academic misconduct that the AMI captures.
+
+The category interacts with other dimensions. AI tools can be used for:
+- D1 contract cheating substitution (cheap AI replacing paid human writers)
+- D4 plagiarism (AI text may incorporate uncredited training-data content)
+- D6 data fabrication (AI tools can generate plausible-looking fake research data)
+
+## Sources
+
+- Scarfe, P., et al. (2024). "A real-world test of artificial intelligence infiltration of a university examinations system: A 'Turing Test' case study"
+- Guardian FOI reporting on UK AI misconduct cases
+- Turnitin AI detection deployment data
+- AMI v1.5 methodology document
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "what-is-plagiarism-definition",
+    title: "What Is Plagiarism? Definition, Types, and Global Data",
+    seoTitle: "What Is Plagiarism? Definition, Types & Global Data 2026",
+    metaDescription: "Plagiarism is the use of someone else's words or ideas without attribution. Types include direct, mosaic, self-plagiarism, and translation plagiarism. AMI data and detection methods.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["plagiarism", "academic integrity", "D4", "guide", "definition"],
+    tldr: "Plagiarism is the use of someone else's words or ideas without proper attribution. Types include direct, mosaic, self-plagiarism, and translation plagiarism. The AMI's D4 dimension scores it across 39 countries: Pakistan (72), Russia (72), India (70) lead globally; Norway (32) is lowest.",
+    excerpt: "Plagiarism — using someone else's words or ideas without attribution — is the oldest and most studied form of academic misconduct. This guide covers definitions, types, detection, and what the AMI data shows.",
+    faqSchema: [
+      {
+        question: "What is plagiarism?",
+        answer: "Plagiarism is the use of someone else's words, ideas, data, or other original work without proper attribution and presented as one's own. It includes both direct copying and indirect forms like paraphrasing without credit, mosaic patchwriting, and self-plagiarism (reusing one's own previously submitted work without disclosure)."
+      },
+      {
+        question: "What are the different types of plagiarism?",
+        answer: "Common categories include: (1) direct plagiarism — verbatim copying without quotation marks or citation; (2) mosaic plagiarism — combining phrases from multiple sources; (3) paraphrasing plagiarism — restating ideas without citation; (4) self-plagiarism — reusing one's own previously submitted work; (5) translation plagiarism — translating from a foreign-language source without attribution; (6) image and data plagiarism — using charts, figures, or datasets without permission or citation."
+      },
+      {
+        question: "Which countries have the highest plagiarism rates?",
+        answer: "On the AMI's D4 dimension, Pakistan (72) and Russia (72) score highest, followed by India (70), Egypt (68), Iran (65), Nigeria (64), Malaysia (62), Turkey (62), Indonesia (64), and Vietnam (62). The lowest scores are in Norway (32), Sweden (38), and Canada (40). High scores reflect both prevalence and limited institutional response."
+      }
+    ],
+    content: `
+## TL;DR
+
+Plagiarism is using someone else's words or ideas without attribution. The AMI's D4 dimension measures it. Pakistan (72) and Russia (72) score highest; Norway (32) and Sweden (38) lowest. Detection uses tools like Turnitin (90%+ of Q1 institutions); culture and policy matter as much as technology.
+
+## Definition
+
+Plagiarism is the use of someone else's words, ideas, data, or other original work without proper attribution and presented as one's own. The misconduct lies in the misrepresentation — the reader is led to believe the student produced the work themselves when the work originated elsewhere.
+
+The standard is intent-neutral in most institutional policies. Accidental plagiarism (forgetting to cite) is typically treated as plagiarism, though usually with lower sanctions than deliberate copying.
+
+## Types of plagiarism
+
+### Direct plagiarism
+
+Verbatim copying without quotation marks or citation. The clearest and most easily detected form.
+
+### Mosaic plagiarism (patchwriting)
+
+Combining phrases from multiple sources without attribution. Often produced by lightly editing copied text — replacing some words while preserving structure and content. Harder to detect than direct copying.
+
+### Paraphrasing plagiarism
+
+Restating ideas in different words without citing the source. Sometimes called "idea plagiarism." The misconduct is in the failure to credit the original thinker, even though no words are directly copied.
+
+### Self-plagiarism
+
+Reusing one's own previously submitted work without disclosure. Common in graduate work where students may want to develop a single research idea across multiple assignments. Most institutional policies require disclosure of any reuse.
+
+### Translation plagiarism
+
+Translating from a foreign-language source and presenting the result as original work without citation. Difficult to detect with conventional tools, which match against same-language sources.
+
+### Image, data, and figure plagiarism
+
+Using charts, figures, datasets, or images without permission or citation. Particularly relevant in scientific and technical disciplines.
+
+### Contract cheating as plagiarism
+
+Submitting work written by someone else is typically classified as contract cheating (the AMI's D1 dimension) rather than plagiarism, but it shares the core misconduct of misrepresented authorship.
+
+## What the AMI data shows
+
+D4 scores on a 0–100 scale across the 39-country set:
+
+| Top D4 scores | Score |
+|---|---|
+| Pakistan | 72 |
+| Russia | 72 |
+| India | 70 |
+| Egypt | 68 |
+| Iran | 65 |
+| Nigeria | 64 |
+| Indonesia | 64 |
+| Malaysia | 62 |
+| Turkey | 62 |
+| Vietnam | 62 |
+
+| Lowest D4 scores | Score |
+|---|---|
+| Norway | 32 |
+| Sweden | 38 |
+| Canada | 40 |
+| New Zealand | 40 |
+| France | 42 |
+| Spain | 48 |
+| Italy | 52 |
+
+High D4 scores cluster in countries with limited mandatory detection deployment, large higher education sectors, and historically lower institutional emphasis on academic writing conventions. Russian and Pakistani D4 scores reflect documented dissertation-level plagiarism (Dissernet, Pakistani HEC).
+
+## Detection methods
+
+### Plagiarism detection tools
+
+Turnitin, iThenticate, Copyleaks, Compilatio, Urkund, Antiplagiat (Russia), CopyKiller (Korea), JSA (Poland), and others compare submitted text against:
+
+- Web content
+- Published academic literature
+- Previously submitted student work (institutional repositories)
+- Subscription database content
+
+Coverage and effectiveness vary by tool and by language. English-language detection is strongest; less-resourced languages have weaker coverage.
+
+### Cross-reference checking
+
+Human review of suspicious passages against likely sources. Slow but effective for high-stakes work like doctoral dissertations.
+
+### Patchwriting detection
+
+Advanced detection tools attempt to identify mosaic plagiarism through phrase-level analysis. Reliability is lower than direct match detection.
+
+## Why D4 scores vary across countries
+
+Several factors drive cross-country variance:
+
+### Language market for detection
+
+English-language detection tools (Turnitin, iThenticate) have larger corpora than tools for less-resourced languages. Countries with English-medium higher education benefit from stronger detection capability.
+
+### Mandatory deployment
+
+Countries with mandatory plagiarism checking for theses (Poland's JSA, India's UGC requirements, Pakistan's HEC) capture more cases. The detection-prevalence confound means stronger detection produces higher reported rates even with the same actual prevalence.
+
+### Citation culture
+
+Academic writing conventions vary across educational systems. Anglophone systems heavily emphasise citation and quotation marks; some other systems traditionally emphasised demonstration of mastery over source attribution, producing different baseline behaviour.
+
+### Survey availability
+
+Country-specific D4 scoring depends on the availability of self-report survey data. The McCabe / ICAI surveys cover some countries directly; others rely on regional extrapolation, which compresses cross-country variance.
+
+## Sources
+
+- McCabe, D. L. (ICAI / Rutgers). Multi-decade self-report survey programme
+- Turnitin global deployment data
+- AMI v1.5 methodology document
+- Country-specific integrity literature
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "what-is-collusion-academic",
+    title: "What Is Academic Collusion? Where the Line Is and What the Data Shows",
+    seoTitle: "What Is Academic Collusion? Definition & Global Data 2026",
+    metaDescription: "Academic collusion is unauthorised collaboration on individual assessments. Definition, examples, the line with permitted cooperation, and AMI D5 data across 39 countries.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["collusion", "academic integrity", "D5", "collaboration", "guide"],
+    tldr: "Academic collusion is unauthorised collaboration on individual assessments. The AMI's D5 dimension measures it. Nigeria (75), India (72), Malaysia (72), Indonesia (72), South Korea (70), Turkey (69), Iran (69) lead globally. The line between collaboration and collusion depends on instructor policy.",
+    excerpt: "Collusion is the form of academic misconduct hardest to define cleanly. The line between encouraged collaboration and prohibited collusion depends on instructor policy — and shifts dramatically between courses. This guide covers what counts and what the data shows.",
+    faqSchema: [
+      {
+        question: "What is academic collusion?",
+        answer: "Academic collusion is unauthorised collaboration on work intended to be assessed individually. The 'unauthorised' part is critical — collaboration is often permitted or encouraged, but specific assessments require individual work. Submitting jointly-produced work as your own individual work crosses into collusion."
+      },
+      {
+        question: "Where is the line between collaboration and collusion?",
+        answer: "The line is set by instructor and institutional policy. Discussing concepts with peers is usually permitted; producing identical or near-identical answers is usually collusion. The boundary is often unclear when assignments are completed in study groups — students may discuss approach, methodology, and even partial solutions while still being expected to submit independent final work."
+      },
+      {
+        question: "Which countries have the highest academic collusion rates?",
+        answer: "On the AMI's D5 dimension, Nigeria (75) scores highest, followed by India (72), Malaysia (72), and Indonesia (72). South Korea (70), Turkey (69), and Iran (69) also score high. The lowest scores are in Singapore (50), Argentina (50), and Colombia (52). Group-study cultures and large class sizes drive elevated scores."
+      }
+    ],
+    content: `
+## TL;DR
+
+Academic collusion is unauthorised collaboration on work meant to be done individually. The AMI's D5 dimension scores it. Nigeria (75), India (72), Malaysia (72), Indonesia (72) lead globally. The boundary between permitted collaboration and prohibited collusion depends on instructor policy and is often genuinely unclear.
+
+## Definition
+
+Academic collusion is unauthorised collaboration on academic work that is intended to be assessed as the individual work of one student. The misconduct is the misrepresentation that the submitted work reflects only the named student's effort when it actually involved one or more others.
+
+The "unauthorised" qualifier is critical. Many forms of collaboration are explicitly permitted or even required — group projects, peer review, study groups. The misconduct emerges when individually-assessed work has been produced jointly without disclosure.
+
+## Common forms
+
+### Identical or near-identical submissions
+
+The clearest form. Two or more students submit work with substantial overlapping content (calculations, paragraphs, code).
+
+### Shared problem-set solutions
+
+Students work through problem sets together and arrive at substantively identical solutions. Common in STEM disciplines where unique algorithmic solutions are limited.
+
+### Joint essay writing
+
+Students collaborate on essay structure, argument, and content while submitting as individuals. The most common form in humanities and social sciences.
+
+### Code copying
+
+Students share programming assignments — copying full solutions or substantial sections. Code-similarity detection tools (Moss, JPlag) are widely deployed in CS courses but not universally.
+
+### Exam answer comparison
+
+Students sharing exam answers in real time (texting during exams, sharing screens in online exams). Crosses into a more serious offence than asynchronous collusion.
+
+## The collaboration-collusion boundary
+
+The most genuinely difficult area of academic misconduct policy. The boundary depends on:
+
+### Instructor and institutional policy
+
+Some instructors permit substantial discussion of problem sets; others require independent work. Some explicitly forbid showing one's work to others; others encourage peer learning.
+
+### Assignment type
+
+Group projects authorise full collaboration. Take-home exams typically prohibit it. Routine problem sets sit in between, with policy varying by instructor.
+
+### Course culture
+
+Some disciplines have strong study-group traditions. STEM courses at major research universities often involve heavy informal collaboration that may or may not be formally permitted.
+
+### Cultural norms
+
+Educational systems vary in how they treat collaboration. East Asian study-group cultures (스터디 그룹 in Korea, 勉強会 in Japan) treat intensive group study as the norm; the line to prohibited collusion can be culturally ambiguous.
+
+## What the AMI data shows
+
+D5 scores on a 0–100 scale across the 39-country set:
+
+| Top D5 scores | Score |
+|---|---|
+| Nigeria | 75 |
+| India | 72 |
+| Malaysia | 72 |
+| Indonesia | 72 |
+| South Korea | 70 |
+| Turkey | 69 |
+| Iran | 69 |
+| United States | 68 |
+| Brazil | 65 |
+| Philippines | 65 |
+
+| Lowest D5 scores | Score |
+|---|---|
+| Singapore | 50 |
+| Argentina | 50 |
+| Colombia | 52 |
+| Germany | 52 |
+| Thailand | 55 |
+| Australia | 55 |
+
+The highest D5 scores cluster in countries with:
+- Large class sizes at major institutions (Nigeria, India, Indonesia, Malaysia)
+- Strong group-study cultures (Korea, Turkey)
+- Limited assessment design distinguishing individual from collective work
+
+The United States' D5 score of 68 is notable — high for a Q1 country. McCabe survey data has consistently shown elevated US collusion rates in STEM coursework with group-problem-set cultures.
+
+## Detection methods
+
+### Submission similarity
+
+Plagiarism detection tools used internally — comparing student submissions against each other within the institutional repository. Effective for detecting verbatim or near-verbatim overlap.
+
+### Code-similarity tools
+
+Moss (Stanford), JPlag, and similar tools detect structural similarity in code submissions. Widely used in CS courses.
+
+### Statistical analysis
+
+Comparing answer patterns across students can detect collusion even when wording differs. Less common; requires careful interpretation given that students working similar problems will produce similar work even without collusion.
+
+### Real-time exam monitoring
+
+Online proctoring software can detect screen sharing and texting during online exams. Effective for synchronous collusion in exam settings.
+
+## Why D5 scores vary
+
+### Survey data availability
+
+The McCabe / ICAI surveys captured collusion data for some countries with strong direct measurement. Regional extrapolation for others compresses variance.
+
+### Cultural variation in study practice
+
+Group-study practices that produce elevated D5 are not universal. Nordic and German university cultures historically have less group-study emphasis; Asian and Latin American cultures more.
+
+### Assessment design
+
+Universities with assessment designs that distinguish individual from collaborative work (oral examinations, individual project defences, varied question sets) have lower effective D5 even with similar underlying student behaviour.
+
+## Sources
+
+- McCabe, D. L. (ICAI / Rutgers) collusion survey data
+- Moss, JPlag code-similarity documentation
+- AMI v1.5 methodology document
+- Country-specific integrity literature
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "what-is-data-fabrication-research",
+    title: "What Is Data Fabrication in Research? Definition and Famous Cases",
+    seoTitle: "What Is Data Fabrication in Research? Definition & Cases 2026",
+    metaDescription: "Data fabrication is making up data; falsification is altering real data. The AMI's D6 measures it via Retraction Watch. China (100), India (70), Iran (65) lead globally.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["data fabrication", "research misconduct", "D6", "Retraction Watch", "guide"],
+    tldr: "Data fabrication is making up research data; data falsification is altering real data. Both are research misconduct. The AMI's D6 dimension scores them via Retraction Watch. China scores 100 (highest), Russia 78, India 70, Iran 65. Famous cases: Diederik Stapel, Hwang Woo-suk, STAP cells.",
+    excerpt: "Data fabrication is the most clearly defined form of academic misconduct — and the most consequential when it affects research literature. The AMI's D6 dimension tracks it. Here is what it is, how it is detected, and the cases that defined modern research integrity.",
+    faqSchema: [
+      {
+        question: "What is data fabrication?",
+        answer: "Data fabrication is making up research data that was not actually collected or measured. It is distinct from data falsification, which is altering or selectively reporting real data. Both are research misconduct. Data fabrication damages the scientific literature by introducing false results that may be cited and built upon by subsequent researchers."
+      },
+      {
+        question: "How is data fabrication detected?",
+        answer: "Detection methods include statistical analysis of reported data (real data shows expected variance patterns; fabricated data often does not), replication failures, image forensics (image manipulation in microscopy and gel electrophoresis), peer review, post-publication review on platforms like PubPeer, and whistleblower reports. The Retraction Watch database catalogues confirmed cases."
+      },
+      {
+        question: "What are famous cases of data fabrication?",
+        answer: "Major cases include: Diederik Stapel (Dutch social psychologist, dozens of fabricated papers, 2011); Hwang Woo-suk (Korean stem cell researcher, fabricated cloning results, 2005–2006); Haruko Obokata / STAP cells (RIKEN, 2014); Marc Hauser (Harvard primatologist, 2010); the Macchiarini case (Karolinska, 2014–2016)."
+      }
+    ],
+    content: `
+## TL;DR
+
+Data fabrication is making up research data. Data falsification is altering real data. Both are research misconduct. The AMI's D6 dimension scores fabrication via Retraction Watch data normalised by publication volume. China scores 100 (highest), Russia 78, India 70, Iran 65. Famous cases include Diederik Stapel, Hwang Woo-suk, STAP cells, Marc Hauser, Macchiarini.
+
+## Definition
+
+Data fabrication is the creation of research data that was not actually collected or measured. The researcher reports results from experiments that did not occur, observations that were not made, or measurements that were not taken.
+
+Data falsification is altering or selectively reporting real data — manipulating images, omitting inconvenient measurements, or changing values to produce a more favourable result.
+
+Both are research misconduct. The US Office of Research Integrity (ORI) groups them together with plagiarism under the umbrella of research misconduct (FFP: Fabrication, Falsification, Plagiarism).
+
+## Why it matters
+
+Data fabrication affects the scientific record. Unlike student plagiarism — which damages credentialing but does not propagate into ongoing research — fabricated data enters the literature, gets cited, and shapes subsequent research:
+
+- Fabricated medical research can mislead clinical practice
+- Fabricated psychology research can shape policy decisions
+- Fabricated engineering research can affect engineering standards
+- Fabricated biology research can lead other researchers to chase non-existent phenomena
+
+The consequences extend far beyond the individual misconduct case.
+
+## Detection methods
+
+### Statistical analysis
+
+Real data shows expected variance patterns; fabricated data often does not. Forensic statistics has caught multiple major fraud cases by identifying impossible patterns — too-clean distributions, missing variance, statistical impossibilities.
+
+### Replication failures
+
+Other researchers attempting to replicate findings discover they cannot reproduce the results. The most direct detection method, though slow and expensive.
+
+### Image forensics
+
+Manipulation of images in microscopy, gel electrophoresis, and similar techniques can be detected through pixel-level analysis. Specialised tools (PaperWatcher, Imagetwin) check for duplicated or altered images.
+
+### Peer review
+
+Reviewers identifying impossible claims or inconsistencies. Limited in catching fabrication that produces plausible-seeming results.
+
+### Post-publication review
+
+PubPeer and similar platforms allow post-publication comment on potential misconduct. Has led to detection of major cases.
+
+### Whistleblower reports
+
+Co-authors, lab members, or institutional colleagues reporting suspected misconduct. Many famous cases were initiated by whistleblowers.
+
+## What the AMI data shows
+
+D6 scores on a 0–100 scale across the 39-country set:
+
+| Top D6 scores | Score |
+|---|---|
+| China | 100 |
+| Russia | 78 |
+| India | 70 |
+| Iran | 65 |
+| Pakistan | 65 |
+| Egypt | 60 |
+| Nigeria | 55 |
+| South Korea | 55 |
+
+| Lowest D6 scores | Score |
+|---|---|
+| New Zealand | 12 |
+| Ireland | 15 |
+| Sweden | 15 |
+| Norway | 15 |
+| Netherlands | 15 |
+| Singapore | 20 |
+| Kenya | 20 |
+| Vietnam | 22 |
+| Canada | 22 |
+
+The D6 dimension is built directly from the Retraction Watch database, filtered to misconduct-linked retractions and normalised by publication volume. China's D6=100 reflects the highest misconduct-linked retraction rate per 10,000 publications in the dataset.
+
+## Famous cases
+
+### Diederik Stapel (Netherlands, 2011)
+
+Dutch social psychologist who fabricated data in dozens of papers over years. The case led to revocation of his PhD title and broader Dutch reform of social psychology research practice. One of the largest fabrication cases by paper count.
+
+### Hwang Woo-suk (South Korea, 2005–2006)
+
+Korean stem cell researcher who claimed to have produced patient-specific stem cell lines through somatic cell nuclear transfer. The results were fabricated; the cloning claims could not be replicated. The case prompted establishment of the Korea Research Integrity (KRI) framework.
+
+### STAP cells / Haruko Obokata (Japan, 2014)
+
+Claimed novel stem-cell induction method via stress application. The Nature papers were retracted after replication failures and identification of image manipulation. The case led to JSPS and MEXT integrity reforms.
+
+### Marc Hauser (US, 2010)
+
+Harvard primatologist who fabricated data in cognitive psychology research. Resigned from Harvard following ORI investigation.
+
+### Paolo Macchiarini (Sweden, 2014–2016)
+
+Karolinska surgeon whose synthetic trachea transplant research was found to involve fabricated patient outcomes and missing ethical approvals. Multiple patients died. The case contributed to the establishment of Sweden's NPOF national misconduct board.
+
+## The detection-incidence challenge
+
+Detected cases are not the same as actual incidence. The retraction rate measures what gets caught, not what occurs. Countries with stronger detection infrastructure (peer review, replication culture, post-publication review) report more cases. The AMI applies a detection correction factor but the fundamental challenge remains.
+
+## Sources
+
+- Retraction Watch Database, Crossref/GitLab (2026)
+- Fang, Steen & Casadevall (2012), PNAS: "Misconduct accounts for the majority of retracted scientific publications"
+- ORI (US Office of Research Integrity) case reports
+- AMI v1.5 methodology document
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "four-quadrants-explained",
+    title: "The AMI's Four Quadrants Explained: Q1, Q2, Q3, Q4",
+    seoTitle: "AMI Four Quadrants Explained: Q1 Q2 Q3 Q4 | Guide 2026",
+    metaDescription: "The AMI places 39 countries in four quadrants based on Prevalence and Response Quality. Q1 Best in class, Q2 empty, Q3 Crisis zone, Q4 Probably not looking. Full guide.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["quadrants", "Q1", "Q2", "Q3", "Q4", "AMI", "guide"],
+    tldr: "The AMI uses four quadrants based on Prevalence (P) and Response Quality (R). Q1 (Best in class): low P, strong R — 7 countries. Q2 (Aware and fighting it): high P, strong R — currently empty. Q3 (Crisis zone): high P, weak R — 12 countries. Q4 (Probably not looking): low/mid P, weak R — 20 countries.",
+    excerpt: "The AMI's four quadrants are the most-used summary feature of the index. This guide explains what each quadrant means, which countries are in each, and the significance of Q2 being empty.",
+    faqSchema: [
+      {
+        question: "What do Q1, Q2, Q3, Q4 mean in the AMI?",
+        answer: "Q1 (Best in class) is low Prevalence and strong Response — the desirable state. Q2 (Aware and fighting it) is high Prevalence and strong Response — actively tackling a known problem. Q3 (Crisis zone) is high Prevalence and weak Response — the primary target for intervention. Q4 (Probably not looking) is low or moderate Prevalence with weak Response — suggesting under-detection."
+      },
+      {
+        question: "Why is Q2 empty in the AMI?",
+        answer: "Q2 (high Prevalence, strong Response) is currently empty in AMI v1.5. No country in the dataset combines high estimated prevalence with a strong institutional response. The pattern is interpreted as: countries with high prevalence have not built strong response systems, and countries with strong response systems have brought prevalence down. The empty quadrant is itself a significant finding."
+      },
+      {
+        question: "Which countries are in each quadrant?",
+        answer: "Q1 (Best in class): Australia, UK, Ireland, Canada, New Zealand, Netherlands, US. Q2: empty. Q3 (Crisis zone): China, Colombia, Argentina, Greece, Egypt, Pakistan, Norway, Iran, Thailand, Saudi Arabia, Mexico, Poland. Q4 (Probably not looking): all remaining 20 countries including Russia, Italy, France, Germany, India, Brazil, Japan, South Korea, and others."
+      }
+    ],
+    content: `
+## TL;DR
+
+The AMI places countries on a 2D grid: Prevalence (P) horizontal, Response Quality (R) vertical. Four quadrants result from splitting both axes. Q1 (top-left, low P high R) is best in class; Q2 (top-right, high P high R) is currently empty; Q3 (bottom-right, high P low R) is the crisis zone; Q4 (bottom-left, low P low R) is probably not looking. The empty Q2 is itself a significant finding.
+
+## The quadrant grid
+
+The two AMI axes (P and R) split the country space into four quadrants:
+
+                  R high (strong response)
+                           |
+           Q1              |              Q2
+      Best in class        |       Aware and fighting it
+           (7)             |            (0 — empty)
+                           |
+        P low ─────────────┼──────────────── P high
+                           |
+           Q4              |              Q3
+     Probably not looking  |          Crisis zone
+           (20)            |              (12)
+                           |
+                  R low (weak response)
+
+## Q1 — Best in class
+
+Low Prevalence and strong Response. The desirable state. Countries in Q1:
+
+| Country | P | R |
+|---|---|---|
+| Canada | 4.90 | 60.0 |
+| Australia | 7.43 | 88.8 |
+| UK | 11.41 | 87.5 |
+| Ireland | 12.21 | 78.8 |
+| New Zealand | 21.29 | 58.8 |
+| Netherlands | 44.47 | 51.2 |
+| United States | 48.15 | 51.2 |
+
+Three Anglophone leaders (Australia, UK, Ireland) anchor the top of Q1 with very strong R-Scores driven by specific contract cheating legislation. Canada, New Zealand, Netherlands, and the US complete the quadrant.
+
+The US sits at the most marginal Q1 position — a small Prevalence increase would move it to Q2.
+
+## Q2 — Aware and fighting it
+
+High Prevalence and strong Response. Currently empty.
+
+The empty Q2 is itself a significant finding. The interpretation: countries that have built strong response systems have brought prevalence down before reaching Q2; countries with high prevalence have not yet built strong responses. The transition from Q3 to Q1 has not historically passed through Q2 — countries that improve typically reduce prevalence at the same time as building response infrastructure.
+
+The US is the most likely candidate to first appear in Q2 in a future version if its detected prevalence rises.
+
+## Q3 — Crisis zone
+
+High Prevalence and weak Response. The primary target for intervention.
+
+| Country | P | R |
+|---|---|---|
+| China | 99.98 | 23.8 |
+| Colombia | 77.38 | 16.5 |
+| Argentina | 74.57 | 18.0 |
+| Greece | 74.00 | 20.0 |
+| Egypt | 64.60 | 12.0 |
+| Pakistan | 59.08 | 14.2 |
+| Norway | 57.16 | 47.5 |
+| Iran | 57.00 | 13.2 |
+| Thailand | 55.67 | 19.0 |
+| Saudi Arabia | 53.98 | 17.5 |
+| Mexico | 51.36 | 17.5 |
+| Poland | 51.19 | 32.5 |
+
+Twelve countries. The list is led by China (very high P, moderate R) and includes a mix of countries with very high demand-signal driven scores (Colombia, Argentina, Greece) and countries with multi-dimension elevated scores (China, Pakistan, Egypt, Iran).
+
+Norway is the methodology anomaly within Q3 — its Q3 placement reflects Google Trends signal interpretation rather than substantive student-misconduct evidence.
+
+## Q4 — Probably not looking
+
+Low or moderate Prevalence with weak Response. The largest quadrant.
+
+Twenty countries including: Russia, Italy, France, Germany, India, Brazil, Vietnam, Spain, Malaysia, Kenya, Indonesia, Sweden, South Korea, Japan, Ukraine, Turkey, Nigeria, South Africa, Philippines, Singapore.
+
+The Q4 diagnosis is: the country's apparent Prevalence is low or moderate, but the Response Quality is weak. The interpretation is that low apparent prevalence likely reflects under-detection rather than genuinely low misconduct.
+
+Two patterns within Q4:
+
+### Q4 borderline-Q1
+Singapore (P=15.34, R=47.5) and Sweden (P=37.24, R=45.0) sit close to the Q1 threshold. Modest R-Score improvements would shift them to Q1.
+
+### Q4 deep
+Kenya (R=11.5) and Nigeria (R=12.5) sit in the deep Q4 region with very low Response. The "Probably not looking" diagnosis applies strongly.
+
+## Quadrant boundaries
+
+The quadrant thresholds are documented in the methodology. They are calibrated to:
+- Make Q1 reflect genuinely strong institutional response combined with low Prevalence
+- Make Q3 reflect genuinely concerning combinations of high Prevalence and weak Response
+- Make Q4 capture countries where the AMI methodology assesses under-detection
+
+The thresholds are not arbitrary — they are set with reference to the dimension-score distributions and historical case-study patterns.
+
+## Why the four-quadrant structure
+
+Two-axis indices with quadrant categorisation have a long history in policy analysis. The structure:
+- Communicates the joint Prevalence-Response dynamic in a single visual
+- Identifies action priorities (Q3 for intervention, Q4 for measurement improvement)
+- Allows trend analysis (countries can be tracked moving between quadrants)
+- Mirrors successful indices including the Corruption Perceptions Index complement framework
+
+## How quadrants might change
+
+Future AMI versions may produce different quadrant placements:
+- Methodology improvements may reduce Norway's Prevalence score, moving it from Q3 toward Q4
+- New legislation (e.g. EU-coordinated essay mill bans) may move European Q3/Q4 countries upward
+- Expanded country coverage will produce new scores within the rescaled framework
+- The empty Q2 may eventually fill as some countries develop strong responses to acknowledged high prevalence
+
+## Sources
+
+- AMI v1.5 methodology document
+- Quadrant threshold documentation
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
+  {
+    slug: "data-quality-flags-explained",
+    title: "AMI Data Quality Flags Explained: A, B, C",
+    seoTitle: "AMI Data Quality Flags A B C Explained | Methodology 2026",
+    metaDescription: "Each AMI country score carries a data quality flag — A (5+ live dimensions), B (3–4 live), C (<3 live). Guide to what the flags mean and how to use them in analysis.",
+    date: "2026-05-20",
+    category: "guide",
+    tags: ["data quality", "methodology", "AMI", "guide", "transparency"],
+    tldr: "Each AMI country carries a data quality flag: A (5+ dimensions from live data), B (3–4 live), C (<3 live). All 39 countries in v1.5 currently carry the A flag. The flag is a measurement-confidence indicator separate from the P or R score values.",
+    excerpt: "The AMI publishes a data quality flag alongside each country's scores. This guide explains what the flags mean, how they are assigned, and how to use them in cross-country comparisons.",
+    faqSchema: [
+      {
+        question: "What does the data quality A flag mean in the AMI?",
+        answer: "The A flag indicates that 5 or more of the 6 P-Score dimensions are scored from country-specific live data sources (Google Trends, Retraction Watch, FOI data, country-specific surveys). It is the highest data quality flag and indicates the score should be treated as relatively well-grounded."
+      },
+      {
+        question: "Do data quality flags affect the score values?",
+        answer: "No — the flag is a separate metadata field. The P and R score values are calculated the same way regardless of flag. The flag indicates how confident users should be in the scores. Two countries with the same P-Score can have different flags, and the flag context should be used when interpreting cross-country comparisons."
+      },
+      {
+        question: "What is 'live data' in the AMI methodology?",
+        answer: "Live data sources are: Google Trends API (current data), Retraction Watch database (current data), Freedom of Information disclosures from government bodies, and McCabe / ICAI surveys where the specific country is in the survey sample. Literature-derived estimates and regional extrapolation count as non-live."
+      }
+    ],
+    content: `
+## TL;DR
+
+Each country in the AMI dataset carries a data quality flag (A, B, or C) reflecting how much of its score is from live country-specific data versus literature estimates. All 39 countries in v1.5 carry the A flag. The flag is metadata about confidence, separate from the actual P and R values.
+
+## The flag system
+
+The data quality flag indicates how many of the six P-Score dimensions are scored from country-specific live data sources:
+
+- **A** — 5 or more dimensions from live country-specific data
+- **B** — 3 or 4 dimensions from live country-specific data
+- **C** — fewer than 3 dimensions from live country-specific data
+
+The flag is published in the dataset alongside the P-Score, R-Score, and dimension breakdowns.
+
+## What counts as live data
+
+The AMI methodology defines live data as sources that:
+
+1. Provide country-specific signal (not regional extrapolation)
+2. Are based on current observations (not historical priors)
+3. Come from one of the AMI's primary measurement infrastructures
+
+The primary measurement infrastructures are:
+
+- **Google Trends API** — for D1 (contract cheating) and D2 (AI submissions) demand signals
+- **Retraction Watch database** — for D6 (data fabrication)
+- **FOI disclosures** — particularly for D2 in countries with active disclosure (UK, US, AUS)
+- **Country-specific peer-reviewed surveys** — including McCabe / ICAI samples where the country was directly surveyed
+
+## What does not count as live data
+
+The following do not qualify a dimension as live:
+
+- **Regional extrapolation** — applying Latin American or Southeast Asian averages to a country without country-specific data
+- **Literature priors** — peer-reviewed estimates from older studies (typically pre-2018)
+- **Modelled estimates** — derived from other dimensions or country variables rather than direct measurement
+
+These methods are used in the AMI where live data is unavailable, but they reduce the dimension's measurement confidence.
+
+## Why all v1.5 countries are flag A
+
+The current 39-country set was selected partly with data availability in mind. The principal limit on adding more countries to the index is data quality — countries without live Google Trends coverage, without Retraction Watch presence, or without survey data are harder to score with confidence.
+
+Future versions will expand country coverage, including countries that may carry B or C flags. The flag system allows the AMI to expand coverage while making the measurement-confidence trade-off transparent.
+
+## How to use the flag in analysis
+
+### When comparing country scores
+
+Two countries with the same P-Score and the same flag can be compared directly. Two countries with the same P-Score but different flags should be compared with the flag context — the lower-flag country's score has wider uncertainty.
+
+### When citing AMI data
+
+Cite both the score and the flag where the audience needs measurement-confidence context. "China P=99.98 (flag A)" is more informative than "China P=99.98" alone.
+
+### When making policy comparisons
+
+Cross-country policy comparisons should weigh flag context. Flag A countries are appropriate for like-for-like comparison. Flag B and C countries are appropriate for relative ranking but may shift in future versions as data improves.
+
+## What drives each dimension's live-data classification
+
+### D1 Contract cheating
+Live when Google Trends data is available at country resolution with sufficient query volume. Most countries qualify.
+
+### D2 AI submissions
+Live when Google Trends data is available. Some countries also have FOI or institutional disclosure live data (UK via Guardian, US via various studies).
+
+### D3 Exam impersonation
+Most countries have this dimension scored from literature estimates rather than live data. The dimension is the most likely to be non-live across countries.
+
+### D4 Plagiarism
+Live when the country is in the McCabe / ICAI survey sample or has equivalent country-specific surveys. Regional extrapolation otherwise.
+
+### D5 Collusion
+Same as D4 — live when survey data exists country-specifically.
+
+### D6 Data fabrication
+Live whenever the Retraction Watch database has sufficient country-attributable entries. Most countries with substantial research output qualify.
+
+## Flag and score interact
+
+The data quality flag is conceptually independent from the score, but they relate in practice:
+
+- Countries with stronger institutional infrastructure tend to have better data availability and thus higher flags
+- Countries with weak institutional infrastructure often also have weak data availability, producing both lower R-Scores and lower flags
+- This means flag and R-Score correlate; they should be reported together for clarity
+
+## Sources
+
+- AMI v1.5 methodology document
+- Data sources documentation in the methodology
+
+[Full methodology](/methodology) | [Download dataset](/ami_country_scores_20260514.csv)
+    `.trim(),
+  },
+
 ];
